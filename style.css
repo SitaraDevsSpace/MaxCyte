@@ -1,0 +1,3678 @@
+/*
+Theme Name: Maxcyte Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */
+
+/* Hide unnecessary menu from top admin bar to prevent it from getting crowded */
+#wp-admin-bar-ubermenu,
+#popup-maker-toolbar,
+#wp-admin-bar-gform-forms,
+#wp-admin-bar-gform-forms,
+#wp-admin-bar-new-content,
+#wp-admin-bar-comments,
+#wp-admin-bar-customize,
+#wp-admin-bar-updates,
+#wp-admin-bar-popup-maker,
+#wp-admin-bar-wpseo-menu,
+#wp-admin-bar-wpengine_adminbar,
+#wp-admin-bar-enable-jquery-migrate-helper,
+#wp-admin-bar-ubermenu_loading,
+#wp-admin-bar-imagify,
+#wp-admin-bar-easy-updates-manager-admin-bar,
+#wp-admin-bar-lc_settings,
+#wp-admin-bar-vc_inline-admin-bar-link,
+#wp-admin-bar-wp-rocket {
+    display: none;
+}
+
+/* font styles */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Barlow", Arial, sans-serif;
+    letter-spacing: -0.16px;
+}
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    letter-spacing: -0.16px;
+    z-index: 1;
+}
+p {margin-bottom: 15px;}
+
+/* Menu css */
+
+header .fl-row-content-wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.desktop-menu .sub-menu>li.current-menu-item>a {
+    background: transparent;
+    color: #C25400 !important;
+}
+.desktop-menu ul.sub-menu>li.menu-item a {
+    transition: all 0.3s ease;
+}
+.desktop-menu ul.sub-menu>li.menu-item:hover a {
+    transition: all 0.3s ease;
+    color: #C25400 !important;
+    background-color: transparent;
+}
+.desktop-menu ul.sub-menu>li.menu-item {
+    position: relative;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+.desktop-menu ul.sub-menu>li.menu-item:hover:before {
+    content: "\e916";
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 1;
+    top: 2px;
+    right: -24px;
+    z-index: 1;
+}
+.desktop-menu ul.sub-menu>li.menu-item:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 0;
+    color: #021D66;
+    font-family: 'Maxcyte-font';
+    transition: all 0.3s ease;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: -25px;
+    opacity: 0;
+}
+.desktop-menu ul.sub-menu>li.menu-item:hover:after {
+    right: -32px;
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+}
+.desktop-menu ul.sub-menu>li.menu-item:after {
+    position: absolute;
+    content: "";
+    background-color: #C25400;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+    right: -50px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    top: 1px;
+    opacity: 0;
+}
+.desktop-menu .fl-menu li {
+    border-left: none;
+}
+.desktop-menu ul.sub-menu>li.menu-item a:focus {
+    background: transparent;
+}
+.desktop-menu .menu>li.current-menu-item>.fl-has-submenu-container>a {
+    background: #4868A0 !important;
+    border-radius: 72px;
+    transition: all .3s !important;
+}
+.menu-item-level-0:hover .fl-has-submenu-container span.fl-menu-toggle:before {
+    transform: rotate(180deg);
+    left: 8px;
+    top: 17px;
+}
+div#mega-products .fl-row-content {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.header_top_menu .menu>li.menu-item-level-0>a:hover,
+.header_top_menu .menu>li.menu-item-level-0>a:focus {
+    background: #4868A0;
+    border-radius: 72px;
+}
+
+/* New update css*/
+
+.menu-electroporation-systems .fl-rich-text,
+.menu-consumables .fl-rich-text {
+    position: relative;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+.menu-electroporation-systems .fl-rich-text p,
+.menu-consumables .fl-rich-text p {
+    transition: all 0.3s ease;
+}
+.menu-electroporation-systems .fl-rich-text:before,
+.menu-consumables .fl-rich-text:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 0;
+    right: 75px;
+    color: #021D66;
+    font-size: 25px;
+    font-family: 'Maxcyte-font';
+    font-weight: normal;
+    pointer-events: none;
+}
+.menu-electroporation-systems .fl-rich-text:after,
+.menu-consumables .fl-rich-text:after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    background-color: rgba(12, 130, 195, 0.2);
+    height: 21px;
+    border-radius: 100px;
+    right: 57px;
+    top: 3px;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+.menu-electroporation-systems .fl-rich-text p a,
+.menu-consumables .fl-rich-text p a {
+    padding-right: 100px;
+}
+
+/* New update end */
+
+/* Navigation site architecture update */
+.desktop-menu #menu-main-menu > li.current-menu-item > a {
+    background: #4868A0 !important;
+    border-radius: 72px;
+    transition: all .3s !important;
+}
+
+.heading-with-arrow .uabb-infobox-title-wrap>.uabb-infobox-title,
+.heading-with-arrow h2.fl-heading {
+    position: relative;
+    max-width: max-content;
+    transition: all 0.3s ease;
+    font-size: 19px;
+    line-height: 24px;
+}
+.heading-with-arrow .uabb-infobox-title-wrap>.uabb-infobox-title:before,
+.heading-with-arrow h2.fl-heading:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 2px;
+    right: -24px;
+    color: #021D66;
+    font-size: 25px;
+    font-family: 'Maxcyte-font';
+    font-weight: normal;
+}
+.heading-with-arrow h2.fl-heading:after {
+    right: -47px;
+}
+.heading-with-arrow .uabb-infobox-title-wrap>.uabb-infobox-title:after,
+.heading-with-arrow h2.fl-heading:after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    background-color: rgba(12, 130, 195, 0.2);
+    height: 21px;
+    border-radius: 100px;
+    right: -43px;
+    top: 3px;
+    transition: all 0.3s ease;
+}
+
+.menu__title-with-arrow .fl-rich-text{
+    position: relative;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+.menu__title-with-arrow .fl-rich-text p {
+    transition: all 0.3s ease;
+}
+.menu__title-with-arrow .fl-rich-text:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 0;
+    right: 74px;
+    color: #021D66;
+    font-size: 25px;
+    font-family: 'Maxcyte-font';
+    font-weight: normal;
+    pointer-events: none;
+}
+.menu__title-with-arrow .fl-rich-text:after{
+    content: "";
+    position: absolute;
+    width: 21px;
+    background-color: rgba(12, 130, 195, 0.2);
+    height: 21px;
+    border-radius: 100px;
+    right: 56px;
+    top: 3px;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+.menu__title-with-arrow .fl-rich-text p a{
+    padding-right: 100px;
+}
+div#mega-services > .fl-row-content-wrap > .fl-row-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+	border: 1px solid #ecf1f4;
+	padding: 23px 24px 16px 39px;
+}
+#mega-services .services-menu-item .fl-rich-text p a {
+	position: relative;
+	max-width: max-content;
+  transition: all 0.3s ease;
+}
+#mega-services .services-menu-item .fl-rich-text:hover p a {
+	color: #C25400;
+}
+.services-menu-about-cta a.uabb-button {
+    display: inline-flex;
+    align-items: center;
+}
+.services-menu-about-cta a.uabb-button:hover {
+    color: #ffffff !important;
+	border: 1px solid #C25400;
+    background-color: #C25400;
+	transition: all .3s !important;
+}
+.services-menu-about-cta a.uabb-button img {
+    mix-blend-mode: multiply;
+}
+#mega-services .services-menu-item .fl-rich-text p a:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 0px;
+    color: #021D66;
+    font-family: 'Maxcyte-font';
+    transition: all 0.3s ease;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: -25px;
+    opacity: 0;
+}
+
+#mega-services .services-menu-item .fl-rich-text p a:after {
+    position: absolute;
+    content: "";
+    background-color: #C25400;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+    right: -50px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    top: 1px;
+    opacity: 0;
+}
+#mega-services .services-menu-item .fl-rich-text p a:hover:before {
+    content: "\e916";
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 1;
+    top: -1px;
+    right: -24px;
+    z-index: 1;
+}
+#mega-services .services-menu-item .fl-rich-text p a:hover:after {
+    right: -32px;
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+}
+/* .services-menu-about-cta a.uabb-button span.uabb-button-text {
+    margin-right: 10px;
+} */
+ .hp_hero_section .fl-col-content {
+    z-index: 1;
+    position: relative;
+}
+.electroporation-system p.uabb-infobox-title-prefix a {
+    color: #021D66;
+}
+.electroporation-system p.uabb-infobox-title-prefix a:hover,
+.instruments_table th.table-header-th a.th-style:hover  {
+    color: #C25400;
+}
+/* Navigation site architecture nav update end */
+
+#mega-products .uabb-infobox-title-wrap>.uabb-infobox-title,
+#mega-products h2.fl-heading {
+    position: relative;
+    max-width: max-content;
+    transition: all 0.3s ease;
+}
+#mega-products .uabb-infobox-title-wrap>.uabb-infobox-title:before,
+#mega-products h2.fl-heading:before {
+    position: absolute;
+    content: "\e915";
+    width: 13px;
+    height: 23px;
+    top: 0;
+    right: -24px;
+    color: #021D66;
+    font-size: 25px;
+    font-family: 'Maxcyte-font';
+    font-weight: normal;
+}
+#mega-products h2.fl-heading:after {
+    right: -47px;
+}
+#mega-products .uabb-infobox-title-wrap>.uabb-infobox-title:after,
+#mega-products h2.fl-heading:after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    background-color: rgba(12, 130, 195, 0.2);
+    height: 21px;
+    border-radius: 100px;
+    right: -43px;
+    top: 3px;
+    transition: all 0.3s ease;
+}
+.menu-consumables .fl-col-content.fl-node-content:after {
+    content: "";
+    background: url(/wp-content/uploads/2022/11/mega-menu-curve.svg);
+    background-position: left top;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -26px;
+}
+.menu-consumables .fl-col-content.fl-node-content {
+    position: relative;
+}
+.menu-consumables .fl-editable {
+    z-index: 2;
+}
+.footer_row .menu>li.current-menu-item>a {
+    color: #FA9649;
+}
+.main_menu li.menu-item a {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 7px 22px;
+}
+.main_menu span.fl-menu-toggle {
+    display: none;
+}
+.main_menu .desktop-menu .menu .menu-item-level-0 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.header_top_menu .desktop-menu .fl-menu-submenu-right .sub-menu {
+    left: 0 !important;
+}
+.header_top_menu .fl-menu .fl-menu-toggle:before {
+    content: "\e917";
+    top: 15px;
+    left: 8px;
+    font-family: 'Maxcyte-font';
+    font-size: 8px;
+    line-height: 11px;
+    transform: none;
+    transform-origin: unset;
+    border: none;
+}
+#hp-mega-menu .menu .fl-has-submenu-container a {
+    padding-right: 22px;
+}
+#menu-main-menu>li.menu-item-level-0:hover .fl-has-submenu-container>a,
+#menu-main-menu>li.menu-item-level-0:hover>a,
+#menu-main-menu>li.menu-item-level-0:focus>a,
+.header_top_menu .menu>li.menu-item-level-0:hover>a,
+#menu-main-menu>li.menu-item-level-0 .fl-has-submenu-container.focus>a,
+.header_top_menu .menu>li.current-menu-item>a {
+    background: #4868A0;
+    border-radius: 72px;
+    transition: all .3s !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+.main_menu .menu li.menu-item-level-0>a,
+.main_menu .menu li.menu-item-level-0>.fl-has-submenu-container>a,
+.header_top_menu .menu li.menu-item-level-0>a {
+    transition: all .3s !important;
+}
+#menu-main-menu>li.menu-item-level-0:hover .sub-menu li a {
+    background-color: transparent;
+}
+.main_menu .desktop-menu .menu>li.fl-has-submenu {
+    padding-bottom: 10px;
+}
+/* .main_menu .desktop-menu .menu .menu-item-level-0:first-child {
+    margin-bottom: 10px;
+} */
+.header_top_menu .menu>li>.fl-has-submenu-container:hover>a,
+.header_top_menu .menu>li>.fl-has-submenu-container.focus>a {
+    background: none;
+    color: #ffffff;
+}
+.header_top_menu .menu li.menu-item a {
+    font-size: 18px;
+    line-height: 21px;
+}
+.header_top_menu .menu>li.menu-item>a {
+    margin-right: 7px;
+}
+.header_top_menu .menu li .fl-has-submenu-container a:hover .fl-menu-toggle:before {
+    transform: rotate(180deg);
+}
+.header_top_menu .fl-menu .sub-menu,
+.header_top_menu .fl-menu .sub-menu li.menu-item a:hover {
+    background: #ECF1F4;
+    border-radius: 10px;
+}
+.header_top_menu .fl-menu .sub-menu {
+    padding: 15px 55px 0px 15px;
+}
+.header_top_menu .fl-menu .sub-menu li.menu-item a:hover {
+    padding: 0;
+}
+.header_top_menu .fl-menu .sub-menu li.menu-item a {
+    color: #021D66;
+    padding: 0 0 15px !important;
+}
+/*.main_menu li.expert_menu_btn:hover {
+    background: #C25400 !important;
+    transition: all .3s !important
+}*/
+.main_menu li.expert_menu_btn{ 
+    margin-top: 10px;   
+}
+.main_menu li.expert_menu_btn > div > a {
+    margin-left: 22px;
+    color: #021D66 !important;
+    padding: 6px 25px 8px !important;
+    transition: all .3s !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    background-color: #ffffff !important;
+    border-radius: 72px;
+    transition: all .3s !important;
+
+}
+.desktop-menu .menu > li.expert_menu_btn.current-menu-item > div > a{
+    background: #ffffff !important;
+    border-radius: 50px;
+    transition: all .3s !important;
+}
+.main_menu .expert_menu_btn > div > a:hover, 
+.main_menu .expert_menu_btn > div > a:focus,
+.desktop-menu .menu > li.expert_menu_btn.current-menu-item > div > a:hover {
+    color: #ffffff !important;
+    background-color: #C25400 !important;
+    border-radius: 50px;
+    border: none;
+    transition: all .3s !important
+}
+.expert_menu_btn ul.sub-menu {
+    max-width: 300px !important;
+}
+.header_top_menu .menu li.menu-item-level-0 a {
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+#hp-mega-menu ul.sub-menu li.menu-item a {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #021D66;
+    padding: 0px 0px 15px;
+}
+#hp-mega-menu ul.sub-menu {
+    background-color: #ECF1F4;
+    border-radius: 10px;
+    width: 374px;
+    padding: 20px 20px 5px 20px;
+}
+#hp-mega-menu .about-us-menu ul.sub-menu {
+    width: 314px;
+}
+#menu-main-menu li.active a {
+    background: #4868A0;
+    border-radius: 72px;
+    transition: all .3s !important;
+}
+/* Breadcrumbs */
+.breadcrumbs .fl-rich-text {
+    z-index: 9;
+    position: relative;
+}
+span.seperator_icon {
+    position: relative;
+    padding-left: 13px;
+}
+span.breadcrumb_last {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+}
+span.seperator_icon:after {
+    content: "\e902";
+    font-family: 'Maxcyte-font';
+    font-size: 11px;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    font-weight: 600;
+}
+span.home_icon:after {
+    content: "\e903";
+    font-family: 'Maxcyte-font';
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+}
+span.home_icon:hover:after {
+    color: #C25400;
+    transition: all .3s ease;
+}
+span.home_icon {
+    position: relative;
+    padding-right: 19px;
+    transition: all .3s ease;
+}
+.single.single-news p a{
+    text-underline-offset: -1px;
+    text-decoration: underline !important;
+    text-decoration-thickness: 4px !important;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: objects !important;
+    text-decoration-color: #CEE6F3 !important;
+    transition: all 0.3s ease-in-out !important;
+    color: #021D66 !important;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    word-break: break-word;
+}
+.single.single-news p a:hover{
+    transition: all 0.3s ease-in-out !important;
+    text-decoration: none;
+    text-decoration-thickness: 0px !important;
+    text-underline-offset: 0px;
+    text-decoration-color: transparent !important;
+    color: #C25400 !important;
+}
+.single.single-news .breadcrumbs .fl-rich-text>p span>a{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #ffffff !important;
+    padding-right: 5px;
+    transition: all .3s ease !important;
+    text-decoration: unset !important;
+}
+.single.single-news .breadcrumbs .fl-rich-text>p span>a:hover{
+    color: #C25400 !important;
+    transition: all .3s ease !important;
+}
+.breadcrumbs .fl-rich-text>p span>a {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding-right: 5px;
+    transition: all .3s ease;
+}
+.breadcrumbs .fl-rich-text>p span>a:hover {
+    color: #C25400;
+    transition: all .3s ease;
+}
+span.webinar-breadcrumb.breadcrumb_last {
+    width: 79%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+/* Button css */
+.primary_button .uabb-creative-button-wrap a.uabb-button,
+.primary_button .uabb-creative-button-wrap a.uabb-button:visited {
+    background: #C25400;
+    border-radius: 72px;
+    padding: 7px 25px 9px 25px;
+    text-align: left;
+}
+.primary_button span.uabb-button-text {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+}
+.primary_button .uabb-creative-button-wrap a.uabb-button:hover {
+    background: #9E4806;
+    transition: all .3s !important
+}
+.primary_button a.uabb-button:hover span.uabb-button-text {
+    font-size: 20px;
+    line-height: 24px;
+}
+.primary_button .uabb-gf-style .gform_wrapper .gform_footer input.gform_button {
+    background: #C25400;
+    border-radius: 72px;
+    padding: 7px 25px 9px 25px;
+    text-align: left;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    z-index: 9;
+}
+.primary_button .uabb-gf-style .gform_wrapper .gform_footer input.gform_button:hover {
+    background: #9E4806;
+    transition: all .3s !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* Footer css */
+
+.transparent_footer .fl-builder-shape-seperator4 path {
+    fill: #ffffff;
+}
+
+.footer_row .menu li.menu-item a {
+    padding: 10px 0px !important;
+    transition: all .3s ease;
+}
+.footer_row .menu li.menu-item {
+    margin: 0;
+}
+.footer_row .menu li.menu-item a:hover {
+    color: #FA9649;
+    transition: all .3s ease;
+}
+.footer_row .fl-visible-desktop-medium p {
+    margin-bottom: 7px;
+}
+.footer_request_quote p {
+    margin-bottom: 0px;
+}
+.footer_request_quote .primary_button a.uabb-button {
+    padding: 4px 25px 4px 25px;
+}
+.footer_request_quote .primary_button a.uabb-button:hover span.uabb-button-text {
+    font-size: 21px;
+    line-height: 32px;
+}
+.footer_request_quote .primary_button span.uabb-button-text {
+    font-size: 20px;
+    line-height: 32px;
+}
+.copyright_text ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+}
+.copyright_text ul li {
+    float: left;
+    padding-right: 20px;
+}
+.copyright_text .fl-rich-text p {
+    margin-bottom: 12px;
+}
+.footer_row .copyright_text ul li a:hover {
+    color: #FFCEA8 !important;
+    transition: all .3s ease;
+}
+.footer_row .menu .menu-item {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+}
+.footer_row .footer_investor_menu p a:hover {
+    color: #FA9649 !important;
+    transition: all .3s ease;
+}
+.footer_row .footer_investor_menu p a {
+    position: relative;
+    transition: all .3s ease;
+}
+.footer_investor_menu p a:after {
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 4px;
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+.footer_investor_menu p a:hover:after {
+    display: none;
+}
+.footer_request_quote h6 a span,
+.footer_row .copyright_text ul li a {
+    transition: all .3s ease;
+}
+.footer_request_quote h6 a:hover span {
+    color: #C25400 !important;
+    transition: all .3s ease;
+}
+.footer_row .newsletter_form .gform_wrapper input {
+    line-height: normal !important;
+}
+ .footer_row:after {
+    position: absolute;
+    display: block;
+    top: -6%;
+    left: 3%;
+    background-image: url(/wp-content/uploads/2023/01/Footer-effect.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+} 
+.footer_row {
+    position: relative;
+    overflow: hidden;
+}
+.fl-icons-filter input[type=text] {
+    color: #333;
+}
+.footer_row .fl-row-content {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* Footer end */
+
+/* Mega menu css */
+body:not(.fl-builder-edit) [id^="mega-"] {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    z-index: 100;
+}
+.show-mega {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 101 !important;
+}
+/* mobile stuffs */
+body.show-mega-mobile [id^="mega-"] {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+/* small screens mega settings*/
+@media (max-width: 767px) {
+
+    /*.mega-mobile-container{
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        top:150px;
+        left: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        width: 100%;
+        z-index: 100;
+    }*/
+    .show-mega-mobile .mega-mobile-container {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    .uabb-offcanvas-animating .mega-mobile-container {
+        visibility: visible;
+    }
+}
+/* bigger screens mega settings*/
+@media (min-width: 993px) {
+    body:not(.fl-builder-edit) [id^="mega-"] {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        /* top: 105px !important; */
+        left: 0;
+        width: 100%;
+        padding-top: 10px;
+        margin-top: -20px;
+    }
+}
+/* Hidden section */
+.grayscale_readonly {
+    opacity: 0.5 !important;
+    filter: grayscale(1) !important;
+}
+/* Homepage css */
+/*.fl-builder-edit .fl-row-overlay {
+    z-index: 9;
+    position: relative;
+}*/
+.fl-content-full {
+    overflow-x: hidden !important;
+}
+.partners-customers-section {
+    position: relative;
+}
+.partners-customers-section .case-study-section {
+    position: relative;
+    z-index: 4;
+}
+.our-partners-gallery .apllication_gallery:after {
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(0, #FFFFFF 0%, rgba(255, 255, 255, 0.63) 10%, rgba(255, 255, 255, 0) 100%);
+    height: 100%;
+}
+.home-about-us .fl-row-content-wrap {
+    position: relative;
+    z-index: 1;
+}
+.our-partners-gallery .apllication_gallery {
+    position: relative;
+}
+.partners-customers-section .fl-builder-shape-effectseperator5Wave {
+    z-index: 0;
+}
+.partners-customers-section:before {
+    background-image: url(/wp-content/uploads/2023/01/Effects-case-studies-quotes.png);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 42%;
+    z-index: 1;
+    bottom: 4.4%;
+}
+.hp_hero_section .fl-row-content-wrap:after {
+    content: "";
+    top: 15%;
+    right: 0;
+    display: block;
+    background-image: url(/wp-content/uploads/2023/01/hero-img-hp.png);
+    background-size: 1680px 635px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.fl-builder-edit .fl-block-overlay-active {
+    z-index: 2;
+    position: relative;
+}
+.res-cat-application {
+    z-index: 1;
+    position: relative;
+}
+.hp-electroporation-system,
+.hp-applications {
+    position: relative;
+}
+.hp-electroporation-system .fl-row-content,
+.hp-applications .fl-row-content {
+    position: relative;
+    z-index: 9;
+}
+.hp_video_popup .maxcyte-font-player-outline:before {
+    color: #1082C3;
+}
+.hp_video_popup a.uabb-button {
+    z-index: 9;
+}
+.hp_video_popup a.uabb-button:hover .maxcyte-font-player-outline:before {
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+.resources {
+    z-index: 1;
+    position: relative;
+}
+.resources .uabb-infobox:hover h6.uabb-infobox-title {
+    color: #B35004;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    line-height: 21px;
+}
+.resources .uabb-infobox:hover .uabb-icon i:before {
+    color: #021D66;
+}
+.resources .uabb-infobox:hover .uabb-infobox-title {
+    color: #C25400 !important;
+    transition: all ease 0.3s;
+}
+.resources .icon-hover-parent:hover .arrow-icon:after {
+    left: -3px;
+    top: 40px;
+    ;
+}
+.resources .icon-hover-parent:hover .arrow-icon:before {
+    top: 38px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+}
+.resources .icon-hover-parent .arrow-icon:before {
+    top: 39px;
+    left: 9px;
+    background: #fff;
+}
+.resources .icon-hover-parent .arrow-icon:after {
+    left: 0px;
+    top: 40px;
+}
+.resources .icon-hover-parent .arrow-icon {
+    padding-right: 0px;
+}
+.case-study-section .uabb-imgicon-wrap {
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+.case-study-section .uabb-imgicon-wrap .uabb-image-content {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.partners-customers-section .case-study-section .uabb-infobox-title-wrap {
+    background-color: #D0DBE4;
+}
+.case-study-section .uabb-infobox-title-wrap {
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.case-study-section h5.uabb-infobox-title-prefix {
+    background-color: #EBD3FC;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 90%;
+    padding: 3px 8px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -14px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    white-space: normal;
+}
+.case-study-section h6.uabb-infobox-title {
+    padding: 30px 20px 20px;
+    white-space: normal;
+}
+.case-study-section .uabb-infobox:hover {
+    box-shadow: 0px 0px 0px 4px #b3e4ef;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.case-study-section .uabb-infobox {
+    transition: all 0.3s ease;
+}
+.case-study-section .uabb-infobox:hover .uabb-infobox-title-wrap {
+    background: rgba(43, 180, 211, 0.36);
+    transition: all 0.3s ease;
+}
+.case-study-section .uabb-infobox:hover h5.uabb-infobox-title-prefix {
+    background: #482869;
+    color: #EBD3FC;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.resources .fl-module.fl-module-info-box,
+.resources .fl-module-content,
+.resources .uabb-infobox {
+    height: 100%;
+}
+.hp-testimonials {
+    position: relative;
+    z-index: 5;
+}
+.hp-testimonials .bx-wrapper .bx-pager {
+    left: 350px;
+    text-align: left;
+}
+.hp-testimonials .bx-wrapper .bx-pager.bx-default-pager a {
+    margin: 0 3px;
+}
+.hp-testimonials .uabb-testimonial-left .uabb-imgicon-wrap {
+    margin-right: 103px !important;
+}
+.hp-testimonials a.bx-pager-link:not(.active) {
+    opacity: 0.5;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    background: transparent;
+}
+.hp-testimonials .bx-wrapper a.bx-pager-link {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+}
+.hp-testimonials .bx-wrapper a.bx-pager-link.active {
+    border: 2px solid transparent;
+}
+.hp-latest-news p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #373C44;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.hp-latest-news h6.fl-heading {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #021D66;
+    transition: all 0.3s ease;
+}
+.fl-col.hp-latest-news {
+    padding: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    width: 100%;
+}
+.fl-col.hp-latest-news:hover {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.fl-col.hp-latest-news:hover h6.fl-heading {
+    color: #C25400;
+    transition: all 0.3s ease;
+}
+.alm-btn-wrap .alm-load-more-btn.done {
+    display: none;
+}
+.hp-latest-news .fl-rich-text {
+    position: relative;
+}
+.hp-latest-news .fl-rich-text:before {
+    content: "";
+    position: absolute;
+    background-color: #C25400;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    right: 27px;
+    transition: all 0.5s ease;
+}
+.hp-latest-news:hover .fl-rich-text:before {
+    opacity: 1;
+    right: 0px;
+}
+.hp-latest-news:hover .fl-rich-text:after {
+    opacity: 1;
+    right: 4px;
+}
+.hp-latest-news .fl-rich-text:after {
+    content: "\e916";
+    color: #FFFFFF;
+    font-family: 'Maxcyte-font';
+    transition: all 0.5s ease;
+    font-size: 24px;
+    line-height: 25px;
+    right: 30px;
+    top: 0px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.hp-featued-news .uabb-ultb3-box:after {
+    content: url(/wp-content/uploads/2022/11/white-bg-arrow.svg);
+    position: absolute;
+    left: 25px;
+    bottom: 45px;
+    z-index: 2;
+}
+.hp-featued-news .uabb-ultb3-box {
+    border-radius: 10px;
+    position: relative;
+}
+.hp-featued-news h4.uabb-ultb3-title {
+    position: relative;
+    top: 0;
+    transition: all ease 0.3s;
+}
+.hp-featued-news .uabb-text-editor p.date {
+    position: relative;
+    top: 0;
+    transition: all ease 0.3s;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.hp-featued-news p.prefix {
+    background: #EBD3FC;
+    width: max-content;
+    padding: 3px 8px;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #482869;
+    border-radius: 3px;
+    position: absolute;
+    top: 30px;
+}
+.hp-featued-news.fl-module-info-banner .fl-module-content:after {
+    background: url(/wp-content/uploads/2022/11/featured-rectangle.svg);
+    content: "";
+    background-position: center bottom;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s ease;
+    background-size: cover !important;
+}
+.hp-featued-news.fl-module-info-banner:hover .fl-module-content:after {
+    background: url(/wp-content/uploads/2022/11/featured-rectangle-hover.svg);
+    border-radius: 10px;
+    content: "";
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+.hp-news-section .alm-btn-wrap {
+    display: none;
+}
+.hp-news-section {
+    z-index: 9;
+    position: relative;
+}
+/* icon hover */
+.icon-hover-parent .uabb-infobox-title:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: -10px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.icon-hover-parent .uabb-infobox:hover .uabb-infobox-title:before {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 26px;
+    height: 26px;
+    right: -5px;
+    top: 1px;
+}
+.icon-hover-parent .uabb-infobox-title:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 4px;
+    transition: all 0.3s ease;
+    right: 9px;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+    line-height: 22px;
+}
+.icon-hover-parent .uabb-infobox:hover .uabb-infobox-title:after {
+    content: "\e916";
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: 11px;
+    top: 4px;
+}
+.icon-hover-parent .uabb-infobox i {
+    transition: all 0.3s ease;
+}
+.link-hover .uabb-button-text {
+    padding-right: 20px;
+}
+.link-hover .uabb-button-text:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: -20px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.link-hover .uabb-button:hover .uabb-button-text:before {
+    background: #C25400;
+    transition: all 0.5s ease;
+    width: 24px;
+    height: 24px;
+    right: -15px;
+    top: -1px;
+}
+.link-hover .uabb-button-text:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 0px;
+    transition: all 0.5s ease;
+    right: 0;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+}
+.link-hover .uabb-button:hover .uabb-button-text:after {
+    content: "\e916";
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: 0px;
+    top: 0px;
+}
+.link-hover .arrow-icon:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    bottom: 8px;
+    transition: all 0.3s ease;
+    right: -1px;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+}
+.link-hover .arrow-icon:before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    right: -20px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.link-hover .arrow-icon:hover:before {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 24px;
+    height: 24px;
+    right: -13px;
+    bottom: -1px;
+}
+.link-hover .arrow-icon:hover:after {
+    content: "\e916";
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: 3px;
+    bottom: 8px;
+}
+.link-hover .arrow-icon {
+    padding-right: 22px;
+    font-size: 19px;
+    line-height: 24px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.link-hover span.uabb-button-text {
+    position: relative;
+}
+.link-hover .uabb-infobox-text-wrap {
+    position: relative;
+}
+.white-circle-arrow:hover .uabb-ultb3-box:after {
+    content: "\e916";
+    color: #ffffff;
+    transition: all 0.5s ease;
+    font-size: 37px;
+    line-height: 35px;
+    left: 27px;
+    bottom: 56px;
+    z-index: 3;
+}
+.white-circle-arrow:hover .uabb-ultb3-box:before {
+    content: "";
+    background: #C25400;
+    transition: all 0.5s ease;
+    width: 47px;
+    height: 47px;
+    left: 27px;
+    bottom: 50px;
+    z-index: 3;
+}
+.white-circle-arrow .uabb-ultb3-box:before {
+    content: "";
+    position: absolute;
+    bottom: 57px;
+    left: 41px;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    transition: all 0.5s ease;
+    z-index: 3;
+}
+.white-circle-arrow .uabb-ultb3-box:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    bottom: 56px;
+    transition: all 0.5s ease;
+    left: 27px;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 35px;
+    color: #ffffff;
+    z-index: 3;
+}
+.white-circle-arrow .uabb-ultb3-box {
+    position: relative;
+}
+/* hover end */
+.hp-featued-news.fl-module-info-banner .fl-module-content {
+    position: relative;
+}
+.hp-featued-news .uabb-ultb3-info {
+    padding-bottom: 76px;
+}
+.common-resources-section .case-study-section .uabb-infobox:hover {
+    box-shadow: 0px 0px 0px 4px rgb(194 84 0 / 20%);
+    transition: all 0.5s ease;
+}
+.common-resources-section .case-study-section .uabb-infobox:hover .uabb-imgicon-wrap {
+    border: 1px solid transparent !important;
+    transition: all 0.5s ease;
+}
+.common-resources-section .case-study-section .uabb-infobox:hover .uabb-infobox-title-wrap {
+    background: #FFF1E6;
+}
+.common-resources-section .case-study-section .uabb-infobox:hover h6.uabb-infobox-title {
+    color: #C25400;
+}
+.common-resources-section .case-study-section .uabb-infobox {
+    border: none;
+    transition: all 0.5s ease;
+}
+.case-study-section .uabb-imgicon-wrap {
+    border: 1px solid #D0DBE4;
+    transition: all 0.3s ease;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+}
+.common-resources-section .case-study-section .uabb-image {
+    padding-top: 20px;
+}
+.case-study-section .uabb-infobox-title-wrap {
+    background-color: #CEE6F3;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+.ask-the-expert {
+    z-index: 1;
+    position: relative;
+}
+.res-cat-application .hp-applications>.fl-col-content:before {
+    content: "";
+    background: url(/wp-content/uploads/2023/02/resource-category-vector.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -32%;
+    left: 21%;
+    right: 0;
+    display: block;
+    z-index: -1;
+}
+.res-cat-application .hp-applications>.fl-col-content {
+    position: relative;
+    box-shadow: 0px 4px 54px rgb(0 0 0 / 25%);
+}
+/*Technology page css */
+.res-cat-application.application-hero-section .fl-row-content-wrap:after {
+    content: "";
+    background-image: url(/wp-content/uploads/2024/03/technology-hero-spark-icon.png);
+    position: absolute;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    right: 0;
+    z-index: 1;
+}
+.res-cat-application.tech-hero-section .fl-row-content-wrap:after {
+    top: 65%;
+}
+.view-all-cta span.uabb-button-text {
+    display: block;
+    word-break: break-all;
+}
+.view-all-cta>.fl-col-content {
+    cursor: pointer;
+}
+.view-all-cta>.fl-col-content,
+.view-all-cta h6.uabb-infobox-title {
+    transition: all 0.3s ease;
+}
+.view-all-cta>.fl-col-content:hover {
+    background: #FFF1E6;
+    transition: all 0.3s ease;
+}
+.view-all-cta>.fl-col-content:hover h6.uabb-infobox-title {
+    color: #C25400;
+    transition: all 0.3s ease;
+}
+.view-all-cta>.fl-col-content:hover .uabb-icon i:before {
+    content: "\e916";
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.view-all-cta>.fl-col-content:hover i.maxcyte-font-arrow-right-long:after {
+    background: #C25400;
+    content: "";
+    transition: all 0.3s ease;
+    right: 18px;
+}
+.view-all-cta i.maxcyte-font-arrow-right-long:after {
+    background: #ffffff;
+    content: " ";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 100px;
+    top: 16px;
+    right: 12px;
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+.view-all-cta .uabb-icon i:before {
+    z-index: 9;
+    position: relative;
+    text-align: left !important;
+    transition: all 0.3s ease;
+    right: -9px;
+    justify-content: start !important;
+}
+.view-all-cta .uabb-imgicon-wrap .uabb-icon i {
+    float: none;
+    text-align: left !important;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.newsletter_form form {
+    position: relative;
+}
+.newsletter_form.primary_button .gform_footer input.gform_button {
+    position: absolute;
+    top: 21px;
+    right: 11px;
+}
+.newsletter_form .gform_wrapper input[type=email] {
+    padding-top: 21px !important;
+    padding-bottom: 6px !important;
+    color: #373C44;
+}
+.newsletter_form .gform_wrapper .gfield label.gfield_label {
+    top: 24px;
+}
+.newsletter_form form .ginput_container input:focus {
+    border: 1px solid #54D7F5 !important;
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(84, 215, 245, 0.5) !important;
+}
+.newsletter_form form .gfield_error .ginput_container input {
+    border: 1px solid #FE6B6B !important;
+    box-shadow: 0px 0px 4px 4px rgba(254, 107, 107, 0.5) !important;
+}
+.newsletter_form .gform_wrapper .gfield_validation_message {
+    color: #FE6B6B !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+}
+.newsletter_form .gform_wrapper .gfield_validation_message:before {
+    content: url(/wp-content/uploads/2022/12/hp-error-icon.svg);
+}
+
+.newsletter_form .gform_wrapper form .gfield .gfield_label.focused {
+    top: 10px;
+}
+.newsletter_form .gfield .ginput_container_email input {
+    font-size: 18px !important;
+    line-height: 32px !important;
+    padding-left: 20px !important;
+    color: #373C44 !important;
+}
+.newsletter_form.primary_button .gform_validation_error .gform_footer input.gform_button {
+    top: 21px;
+}
+.newsletter_form .gfield_error label.gfield_label.focused {
+    top: 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* form css */
+.contact-form .ginput_container.ginput_container_select {
+    position: relative;
+}
+.contact-form .ginput_container.ginput_container_select:before {
+    content: "\e901";
+    font-family: 'Maxcyte-font';
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    pointer-events: none;
+}
+.contact-form select {
+    -webkit-appearance: none;
+}
+.contact-form .gform_wrapper.gravity-theme .gfield select {
+    padding-top: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+}
+.contact-form .gform_wrapper .gfield_error .ginput_container_select {
+    border: 1px solid #A80000 !important;
+    box-shadow: inset 0px 0px 4px 0px #a80000, 0px 0px 4px 0px #a80000 !important;
+}
+.contact-form .gform_wrapper .gfield_error select {
+    border: none;
+}
+.contact-form .gform_wrapper form input:not(input[type="submit"]) {
+    padding-top: 17px !important;
+    padding-bottom: 1px !important;
+}
+
+.gform_wrapper div.gfield.gfield_error {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.contact-form .gform_wrapper.gravity-theme .gform_footer {
+    margin-top: 0px;
+}
+.contact-form .gform_wrapper .gfield textarea {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    resize: none;
+}
+.contact-form .gform_wrapper .gfield textarea.large {
+    height: 233px !important;
+}
+.gform_wrapper form .gfield_required {
+    display: none;
+}
+.contact-form .gform_wrapper.gravity-theme .gfield_required {
+    padding-left: 1px;
+    margin-left: 0;
+    position: absolute;
+    bottom: 4px;
+}
+body .gform_wrapper .gfield {
+    position: relative;
+}
+.gform_wrapper .gfield label.gfield_label {
+    color: #373C44 !important;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    transition: all 0.3s ease;
+}
+body .gform_wrapper form .gfield .gfield_label.focused {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    top: 0px;
+    color: #373C44;
+}
+body .gform_wrapper form .ginput_container input,
+.gform_wrapper form .ginput_container textarea,
+.ginput_container_select {
+    border: 1px solid #A3AFB8 !important;
+    border-radius: 6px !important;
+    color: #373C44 !important;
+}
+.contact-form .ginput_container_select select {
+    border: none;
+}
+body .gform_wrapper form .ginput_container input:focus,
+body .gform_wrapper form .ginput_container textarea:focus {
+    border: 1px solid #1082C3 !important;
+    outline: none;
+    color: #373c44 !important;
+    box-shadow: inset 0px 0px 4px 0px #1082c3, 0px 0px 4px 0px #1082c3 !important;
+}
+body .gform_wrapper .gform_validation_errors {
+    display: none;
+}
+.contact-info-section .internal-links p {
+    margin-bottom: 4px;
+}
+.contact-form .gform_wrapper .gfield.gfield_error label.gfield_label {
+    font-size: 20px;
+    line-height: 32px;
+}
+.gform_wrapper div.gfield.gfield_error,
+.gform_wrapper .gfield_validation_message {
+    border: none !important;
+    background: none !important;
+}
+.gform_wrapper .gfield_validation_message {
+    padding: 0px !important;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+body .gform_wrapper form .gfield_error .ginput_container input,
+body .gform_wrapper form .gfield_error .ginput_container textarea {
+    border: 1px solid #A80000 !important;
+    box-shadow: inset 0px 0px 4px 0px #a80000, 0px 0px 4px 0px #a80000 !important;
+}
+body .gform_wrapper .gfield_validation_message:before {
+    content: url(/wp-content/uploads/2022/12/error-icon.svg);
+    padding-right: 8px;
+    position: relative;
+    top: 2px;
+}
+body .gform_confirmation_wrapper .gform_confirmation_message {
+    background: #ffffff;
+    text-align: center;
+    font-size: 22px !important;
+    line-height: 32px;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 15px;
+}
+.contact-form .gform_wrapper .gfield.gfield_error label.focused {
+    top: 7px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.ginput_container_name label {
+    font-size: 20px !important;
+    line-height: 32px;
+    color: #373C44 !important;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    top: 5px;
+    position: absolute;
+}
+.ginput_container_name span {
+    position: relative;
+}
+.ginput_container_name .name_last {
+    padding-left: 10px !important;
+}
+.ginput_container_name .name_first {
+    padding-right: 10px !important;
+}
+.ginput_container_name .name_first label {
+    left: 20px;
+    transition: all 0.3s ease;
+}
+.ginput_container_name .name_last label {
+    left: 30px;
+    transition: all 0.3s ease;
+}
+.ginput_container_name label.focused {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 32px !important;
+    top: -6px;
+}
+.newsletter_form .ginput_container_name label {
+    font-size: 20px !important;
+    line-height: 32px;
+    color: #373C44 !important;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    top: 5px;
+    position: absolute;
+}
+.newsletter_form .ginput_container_name span {
+    position: relative;
+}
+.newsletter_form .ginput_container_name .name_last {
+    padding-left: 10px !important;
+}
+.newsletter_form .ginput_container_name .name_first {
+    padding-right: 10px !important;
+}
+.newsletter_form .ginput_container_name .name_first label {
+    left: 20px;
+    transition: all 0.3s ease;
+}
+.newsletter_form .ginput_container_name .name_last label {
+    left: 30px;
+    transition: all 0.3s ease;
+}
+.newsletter_form .ginput_container_name label.focused {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 32px !important;
+    top: -6px;
+}
+.contact-form .gform_wrapper .gfield.gfield_error .ginput_container_name label.focused {
+    top: -6px;
+}
+.contact-form .gform_wrapper .gform_fields.description_below {
+    grid-column-gap: 2.7% !important;
+}
+.contact-tab-section .icon-hover-parent .uabb-infobox-title:before {
+    background-color: #fff;
+}
+.contact-tab-section .icon-hover-parent h5.uabb-infobox-title {
+    max-width: fit-content;
+    padding-right: 35px;
+    position: relative;
+    transition: all .5s ease;
+}
+.contact-tab-section .uabb-infobox:hover {
+    background: #FFF1E6;
+    transition: all .5s ease;
+}
+.contact-tab-section .uabb-infobox:hover h5.uabb-infobox-title {
+    color: #C25400;
+    font-size: 25px;
+    line-height: normal;
+    transition: all .5s ease;
+    margin-bottom: 14px;
+}
+.contact-tab-section .uabb-infobox .uabb-icon {
+    position: relative !important;
+    top: 0;
+    transition: all 0.5s ease;
+}
+.contact-tab-section .uabb-infobox:hover .uabb-icon {
+    top: -10px;
+    transition: all 0.5s ease;
+}
+.contact-hero-section>.fl-row-content-wrap:after {
+    content: "";
+    background: url(/wp-content/uploads/2023/02/resource-category-vector.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 40%;
+    left: 25%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.contact-hero-section>.fl-row-content-wrap {
+    position: relative;
+}
+.contact-tab-section .active-tab .fl-module-content {
+    pointer-events: none;
+}
+.contact-tab-section .active-tab .uabb-infobox:hover {
+    background: #ffffff;
+    transition: unset;
+}
+.contact-tab-section .active-tab .uabb-infobox:hover h5.uabb-infobox-title {
+    color: #021d66;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.contact-tab-section .active-tab .uabb-infobox:hover .uabb-infobox-title:before {
+    background: #ffffff;
+    width: 21px;
+    height: 21px;
+    top: 4px;
+    right: -10px;
+}
+.contact-tab-section .active-tab .uabb-infobox:hover .uabb-icon {
+    top: 0;
+}
+.technical-testimonial-row .fl-builder-top-edge-layer {
+    margin-left: -2px;
+}
+.technical-support-faq .uabb-adv-accordion-item-active>.uabb-adv-accordion-button {
+    background: #ECF1F4;
+}
+.technical-support-faq .uabb-adv-accordion-item-active .uabb-adv-accordion-button:hover {
+    background: #fff1e6 !important;
+    transition: all 0.3s ease;
+}
+.icon-hover-parent .active-tab .uabb-infobox:hover i:before {
+    color: #1082C3;
+}
+.icon-hover-parent .active-tab .uabb-infobox-title:after {
+    content: "\e915" !important;
+    top: 5px !important;
+    right: 9px !important;
+    color: #021D66 !important;
+}
+/* Technology page css */
+
+.technical-support-faq i.uabb-adv-accordion-button-icon:before {
+    background-color: #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+    margin-left: 5px;
+}
+.technical-support-faq .uabb-adv-accordion-button:hover i:before {
+    background-color: #C25400;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.technical-support-faq .uabb-adv-before-text .uabb-adv-accordion-button-label {
+    padding-left: 23px;
+}
+.molecule-tab .fl-module-info-box:not(:last-child) {
+    border-bottom: 2px solid #EBEEEF;
+}
+.technology-tab .uabb-tabs li,
+.technology-tab .uabb-tabs li a:hover {
+    border-radius: 10px;
+}
+.technology-tab .uabb-content-wrap {
+    width: 71%;
+}
+.technology-tab .uabb-tabs-layout-vertical .uabb-tabs-nav {
+    width: 29%;
+}
+.technology-tab .uabb-tabs-nav .uabb-tab-description {
+    margin-top: 5px;
+}
+.dual-heading .uabb-first-heading-text h4 {
+    color: #1082C3;
+    border: 2px solid #1082C3;
+    border-radius: 58px;
+    padding: 2px 11px 2px;
+}
+.request-accordian-products .uabb-infobox-content {
+    position: relative;
+}
+.close-prd-btn i.maxcyte-font-close {
+    position: relative;
+    top: -4px;
+}
+.close-prd-btn a.uabb-button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.close-prd-btn a.uabb-button, 
+.close-prd-btn a.uabb-button:hover, 
+.close-prd-btn a.uabb-button:focus {
+	background: transparent;
+}
+.add-prd-btn .uabb-button i.uabb-button-icon {
+    position: relative;
+    top: -1px;
+}
+.request-accordian-products .active-products:after {
+    font-size: 40px;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    content: "\e936";
+    font-family: 'Maxcyte-font';
+    color: rgba(194, 84, 0, 1);
+    right: 0px;
+    top: 0;
+    position: absolute;
+}
+.request-accordian-products .uabb-infobox-content:after {
+    font-size: 40px;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    content: "\e908";
+    font-family: 'Maxcyte-font';
+    background: #C25400;
+    border-radius: 72px;
+    color: #ffffff;
+    right: -20px;
+    top: 0;
+    position: absolute;
+}
+.request-accordian-products .technical-support-faq .uabb-adv-accordion-content {
+    padding: 15px 0 0;
+}
+.request-accordian-products .uabb-adv-accordion-content .products-details .prd-sku span {
+    font-size: 16px;
+    line-height: 19px;
+}
+.products-details {
+    display: flex;
+    border: 1px solid #D0DBE4;
+    border-radius: 10px;
+    padding: 20px 20px 20px 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+.prd-button i.maxcyte-font-plus {
+    background: #C25400;
+    border-radius: 72px;
+    font-size: 40px !important;
+    line-height: 38px !important;
+}
+.prd-button .maxcyte-font-plus:before {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 38px;
+}
+.request-accordian-products .fl-module-advanced-accordion.technical-support-faq .prd-title {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #021D66;
+    padding-bottom: 5px;
+}
+.prd-sku,.prd-button {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+}
+.prd-name {
+    width: 80%;
+    margin-right: 63px;
+}
+.prd-sku img {
+    padding-right: 10px;
+}
+.prd-sku {
+    width: 15%;
+}
+.prd-button {
+    width: 5%;
+    text-align: right;
+}
+.add-prd-btn.fl-col-content {
+    background: #CEE6F3;
+    border-radius: 78px;
+}
+.close-prd-btn .uabb-button i:before {
+    font-size: 15px !important;
+    line-height: 15px !important;
+    font-weight: 700;
+    background: #FFFFFF;
+    border-radius: 100px;
+    padding: 6px;
+}
+.add-prd-btn .uabb-button i:before {
+    content: "\e908";
+    font-family: 'Maxcyte-font';
+    font-size: 27px !important;
+    line-height: 27px !important;
+    padding: 0px;
+}
+.collapse-prd-btn>.fl-col-content {
+    max-width: inherit;
+}
+.collapse-prd-btn a.uabb-button, 
+.collapse-prd-btn a.uabb-button:hover {
+    background: transparent;
+} 
+.add-prd-heading .uabb-first-heading-text h4 {
+    padding: 2px 14px 2px;
+}
+.fill_out_form_col .add-prd-heading .uabb-first-heading-text h4 {
+    padding: 2px 11px 2px;
+}
+.request-accordian-products .uabb-adv-accordion-item-active {
+    margin-bottom: 40px;
+}
+thead.heading {
+    background: #7D919F;
+    padding: 15px 20px;
+}
+tbody.table-data {
+    color: #373C44;
+}
+table.request-prd-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.request_a_quote.request_a_quote_btn {
+    display: inline-flex;
+    align-items: center;
+}
+.productloading {
+    content: '';
+    display: block;
+    height: 0px;
+    width: 0px;
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    -webkit-animation: rotate 1s infinite linear;
+    margin-left: 5px;
+    display: none;
+}
+.productloader {
+    content: '';
+    visibility: visible;
+    height: 0px;
+    width: 0px;
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    -webkit-animation: rotate 1s infinite linear;
+    /* left, top and position just for the demo! */
+    visibility: hidden;
+    float: right;
+    margin-top: 10px;
+}
+@-webkit-keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+     use 0% instead for anticlockwise */
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.product-table .fl-html {
+    overflow-x: auto;
+}
+.heading th {
+    padding: 15px 20px;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.heading th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.heading th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.table-data td {
+    padding: 10px 30px;
+    width: 15%;
+}
+.table-data td:nth-child(2) {
+    font-weight: 700;
+    width: 70%;
+}
+.table-data tr:not(:last-child) {
+    border-bottom: 1px solid #CBD3D9;
+}
+.table-data td input {
+    color: #373C44 !important;
+}
+.table-data td input.input-text:focus {
+    background: #CEE6F3;
+}
+.table-data td input.input-text {
+    -moz-appearance: textfield;
+}
+.table-data td input.input-text::-webkit-outer-spin-button,
+.table-data td input.input-text::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    display: none;
+}
+.table-data td input {
+    color: #373C44 !important;
+    width: 35%;
+    background: none;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+}
+table.request-prd-table td+td {
+    border-left: 1px solid #CBD3D9;
+}
+table.request-prd-table th+th {
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+.table_request_a_quote_btn .request_a_quote_btn a,
+.table_request_a_quote_btn .request_a_quote_btn a:hover {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 7px 20px 9px 20px;
+}
+.table_request_a_quote_btn .request_a_quote.request_a_quote_btn {
+    white-space: nowrap;
+}
+.table_request_a_quote_btn .tbody-row .table-body-td.table-body-3 {
+    width: 23%;
+}
+.request_a_quote_btn a {
+    background: #C25400;
+    border-radius: 72px;
+    padding: 7px 25px 9px 25px;
+    text-align: left;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.request_a_quote_btn a:hover {
+    background: #9E4806;
+    transition: all .3s !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button-container {
+    background: #CEE6F3;
+    border-radius: 2000px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    width: 125px;
+    margin: 0px 31px;
+}
+button.cart-qty-minus,
+button.cart-qty-plus {
+    background: transparent;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: normal !important;
+    border: none;
+    flex: 1 0 auto;
+    padding: 6px !important;
+    display: flex;
+}
+.cart-qty-plus i.maxcyte-font-plus,
+.cart-qty-minus i.maxcyte-font-minus {
+    background: #021D66;
+    border-radius: 100px;
+    font-size: 29px;
+}
+button.cart-qty-minus:focus,
+button.cart-qty-plus:focus {
+    top: 0px;
+}
+.pdp-bg-expertise-section .fl-builder-shape-seperator3 path,
+.antibody-vimeo-row .fl-builder-shape-seperator3 path {
+    fill: #ffffff;
+}
+.pdp-instrument-testimonial .uabb-infobox-title-wrap {
+    padding-right: 72px;
+    padding-left: 25px;
+}
+.pdp-instrument-testimonial .uabb-infobox-content,
+.pdp-instrument-testimonial .uabb-infobox .uabb-imgicon-wrap {
+    display: inline-flex;
+}
+.pdp-instrument-testimonial .uabb-infobox .uabb-infobox-left-right-wrap {
+    display: flex;
+}
+span.subdesc {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: block;
+    color: #373C44;
+}
+.product-info-box .fl-module-interactive-banner-2 img.uabb-new-ib-img {
+    object-fit: contain;
+    max-width: 198px !important;
+    max-height: 158px !important;
+    text-align: center;
+    position: relative;
+    top: -108px;
+}
+.stx-products .product-info-box .fl-module-interactive-banner-2 img.uabb-new-ib-img {
+    top: -123px;
+}
+.assembly-product .product-info-box .fl-module-interactive-banner-2 p.uabb-new-ib-title {
+    top: 229px;
+}
+.product-info-box .fl-module-interactive-banner-2 .uabb-ib2-hover h4.uabb-new-ib-title {
+    top: 0px;
+}
+.product-info-box .uabb-new-ib-content.uabb-text-editor {
+    margin-top: 17px;
+}
+.image-caption {
+    background: #ECF1F4;
+    border-radius: 6px;
+}
+.image-caption.internal-links a,
+.image-caption.internal-links p {
+    font-size: 15px !important;
+}
+.pdp-questions-sec .uabb-imgicon-wrap,
+.pdp-questions-sec .uabb-module-content {
+    text-align: left !important;
+}
+.product-info-box .uabb-new-ib:before {
+    border-radius: 10px;
+}
+.product-info-box .uabb-ib-effect-style1 .uabb-new-ib-content,
+.product-info-box .uabb-ib-effect-style1 .uabb-new-ib-title,
+.uabb-ib-effect-style1 .uabb-new-ib-title {
+    transform: none;
+}
+.product-info-box .uabb-ib-effect-style1 img {
+    transform: none;
+}
+.product-info-box .uabb-new-ib-content p {
+    font-size: 14px !important;
+    line-height: 18px !important;
+    margin-bottom: 15px !important;
+}
+.product-info-box .uabb-text-editor ul li {
+    font-size: 14px !important;
+    line-height: 18px !important;
+}
+.product-info-box .fl-module-interactive-banner-2 p.uabb-new-ib-title {
+    top: 199px;
+    position: relative;
+    transition: all 0.3s ease;
+    letter-spacing: -0.01em;
+}
+.product-info-box>.fl-col-content {
+    transition: all 0.5s ease;
+}
+.product-info-box:hover>.fl-col-content {
+    border: 1px solid #fff1e6;
+    transition: all 0.5s ease;
+}
+.product-info-box .uabb-new-ib-desc {
+    padding: 20px;
+    letter-spacing: -0.16px;
+    top: 0;
+}
+.product-info-box .fl-module-interactive-banner-2 .uabb-ib2-hover p.uabb-new-ib-title {
+    /* top: -40px; */
+    color: #C25400;
+}
+.product-info-box .uabb-new-ib-content p strong {
+    display: block;
+}
+.product-info-box .uabb-ib2-hover img.uabb-new-ib-img {
+    opacity: 0.3;
+    z-index: 9;
+    border-radius: 10px;
+}
+.product-info-box img.uabb-new-ib-img {
+    padding: 10px;
+}
+.product-info-box .uabb-ib2-hover .uabb-new-ib-desc {
+    opacity: 1;
+    z-index: 9;
+    /* top: 40px; */
+}
+.product-info-box .uabb-ib2-hover .uabb-text-editor {
+    margin-top: -24px;
+}
+.product-info-box span.banner-logo {
+    position: relative;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    max-width: 120px;
+}
+.product-info-box p.uabb-new-ib-title .title {
+    position: relative;
+    display: flex;
+    max-width: fit-content;
+    padding-right: 35px;
+    padding-bottom: 15px
+}
+.product-info-box span.title:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -7px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.product-info-box span.title:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s ease;
+    right: 12px;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+    line-height: 22px;
+}
+.product-info-box .uabb-ib2-hover p.uabb-new-ib-title .title:before {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 26px;
+    height: 26px;
+    right: -5px;
+    top: -2px;
+}
+.product-info-box .uabb-ib2-hover p.uabb-new-ib-title .title:after {
+    content: "\e916";
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: 11px;
+    top: 1px;
+}
+.pdp-hero-section .link-hover .uabb-button-text:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+.pdp-sticky-bar ul {
+    list-style: none;
+}
+.pdp-sticky-bar ul li {
+    display: inline;
+    padding-right: 40px;
+}
+.pdp-sticky-bar .fl-row-content {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.pdp-sticky-menu a.active {
+    background: #4868A0;
+    border-radius: 67px;
+    padding: 5px 25px;
+}
+.pdp-sticky-bar.element-is-not-sticky>.fl-row-content-wrap {
+    display: none;
+}
+.fl-builder-edit .pdp-sticky-bar.element-is-not-sticky>.fl-row-content-wrap {
+    display: block;
+}
+.pdp-hero-section .fl-row-content:after {
+    content: "";
+    background-image: url(/wp-content/uploads/2024/03/OC-processing-spark-wave-vector.png);
+    position: absolute;
+    left: 36%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: none;
+}
+.application-text {
+    z-index: 1;
+}
+.pdp-hero-section .fl-row-content {
+    position: relative;
+}
+.product-info-box .uabb-infobox {
+    padding: 15px;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-info-box>.fl-col-content {
+    position: relative;
+    clear: both;
+    list-style: none;
+    text-align: center;
+}
+.product-info-box h3.uabb-infobox-title-prefix,
+.product-info-box .uabb-infobox-title-wrap p.uabb-infobox-title,
+.product-info-box .uabb-infobox-text-wrap .uabb-text-editor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    width: 100%;
+}
+.product-info-box .uabb-text-editor {
+    text-transform: none;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+}
+.product-info-box .uabb-infobox:hover h3.uabb-infobox-title-prefix {
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -257px, 0);
+}
+.product-info-box .uabb-infobox:hover p.uabb-infobox-title {
+    transform: translate3d(0, -140px, 0);
+}
+.product-info-box .uabb-infobox:hover .uabb-text-editor {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.product-info-box .uabb-text-editor strong {
+    display: block;
+}
+.product-info-box .uabb-text-editor p {
+    margin-bottom: 0px;
+}
+.instruments_table tr.tbody-row:last-child td.table-body-td:nth-child(2),
+.instruments_table tr.tbody-row:last-child td.table-body-td:nth-child(4) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.instruments_table tr.tbody-row:first-child td.table-body-td:nth-child(2),
+.instruments_table tr.tbody-row:first-child td.table-body-td:nth-child(4) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.instruments_table tr.tbody-row:last-child:after {
+    content: "";
+    background: #7d919f;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 6px;
+}
+.instruments_table tr.tbody-row:last-child {
+    overflow: hidden;
+}
+.instruments_table tr.tbody-row:hover:last-child td.table-body-td {
+    background: #7d919f;
+}
+.processing-cat-image .fl-row-content {
+    z-index: 3;
+}
+.res-cat-application.processing-cat-banner .fl-row-content-wrap:after {
+    top: 65%;
+}
+.processing-assemlies-box {
+    display: flex;
+    width: 25%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.processing-assemlies-box .uabb-text-editor {
+    color: #373C44;
+    transition: all 0.3s ease;
+}
+.processing-assemlies-box p.uabb-infobox-title {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: #021D66;
+    margin-bottom: 20px;
+    display: flex;
+    max-width: fit-content;
+    padding-right: 35px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.processing-assemlies-box.icon-hover-parent .uabb-infobox-title:before {
+    top: 2px;
+    background: #fff;
+}
+.processing-assemlies-box.icon-hover-parent .uabb-infobox-title:after {
+    top: 3px;
+}
+.processing-assemlies-box.icon-hover-parent .uabb-infobox:hover .uabb-infobox-title:after {
+    top: 4px;
+}
+.processing-assemlies-box.icon-hover-parent .uabb-infobox:hover .uabb-infobox-title:before {
+    top: 1px;
+}
+.processing-assemlies-box span.label {
+    display: block;
+}
+.processing-assemlies-box .volume-and-cell {
+    display: flex;
+    margin-bottom: 20px;
+}
+.processing-assemlies-box .uabb-text-editor span.label {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.processing-assemlies-box .uabb-text-editor span.value {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.processing-assemlies-box .fl-module-info-box>.fl-module-content {
+    margin: 0 15px;
+}
+.processing-assemlies-box .uabb-infobox {
+    background: #CEE6F3;
+    padding: 20px;
+    border-radius: 10px;
+    word-break: break-all;
+    transition: all 0.5s ease;
+}
+.processing-assemlies-box .uabb-imgicon-wrap {
+    margin-bottom: 20px;
+    max-width: 155px;
+    height: 100%;
+}
+.processing-assemlies-box .volume-and-cell>div:first-child {
+    margin-right: 10px;
+}
+.processing-assemlies-box .volume-and-cell>div:nth-child(2) {
+    margin-left: 10px;
+}
+div#alm-filters-processing_assemblies {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ECF1F4;
+    padding: 40px 60px 23px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#alm-filters-processing_assemblies .alm-filter {
+    display: block;
+    max-width: 100%;
+    width: 25%;
+    padding-right: 50px;
+}
+#alm-filters-processing_assemblies h3 {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #021D66;
+    margin-bottom: 14px;
+}
+#alm-filters-processing_assemblies #alm-filter-4 {
+    padding-right: 0px;
+}
+#alm-filters-processing_assemblies .alm-filter--link {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+    padding-left: 35px;
+}
+#alm-filters-processing_assemblies .alm-filter li div.alm-filter--link:hover:before {
+    box-shadow: none;
+}
+#alm-filters-processing_assemblies div.alm-filter--link.field-checkbox:before {
+    border: 1px solid #888888;
+    border-radius: 3px;
+    top: 5px;
+}
+#alm-filters-processing_assemblies div.alm-filter--link.field-checkbox:after {
+    left: 6px;
+    top: 6px;
+    border-width: 0 2px 2px 0;
+    width: 8px !important;
+    height: 14px !important;
+}
+#alm-filters-processing_assemblies div.alm-filter--link.active.field-checkbox:before {
+    background: #021D66;
+    border-color: #021D66;
+}
+.pdp-toggle table.alm-listing {
+    width: 100%;
+}
+.processing-assemlies-box .uabb-infobox:hover p.uabb-infobox-title {
+    color: #C25400;
+    transition: all 0.5s ease;
+}
+.processing-assemlies-box .uabb-infobox:hover {
+    background: #FFF1E6;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.pill-button {
+    display: inline-block;
+    position: relative;
+    padding: 3px;
+    background: #C25400;
+    border-radius: 74px;
+    color: #fff;
+    z-index: 0;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    pointer-events: none;
+}
+.pill-button-input {
+    display: none;
+    visibility: hidden;
+}
+.pill-button-highlight {
+    transform: translate(0, -50%);
+    transition: all 0.2s;
+}
+.pill-button-selection {
+    transition: all 0.2s;
+    display: inline-block;
+    position: relative;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 2;
+    pointer-events: painted;
+}
+.pill-button-selection_active {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #373C44;
+    background: #fff;
+    border-radius: 74px;
+    pointer-events: none !important;
+}
+span.pill-button-text {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+    margin-right: 10px;
+}
+.toggle-button {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.no-results {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #373C44;
+}
+.processing-assemblies-list .list-view {
+    display: flex;
+    transition: all 0.5s ease;
+}
+.processing-assemblies-list .list-view div {
+    color: #373C44;
+    flex: 20%;
+    text-align: center;
+    padding: 11px 15px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.processing-assemlies-box .uabb-infobox .uabb-imgicon-wrap {
+    position: relative;
+    transition: all 0.5s ease;
+    top: 0;
+}
+.processing-assemlies-box .uabb-infobox:hover .uabb-imgicon-wrap {
+    top: -10px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.assemblies-list {
+    display: none;
+}
+.processing-assemlies-box {
+    display: block;
+}
+.list-active .assemblies-list {
+    display: block;
+}
+.list-active .processing-assemlies-box {
+    display: none;
+}
+.processing-assemblies-list .list-view:hover .instruments,
+.processing-assemblies-list .list-view:hover .throughput {
+    background: #FFF1E6;
+    transition: all 0.3s ease;
+}
+.processing-assemblies-list .list-view.list-heading:hover,
+.processing-assemblies-list .list-view.list-heading:hover .instruments,
+.processing-assemblies-list .list-view.list-heading:hover .throughput {
+    background: transparent;
+}
+.processing-assemblies-list .list-view:hover {
+    background: #FFF1E6;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.processing-assemblies-list .list-view:hover .title {
+    color: #C25400 !important;
+    transition: all 0.5s ease-in-out !important;
+    text-decoration-thickness: 0px !important;
+    text-underline-offset: 0px;
+    text-decoration-color: transparent !important;
+}
+.processing-assemblies-list .list-view.list-heading div {
+    color: #021D66;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 0;
+}
+.processing-assemblies-list .list-view .title {
+    color: #021D66;
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    text-underline-offset: -1px;
+    text-decoration: underline !important;
+    text-decoration-thickness: 4px !important;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: objects !important;
+    text-decoration-color: #CEE6F3 !important;
+    transition: all 0.5s ease-in-out !important;
+    color: #021D66 !important;
+    word-break: break-all;
+}
+.processing-assemblies-list .list-view .instruments,
+.processing-assemblies-list .list-view .throughput {
+    background-color: #ECF1F4;
+    color: #373C44;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.processing-assemblies-list:nth-child(3) .instruments,
+.processing-assemblies-list:nth-child(3) .throughput {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.processing-assemblies-list:last-child .instruments,
+.processing-assemblies-list:last-child .throughput {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.processing-tabs .uabb-tabs-nav a.uabb-tab-link {
+    display: block !important;
+}
+.processing-tabs .uabb-tabs-nav a.uabb-tab-link .parent-tab-description {
+    display: flex;
+}
+.tab-img {
+    margin-right: 30px;
+}
+.tab-img img {
+    max-width: 85px;
+}
+.tab-img.tab-no-img {
+    margin-right: 12px !important;
+}
+.pdp-bg-expertise-section .fl-builder-shape-seperator3 {
+    left: -2px;
+}
+/*Images fixses*/
+.res-cat-application.technology-image-fixes .fl-row-content-wrap:after {
+    top: 50%;
+}
+.oc-processing-section.pdp-banner-image:after {
+    top: 11%;
+}
+.resource-library-box .uabb-imgicon-wrap.webinar-thumbnail {
+    background-color: transparent;
+}
+.webinar-thumbnail.uabb-imgicon-wrap .uabb-image-content img,
+.spotlight_testimonial .uabb-module-content.uabb-imgicon-wrap img {
+    border-radius: 5px;
+}
+.spotlight_testimonial .uabb-module-content.uabb-imgicon-wrap {
+    max-width: 140px;
+}
+.instrument-button a.icon-anchor,
+.dynamic_products_container .prd-button .add-to-cart-button .maxcyte-font-check-request-quote {
+    font-size: 40px;
+    line-height: 40px;
+    content: "\e908";
+    font-family: 'Maxcyte-font';
+    border-radius: 72px;
+}
+.request-accordian-products .instrument-button a.icon-anchor .maxcyte-font-plus {
+    background: #C25400;
+    color: #ffffff;
+    border-radius: 72px;
+}
+.request-accordian-products .instrument-button a.icon-anchor,
+.dynamic_products_container .prd-button .add-to-cart-button .maxcyte-font-check-request-quote {
+    color: #C25400;
+}
+.dynamic_products_container .prd-button a.add-to-cart-button:disabled {
+    pointer-events: none;
+}
+.request-prd-table .table_footer tr td {
+    padding: 10px 30px;
+}
+.request-prd-table .update_product_btn {
+    float: right;
+    background: #C25400;
+    border-radius: 72px;
+    padding: 7px 25px 9px 25px;
+    text-align: left;
+    border-width: 0;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    margin-right: 15px;
+}
+.request-prd-table .update_product_btn:hover {
+    background: #9E4806;
+    transition: all .3s !important;
+    border-width: 0;
+}
+.instrument-details {display: flex;}
+.instrument-image img {max-width: 66px;}
+.instrument-image {margin-right: 20px;}
+.instrument-block {flex: 1;}
+.instrument-title {margin-bottom: 9px;}
+.instrument-title h6.uabb-infobox-title {color: #021D66;}
+.instrument-decription p {
+    color: #373C44;
+    margin-bottom: 0;
+}
+.bizgenius-citation-list .bizgenius-citation-single {
+    color: #373C44 !important;
+    background: #CEE6F3;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    padding: 20px 20px 20px 70px;
+    position: relative;
+}
+.bizgenius-citation-list .bizgenius-citation-single:before {
+    color: #1082C3;
+    top: 24px;
+    left: 11px;
+    font-size: 48px;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    content: "\e931";
+    font-family: 'Maxcyte-font';
+    position: absolute;
+}
+.bizgenius-citation-list .bizgenius-citation-single a b {
+    color: #021D66;
+    transition: all 0.3s ease;
+}
+.bizgenius-citation-list .bizgenius-citation-single:hover {
+    background: #FFF1E6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.bizgenius-citation-list .bizgenius-citation-single:hover a b {
+    color: #C25400 !important;
+    transition: all 0.3s ease;
+}
+.bizgenius-poweredby {
+    display: none;
+}
+.peer_publication input#submitButtonBizGeniusSearch {
+    background: #C25400;
+    height: 52px !important;
+}
+.peer_publication input#keywordTIBizGenius {
+    float: left;
+    width: 100%;
+    padding: 10px 10px 10px 20px !important;
+    border-radius: 5px !important;
+    border: 1px solid #A3AFB8 !important;
+    height: 52px !important;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+}
+.peer_publication input#keywordTIBizGenius::placeholder {
+    color: #373C44;
+}
+.peer_publication input#submitButtonBizGeniusSearch {
+    background: #C25400;
+    height: 40px !important;
+    border-radius: 72px;
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    z-index: 9;
+    padding: 0px 25px;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 19px;
+    line-height: 24px;
+    transition: all 0.3s ease;
+}
+.peer_publication input#submitButtonBizGeniusSearch:hover {
+    background: #9E4806;
+    transition: all 0.3s ease;
+}
+.peer_publication div#bizgenius-citation-widget-container-form {
+    position: relative;
+}
+.bizgenius-citation-paging {
+    color: #373C44;
+}
+.bizgenius-citation-paging button {
+    background: #C25400;
+    height: 40px !important;
+    border-radius: 72px;
+    padding: 0px 20px;
+    font-family: 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 19px;
+    line-height: 24px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.bizgenius-citation-paging button:hover {
+    background: #9E4806;
+    transition: all 0.3s ease;
+    border: none;
+}
+.peer_publication .labelbizgenius {
+    background: none !important;
+    color: #373C44 !important;
+}
+div.bizgenius-publication {
+    margin-top: 52px !important;
+}
+#bizgenius-citation-widget-container-count-total center span:nth-child(1),
+#bizgenius-citation-widget-container-count-year center span:nth-child(1) {
+    font-family: "Barlow", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 70px !important;
+    line-height: 84px !important;
+    color: #54D7F5;
+}
+#bizgenius-citation-widget-container-count-total center,
+#bizgenius-citation-widget-container-count-year center {
+    text-align: left;
+}
+.reagents-materials-product .product-info-box p.uabb-new-ib-title .title:nth-child(1):after,
+.reagents-materials-product .product-info-box p.uabb-new-ib-title .title:nth-child(1):before {
+    display: none;
+}
+.pdp-hero-section.banner-spark-line .fl-row-content:after {
+    top: 35%;
+}
+.resources-list .uabb-imgicon-wrap img {
+    max-width: 205px;
+    max-height: 230px;
+    border-radius: 3px !important;
+}
+.resources-list .resource-library-box .uabb-imgicon-wrap {
+    background: transparent;
+    height: auto;
+}
+.instrument-details {
+    display: flex;
+    width: 49%;
+    float: left;
+    border: 1px solid #D0DBE4;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+.instrument-details:nth-child(even) {
+    margin-left: 7.5px;
+}
+.instrument-details:nth-child(odd) {
+    margin-right: 7.5px;
+}
+.event-single-banner.event-hero-image .fl-row-content-wrap .fl-builder-shape-herosectionWave:after{
+    top:64%;
+}
+.event-testimonial .uabb-testimonial {
+    padding: 0px;
+}
+.testimonial-bg-color .uabb-testimonial {
+	background: transparent;
+}
+.testimonial-bg-color .testimonial-arrow-down {
+	display: none;
+}
+.event-testimonial .fl-builder-top-edge-layer.fl-builder-shape-seperator3,
+.event-testimonial .fl-builder-bottom-edge-layer.fl-builder-shape-seperator3 {
+    left: -1px;
+}
+.event-testimonial .uabb-imgicon-wrap {
+    margin-right: 40px !important;
+}
+.event-single-banner .fl-row-content-wrap .fl-builder-shape-herosectionWave:after {
+    content: "";
+    position: absolute;
+    background: url(/wp-content/uploads/2024/03/technology-hero-spark-icon.png);
+    top: 525px;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto auto;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.event-single-banner .fl-row-content-wrap,
+.webinar-gated-banner,
+.webinar-video-hero {
+    position: relative;
+}
+.webinar-video-hero:after {
+    top: 40% !important;
+}
+.webinar-gated-banner:after,
+.webinar-video-hero:after {
+    content: "";
+    background: url(/wp-content/uploads/2023/05/spark-webinar-line.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 710px 420px;
+    top: 50%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.webinar-testimonial .uabb-testimonial {
+    padding: 0px;
+}
+.watch_webinar .uabb-video__outer-wrap {
+    height: 518px !important;
+}
+.watch_webinar .uabb-video__outer-wrap img {
+    height: auto !important;
+    max-height: 100% !important;
+}
+.webinar_form-section {
+    position: relative;
+    z-index: 1;
+}
+.webinar-gated-form .gform_wrapper.gravity-theme .gfield_required {
+    font-size: 21px !important;
+}
+.webinar-gated-form .gform_wrapper.gravity-theme .gfield_required {
+    padding-left: 1px;
+    margin-left: -1px !important;
+    position: absolute;
+    bottom: 0px !important;
+    color: #373C44;
+}
+.webinar-gated-form .ginput_container.ginput_container_select:before {
+    right: 23px !important;
+    top: 13px !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+}
+.webinar-gated-form .gform_wrapper.gravity-theme .gform-field-label.focused .gfield_required {
+    font-size: 14px !important;
+}
+.product-success-message {
+    color: #3c763d;
+    font-size: 22px !important;
+    line-height: 32px;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.reagents-materials-product .product-info-box p.uabb-new-ib-title .title a {
+    position: relative;
+    display: flex;
+    max-width: fit-content;
+    padding-right: 35px;
+
+}
+.reagents-materials-product .product-info-box span.title a:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -7px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.reagents-materials-product .product-info-box span.title a:after {
+    content: "\e915";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s ease;
+    right: 12px;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+    line-height: 22px;
+}
+.reagents-materials-product .product-info-box .uabb-ib2-hover p.uabb-new-ib-title .title a:before {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 26px;
+    height: 26px;
+    right: -5px;
+    top: -2px;
+}
+.reagents-materials-product .product-info-box .uabb-ib2-hover p.uabb-new-ib-title .title a:after {
+    content: "\e916";
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: 11px;
+    top: 1px;
+}
+.reagents-materials-product .product-info-box .uabb-ib2-hover p.uabb-new-ib-title .title:after {
+    display: none;
+}
+.reagents-materials-product .product-info-box span.title:before,
+.reagents-materials-product .product-info-box span.title:after {
+    display: none;
+}
+.product-info-box .uabb-new-ib {
+    cursor: default;
+}
+.technology-image-fixes .fl-row-content {
+    z-index: 2;
+    position: relative;
+}
+/* webinar search filter css */
+
+div#alm-filters-webinar_filter {
+    position: inherit !important;
+}
+.sort-filter select {
+    border-radius: 5px !important;
+    border: 1px solid #A3AFB8 !important;
+    font-size: 16px;
+    line-height: 28px;
+    color: #373C44;
+    padding: 5px 15px;
+    -webkit-appearance: none;
+}
+.sort-filter .alm-filter--select {
+    position: relative;
+}
+.sort-filter {
+    width: 12%;
+    position: absolute;
+    right: 35px;
+    top: 0;
+    margin-top: 6.3%;
+}
+.sort-filter .alm-filter--select:before {
+    content: "\e901";
+    font-family: 'Maxcyte-font';
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    pointer-events: none;
+    color: #373C44 !important;
+    z-index: 1;
+    font-size: 16px;
+}
+.search_resources button {
+    display: none;
+}
+.show_publications #alm-selected-filters li div:before {
+    display: none;
+}
+.webinar-filter .alm-filter--title h3 {
+    margin-top: 0px !important;
+}
+.webinar-filter .fl-rich-text p {
+    margin-bottom: 0px;
+}
+
+.news_hero_section.event-banner-section:after {
+    top: 80% !important;
+}
+.employee-hero-section:after {
+    top: 53% !important;
+}
+.oc-processing-section.mid-length-text:after {
+    top: 0%;
+    left: 7%;
+}
+/* Expand section */
+.show-more {
+    color: #021D66;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.show-more:hover {
+    color: #C25400;
+    transition: all 0.3s ease;
+}
+.show-more .fl-rich-text {
+    transition: all 0.3s ease;
+    position: relative;
+    margin-left: 20px;
+}
+.show-more .fl-rich-text:before {
+    content: "\e908";
+    position: absolute;
+    width: 13px;
+    height: 23px;
+    top: -6px;
+    color: #021D66;
+    font-family: 'Maxcyte-font';
+    transition: all 0.3s ease;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    left: -26px;
+}
+.show-more:hover .fl-rich-text:before {
+    color: #C25400;
+    transition: all 0.3s ease;
+}
+.show-more-section.expanded~.show-more .fl-rich-text:before {
+    content: "\e90a" !important;
+    position: absolute;
+
+}
+
+.fl-builder-content .patients_member .uabb-infobox-button {
+    margin-top: 0px;
+}
+.event-category-block .fl-col-content {
+    border-radius: 3px;
+    z-index: 9;
+    position: relative;
+}
+.macintosh .contact-tab-section .uabb-infobox:hover h5.uabb-infobox-title {
+    font-size: 24px !important;
+}
+
+
+.patient-banner.res-cat-application .fl-row-content-wrap:after {
+    top: 70%;
+}
+
+/* Value for patient page css */
+
+.image-mode img.fl-photo-img {
+    mix-blend-mode: multiply;
+}
+
+p.event-title, p.event-prefix, p.event-author {
+    margin-bottom: 0px;
+}
+p.event-title {
+    background: linear-gradient(90deg, #003B87 0%, #00186A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.workshops-block h5.uabb-infobox-title-prefix, .workshop-popup h5.uabb-infobox-title-prefix {
+    background-color: #EBD3FC;
+    padding: 2px 6px !important;
+    width: fit-content;
+    max-width: 100%;
+    border: 1px solid rgba(72, 40, 105, 0.33);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    white-space: normal;
+    margin-bottom: 15px;
+}
+.workshops-block a.secondary-button {
+    position: relative;
+}
+.workshops-block .secondary-button i.uabb-button-icon:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    display: block;
+    background: #ffffff;
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.workshops-block .secondary-button i.uabb-button-icon:before {
+    z-index: 1;
+    top: 1px;
+    font-size: 25px !important;
+    font-family: 'Maxcyte-font';
+    transition: all 0.5s ease;
+}
+.workshops-block .fl-col-small > .fl-col-content{
+     transition: all 0.5s ease;
+}
+.workshops-block .fl-col-small > .fl-col-content:hover {
+    background: #FFF1E6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.workshops-block .fl-col-small > .fl-col-content:hover .secondary-button i.uabb-button-icon:before {
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    color: #FFFFFF;
+    font-weight: normal;
+    right: -9px;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+.workshops-block .fl-col-small > .fl-col-content:hover .secondary-button i.uabb-button-icon:after {
+    background: #C25400;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: normal;
+    top: 13px;
+    right: 20px;
+    transition: all 0.5s ease;
+}
+.workshops-block .fl-col-small > .fl-col-content:hover span.uabb-button-text {
+    color: #BA6300 !important;
+    transition: all 0.5s ease;
+}
+.workshops-block p.event-info {
+    padding-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-right: 15px;
+}
+.workshop_modal-overlay .uabb-modal-close > i.maxcyte-font-close:before {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    padding: 6px !important;
+}
+.workshop-popup p.event-author {
+    padding-bottom: 10px !important;
+}
+.find-div object{padding-top:100px;}
+
+.vertex-partner-text .uabb-ultb3-desc p a:after {
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 4px;
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+.vertex-partner-text .uabb-ultb3-desc p a {
+    position: relative;
+    color: #fff;
+    transition: all .3s ease;
+}
+.vertex-partner-text .uabb-ultb3-desc p a:hover {
+    color: #FA9649 !important;
+    transition: all .3s ease;
+}
+.vertex-partner-text .uabb-ultb3-desc p a:hover:after{
+    display: none;
+}
+.patient-timeline-section .uabb-timeline-module a {
+    word-break: break-all;
+}
+.career-testimonial-col{
+    margin: auto;
+    max-width: 80%;
+    float: unset;
+}
+.news-banner-text p{
+    padding-bottom: 0px !important;
+    font-weight: 600 !important;
+}
+.news-banner-text a{
+    position: relative;
+    transition: all 0.3s ease;
+    text-decoration: underline !important;
+    -webkit-text-decoration-color: #CEE6F3 !important; /* Safari */  
+    text-decoration-color: #CEE6F3 !important;
+    text-decoration-thickness: 4px !important;
+    text-underline-offset: 1px;
+    transition: all 0.3s ease-in-out !important;
+    color: #021D66;
+}
+.news-banner-text a:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.news-banner-text a:after {
+    content: "\e933";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: -3px;
+    transition: all 0.3s ease;
+    right: -16px;
+    font-weight: normal;
+    width: 8px;
+    height: 8px;
+    font-size: 22px;
+    color: #021D66;
+    display: block;
+}
+.news-banner-text a:hover {
+    color: #C25400 !important;
+    text-decoration: none !important;
+    text-decoration-thickness: 4px !important;
+    -webkit-text-decoration-color: transparent !important; /* Safari */  
+    text-decoration-color: transparent !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.news-banner-text a:hover:before {
+    background-color: #C25401;
+}
+.news-banner-text a:hover:after {
+    color: #ffffff;
+}
+/* .fl-builder-content[data-type="part"] ~ .mega-mobile-container div#mega-products {
+    top: 193px !important;
+} */
+
+/* .fl-builder-content[data-type="part"] ~ .mega-mobile-container .mega-menu-panel {
+    top: 193px !important;
+} */
+.career-testimonial-row .fl-builder-shape-seperator3{
+    margin-left: -1px;
+}
+
+/*** pages sticky menu bar *****/
+.pages-sticky-bar ul li{
+    display: inline;
+    padding-right: 40px;
+}
+.pages-sticky-bar ul{
+    margin-bottom: 0px;
+}
+.pages-sticky-bar .product-menu-list li,.pages-sticky-bar .product-menu-list,.pages-sticky-bar .pdp-sticky-menu{
+    padding: 0px;
+}
+.pages-sticky-bar .stickymenu-product-title{
+    margin-right: 60px;
+}
+.pages-sticky-bar .product-menu-list,.pages-sticky-bar .stickymenu-product-title{
+    width: auto;
+    flex: 0 0 auto;
+}
+.pages-sticky-bar .stickymenu-product-btn{
+    align-self: stretch;
+    width: auto;
+}
+.pages-sticky-bar .product-menu-list a{
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 7px 25px 8px 25px;
+    border-radius: 67px;
+    background: #ffffff;
+}
+.pages-sticky-bar .product-menu-list a.active {
+    border-radius: 67px;
+    background: #FFF1E6;
+} 
+.pages-sticky-bar.element-is-not-sticky>.fl-row-content-wrap{
+    display: none;
+}
+.fl-builder-edit .pages-sticky-bar.element-is-not-sticky>.fl-row-content-wrap{
+    display: block;
+}
+/*** pages sticky menu bar *****/
+
+/* Specification Accordian and Table start*/
+
+.sp-accordian i.uabb-adv-accordion-button-icon:before {
+    background-color: #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+}
+.sp-accordian .uabb-adv-accordion-button:hover i:before {
+	background-color: #C25400;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+table.sp-table {
+    width: 100%;
+}
+.uabb-module-content .uabb-text-editor .sp-table tr.sp-table-header-tr th {
+    font-family: Barlow, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+	  padding: 15px 20px;
+}
+tr.sp-tbody-row:nth-child(even) {
+    background-color: #ECF1F4;
+}
+.sp-table tbody {
+    border: 1px solid, #ECF1F4;
+}
+.uabb-module-content .uabb-text-editor .sp-table .sp-tbody-row td {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.18px;
+    padding: 15px 20px;
+}
+.fl-col-group.sp-content-group {
+    margin-top: 60px;
+    display: flex;
+}
+.sp-content-group .fl-col {
+    width: 50%;
+}
+.fl-col.sp-content-col-right {
+    margin-left: 30px;
+}
+.fl-col.sp-content-col-left {
+    margin-right: 30px;
+}
+.sp-content-group h4.uabb-heading {
+    font-family: 'Barlow', Arial, sans-serif;
+	margin-bottom: 18px;
+}
+.sp-content-group li {
+    letter-spacing: -0.2px;
+}
+
+@media screen and (max-width: 768px) {
+	.fl-col-group.sp-content-group {
+    margin-top: 60px;
+    display: block;
+	}
+	.sp-content-group .fl-col {
+    width: 100%;
+	}
+	.fl-col.sp-content-col-right {
+    margin-left: 0px;
+	}
+	.fl-col.sp-content-col-left {
+			margin-right: 0px;
+	}
+}
+
+/* Specification Accordian and Table End */

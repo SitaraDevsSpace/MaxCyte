@@ -1,0 +1,4222 @@
+.home-success-testimonial-row .fl-row-content{
+    position: relative;
+    z-index: 2;
+}
+.home-testimonial-col .uabb-testimonial{min-height: 260px;}
+.home-success-testimonial-row .career-testimonial .fa-chevron-right:before,
+.home-success-testimonial-row .career-testimonial .fa-chevron-left:before{
+        color: #021D66;
+}
+.home-testimonial-col > .fl-col-content{
+    max-width: 936px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial-controls a.uabb-infobox-cta-link:after {
+    content: "\e914" !important;
+    display: block !important;
+    left: 15px;
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 1px;
+    width: 8px;
+    height: 8px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.career-video-testimonial-col .career-testimonial span.map-arrow:before,
+.career-video-testimonial-col .career-testimonial span.map-arrow:after{display:none;}
+.career-testimonial span.map-arrow:hover{color:#ffffff !important;}
+.testimonial-controls a.uabb-infobox-cta-link {
+    padding: 7px 25px 7px 45px;
+    background: rgba(194, 84, 0, 1);
+    border-radius: 65px;
+    position:relative;
+    transition: all 0.5s ease;
+}
+.testimonial-controls a.uabb-infobox-cta-link:hover {
+    background: rgba(158, 72, 6, 1);
+}
+.career-testimonial.testimonial-controls .uabb-module-content.uabb-imgicon-wrap {
+    margin-right: 0px !important;
+}
+.testimonial-controls .uabb-testimonial-info{padding-left: 50px;}
+.testimonial-controls .uabb-testimonial .uabb-image-content{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.career-testimonial.testimonial-controls .bx-wrapper .bx-pager {
+    left: unset;
+    text-align: left;
+    margin-left: 473px;
+}
+.career-testimonial.testimonial-controls .uabb-slider-next {
+    left: 600px;
+    right: auto;
+}
+.testimonial-controls .uabb-slider-prev{left: 400px;}
+.testimonial-controls .uabb-slider-next, 
+.testimonial-controls .uabb-slider-prev{
+    top: auto;
+    bottom: -60px;
+}
+.testimonial-controls .bx-wrapper .bx-pager {
+    left: 0px;
+    text-align: center;
+}
+.testimonial-controls .uabb-slider-next{right: 305px;}
+.success-featured-col{cursor:pointer;}
+.success-hero-section.res-cat-application.tech-hero-section .fl-row-content-wrap:after {top: 55%;}
+.story-testimonial .uabb-slider-prev{left: 305px;}
+.story-testimonial .uabb-slider-next, 
+.story-testimonial .uabb-slider-prev{
+    top: auto;
+    bottom: -60px;
+}
+.story-testimonial .bx-wrapper .bx-pager {
+    left: 0px;
+    text-align: center;
+}
+.story-testimonial .uabb-slider-next{right: 305px;}
+.success-featured-parent-col .fl-col-group-nested{
+    display: flex;
+    gap: 40px;
+}
+.success-featured-parent-col .success-featured-col{width: 48%;}
+.featured-success-story .uabb-infobox-title-prefix{
+    width: fit-content;
+    background: #EBD3FC;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.story-popup-overlay .uabb-close-custom-top-right {
+    top: 20px;
+    right: 20px;
+}
+.success-story-box.publication_box{
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+.publication_box.success-story-box .uabb-infobox{padding: 0px;}
+.success-story-box.publication_box .uabb-infobox-content{
+    display: block !important;
+    padding: 20px 20px 20px 25px;
+}
+.success-story-box.publication_box .uabb-infobox-left-right-wrap:before{
+    top: 20px;
+    right: 20px;
+}
+.success-story-box.publication_box .uabb-infobox-left-right-wrap:after{
+    top: 12px;
+    right: 39px;
+}
+.success-story-box .uabb-imgicon-wrap{
+    padding: 20px 0px 20px 20px;
+    margin-right: 0px;
+}
+.story-testimonial .uabb-testimonial .uabb-imgicon-wrap{margin-right: 104px !important;}
+.story-testimonial .bx-pager{
+    width: auto;
+    left: 367px !important;
+    bottom: -30px;
+}
+.employee-hero-section:after {
+    top: 85% !important;
+    background-size: contain !important;
+}
+.featured-spotlight-employee .alm-preloaded  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-spotlight-employee .alm-load-more-btn.more{display: none;}
+.career-testimonial span.map-arrow {
+    color: #ffffff;
+    transition: all 0.3s ease;
+    position: relative;
+    font-weight: 600;
+}
+.career-testimonial span.map-arrow:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -32px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.career-testimonial span.map-arrow:after {
+    content: "\e933";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: -5px;
+    transition: all 0.3s ease;
+    right: -18px;
+    font-weight: normal;
+    width: 8px;
+    height: 8px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.career-testimonial span.map-arrow:hover {
+    color: #C25400 !important;
+}
+.career-testimonial span.map-arrow:hover:before {
+    background-color: #C25401;
+}
+.career-testimonial span.map-arrow:hover:after {
+    color: #ffffff;
+}
+.career-testimonial .fa-chevron-left{position: relative;}
+.career-testimonial .fa-chevron-left:before{
+    content: "\e915";
+    font-family: 'Maxcyte-font';
+    top: 0px;
+    left: 0;
+    position: relative;
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+.career-testimonial .fa-chevron-left:after{
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 9px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.career-testimonial .bx-prev:hover .fa-chevron-left:before{
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    color: #FFFFFF;
+    font-weight: normal;
+    right: 2px;
+    top: 0px;
+    position: relative;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+.career-testimonial .bx-prev:hover .fa-chevron-left:after{
+    background: #C25400;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: normal;
+    right: 3px;
+    top: 1px;
+    transition: all 0.5s ease;
+}
+.career-testimonial .fa-chevron-right:before{
+    content: "\e915";
+    font-family: 'Maxcyte-font';
+    top: 0px;
+    left: 0;
+    position: relative;
+    font-size: 25px;
+}
+.career-testimonial .fa-chevron-right:after{
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -7px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.career-testimonial .bx-next:hover .fa-chevron-right:before{
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    color: #FFFFFF;
+    font-weight: normal;
+    right: 2px;
+    top: 0px;
+    position: relative;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+.career-testimonial .bx-next:hover .fa-chevron-right:after{
+    background: #C25400;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: normal;
+    right: -4px;
+    top: 0px;
+    transition: all 0.5s ease;
+}
+
+
+
+/*Product Page UX Updates*/
+.view-whole-block{
+    pointer-events: none;
+}
+.view-whole-block > .fl-col-content{
+    cursor: pointer;
+    pointer-events: visible;
+}
+.electroporation-system p.uabb-infobox-title-prefix {
+    z-index: 1;
+    position: relative;
+}
+/*Product Page UX Updates*/
+/*about us page*/
+.uabb-video__outer-wrap iframe {
+    border-radius: 10px !important;
+}
+.about_right_col .fl-col-content:after {
+    content: "";
+    top: 128px;
+    right: 0%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 872.5px;
+    height: 512.19px;
+    background-image: url(/wp-content/uploads/2023/02/about-us-img.png);
+    z-index: 1;
+}
+.timeline_col .fl-module-uabb-timeline .uabb-timeline-marker {
+    min-height: 0px !important;
+}
+.timeline_col .fl-module-uabb-timeline .uabb-events-inner-new {
+    margin-top: -14px !important;
+    margin-bottom: 32px !important;
+}
+.timeline_col .fl-module-uabb-timeline  h3.uabb-timeline-heading {
+    margin-top: 6px;
+}
+.timeline_col .fl-module-uabb-timeline .uabb-timeline-marker .fa-circle:before {
+    content: "\f111" !important;
+    color: #ffffff;
+    border: 3px solid #1A6A9A;
+    border-radius: 27px;
+    width: 17px;
+    height: 17px;
+}
+.timeline_col .uabb-timeline--left .uabb-days{
+    position: relative;
+}
+.timeline_col .uabb-timeline--left .uabb-days:after {
+    content: "";
+    background-image: url(/wp-content/uploads/2022/11/downword_arrow.svg);
+    position: absolute;
+    left: 21px;
+    font-weight: normal;
+    width: 17.5px;
+    height: 410px;
+    bottom: -8px;
+}
+.uabb-video .uabb-video__outer-wrap {
+    background: unset;
+}
+.history-video .uabb-video .uabb-video__play-icon::before {
+    font-size: 107px;
+    line-height: 76px;
+    opacity: 0.7;
+    margin-left: -13px
+}
+.info-para p {
+    padding-bottom: 0px !important;
+}
+/*.timeline_col .fl-module-uabb-timeline .uabb-timeline-field.animate-border.in-view .fa-circle:before {
+    color: #1A6A9A;
+    border: unset;
+}
+.timeline_col .uabb-timeline-field.in-view .in-view-timeline-icon span.timeline-icon-new.out-view-timeline-icon {
+    font-size: 17px !important;
+}*/
+/*team page*/
+.team_hero_section .fl-row-content-wrap{
+    position: relative;
+}
+.team_hero_section .fl-row-content-wrap:after {
+    content: "";
+    top: 75%;
+    right: -75px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center right;
+    /*background-size: 581px 380px;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(/wp-content/uploads/2024/03/technology-hero-spark-icon.png);
+    z-index: 4;
+}
+.pop_module p.linklin-icon a {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    font-weight: 700 !important;
+}
+.popup_module .uabb-button i.maxcyte-font-expand {
+    position: relative;
+    top: -4px;
+}
+.popup_module .uabb-button i.maxcyte-font-expand:before {
+    content: "" !important;
+    position: absolute;
+    top: 4px;
+    left: -2px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+     width: 25px; 
+    height: 25px;
+    transition: all 0.3s ease;
+}
+.popup_module .uabb-button i.maxcyte-font-expand:after {
+    content: "\e918";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 4.5px;
+    transition: all 0.3s ease;
+    left: 2px;
+    font-weight: normal;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+.popup_module .fl-node-content,.popup_module h3.uabb-infobox-title{
+    transition: all 0.5s ease;
+}
+.popup_module .fl-node-content:hover h3.uabb-infobox-title, .popup_module .fl-node-content:hover span.uabb-button-text  {
+    color: #C25400 !important;
+    transition: all 0.5s ease;
+}
+.popup_module .fl-node-content:hover .uabb-button i:before{
+    background: #C25400 !important;
+} 
+.popup_module .fl-node-content:hover i.maxcyte-font-expand:after{
+    color: #FFFFFF;
+    font-size: 19px;
+    transition: all 0.5s ease;
+    left: 1.1px;
+    top: 5.5px;
+}
+.pop_module p.linklin-icon{
+    position: relative;
+    padding: 0px 14px 2px 40px;
+    background: #0E79B3;
+    border-radius: 39px;
+}
+.pop_module p.linklin-icon:before {
+    content: "";
+    top: 9px;
+    left: 17px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(/wp-content/uploads/2022/12/linkedin.svg);
+}
+.pop_module p.linklin-icon a {
+    color: #ffffff;
+}
+.uabb-modal-close > i.maxcyte-font-close:before {
+    content: "\e904";
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    padding: 7px;
+    font-size: 19px;
+    line-height: 19px;
+    background: #ECF1F4;
+    border-radius: 200px;
+}
+.popup_module .uabb-image.uabb-image-crop-circle {
+    shape-outside: circle();
+    clip-path: circle();
+}
+
+.pop_module p.linklin-icon {
+    margin-bottom: 30px;
+}
+.pop_module .uabb-infobox-content .uabb-infobox-text p {
+    padding-bottom: 0px;
+    width: fit-content;
+}
+.popup_module img.uabb-photo-img {
+    max-width: 100%;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+.popup_module .uabb-imgicon-wrap .uabb-image-content {
+    display: inline-block;
+    border-radius: 0;
+    line-height: 0;
+    position: relative;
+    max-width: 100%;
+}
+.popup_module .fl-node-content:hover img.uabb-photo-img {
+    transform: scale(1.17);
+    transition: all 0.5s ease;
+}
+.pop_module .uabb-module-content .uabb-infobox-text, .pop_module .uabb-module-content h6.uabb-infobox-title {
+    margin-right: 24px;
+}
+.team-history-row .fl-col {
+    position: relative;
+    z-index: 1;
+}
+/*team page end */
+/*distributors page start */
+.phone-email-link-col .webisite_icon .fl-module-content p a,.distributor_accordian .uabb-adv-accordion-button{position:relative; transition: all 0.3s ease-in-out;}
+.phone-email-link-col .webisite_icon .fl-module-content p a:after {
+    content: "\e933";
+    color: #021D66;
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s ease;
+    font-weight: normal;
+    width: 8px;
+    height: 8px;
+    right: -15px;
+    font-size: 22px;
+}
+.phone-email-link-col .webisite_icon .fl-module-content p a:before {
+    content: "";
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    content: "";
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: -29px;
+    top: 2px;
+    transition: all 0.3s ease;
+}
+.phone-email-link-col .webisite_icon .fl-module-content p a:hover:after{color: #ffffff !important; }
+.phone-email-link-col .webisite_icon .fl-module-content p a:hover:before{background: #C25400;}
+.phone-email-link-col .fl-module-content p a:hover:after {
+    color: #C25400 !important;
+     transition: all 0.3s ease;
+}
+.disributor_hero_image .fl-col-content {
+    position: relative;
+    /*z-index: 99;*/
+}
+.distributor_accordian .uabb-adv-accordion-item-active > .uabb-adv-accordion-button{
+    background: #ECF1F4;
+}
+.distributor_accordian .uabb-adv-accordion-item-active > .uabb-adv-accordion-button .uabb-adv-accordion-button-label{
+    color: #021d66 !important;
+}
+.distributor_accordian .uabb-adv-accordion-item-active .uabb-adv-accordion-button:hover, .distributor_accordian .uabb-adv-accordion-button:hover {
+    background: #fff1e6;
+    transition: all 0.3s ease;
+}
+.phone-email-link-col .internal-links p {
+    margin-bottom: 5px;
+}
+.phone-email-link-col .webisite_icon .fl-module-content p a{
+    align-items: center; 
+    display: inline-flex !important; 
+    position: relative !important;
+}
+
+
+/*distributorspage end */
+/**
+ * Contact Us*
+ * */
+.internal-links a {
+    text-underline-offset: -1px;
+    text-decoration: underline !important;
+    text-decoration-thickness: 4px !important;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: objects !important;
+    text-decoration-color: #CEE6F3 !important;
+    transition: all 0.3s ease-in-out !important;
+    color: #021D66 !important;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    word-break: break-all;
+}
+.internal-links.para-links a{
+    font-size: 20px !important;
+    line-height: 32px !important;
+}
+.internal-links a:hover {
+    transition: all 0.3s ease-in-out !important;
+    text-decoration: none;
+    text-decoration-thickness: 0px !important;
+    text-underline-offset: 0px;
+    text-decoration-color: transparent !important;
+    color: #C25400 !important;
+}
+/* end contact us*/
+/**
+ * What Cells can I Use*
+ * */
+.what-cells-section{
+    position: relative;
+}
+.what-cells-section:after {
+    content: "";
+    background: url(/wp-content/uploads/2024/03/what-cells-hero-spark-icon.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: 55%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.cell-types-tab .uabb-tabs-nav li{
+    border-radius: 10px;
+}
+.cell-types-tab .uabb-tabs-nav li.uabb-tab-current a, .cell-types-tab nav.uabb-tabs-nav li a.uabb-tab-link  {
+    border: none !important;
+}
+.cell-types-tab nav.uabb-tabs-nav {
+    width: 32% !important;
+}
+.cell-types-tab div.uabb-content-wrap {
+    width: 64.2%;
+} 
+/**end What cell can i use**/
+/**
+ * Peer-reviewed Publications /Bizgenious Page
+ * **/
+.peer-reviewed-section{
+    position: relative;
+}
+.peer-reviewed-section::after {
+    content: "";
+    background: url(/wp-content/uploads/2024/03/peer-section-spark-icon.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 43%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.peer_publication .uabb-infobox-text.uabb-text-editor {
+    padding-top: 0px !important;
+}
+.counter-text span.uabb-number-after-text {
+    opacity: 0.8;
+}
+.publication-filter .alm-filter select.alm-filter--item {
+    background: #FFFFFF;
+    border: 1px solid #A3AFB8;
+    border-radius: 6px;
+    padding: 11px 44px 9px 20px;
+}
+.publication-filter select {
+    -webkit-appearance: none;
+}
+.publication-filter input::placeholder, .publication-filter select.alm-filter--item, .filter-col input::placeholder {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #373C44 !important;
+}
+.application-field .alm-filter--select option{
+    white-space: nowrap;
+}
+.publication-filter .alm-filter--select option{
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #373C44 !important;
+    white-space: nowrap;
+}
+.publication-filter div.alm-filter--taxonomy {
+    margin-bottom: 30px;
+}
+.publication-filter a.alm-filters-edit, .filter-by-col a.alm-filters-edit, .filter-col a.alm-filters-edit{
+    display: none;
+}
+div#alm-filters-peer_publications input.alm-filter--textfield.textfield{
+    padding: 10px 10px 10px 60px !important;
+    border-radius: 5px !important;
+    border: 1px solid #A3AFB8 !important;
+    height: 52px !important;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+}
+div#alm-filters-peer_publications .alm-filter--inner {
+    padding-bottom: 15px !important;
+}
+div#alm-filters-peer_publications .alm-filter.application-field {
+    width: 35.6%;
+    float: left;
+    /*margin-right: -10px;*/
+}
+div#alm-filters-peer_publications .alm-filter.product-field {
+    width: 35.6%;
+    float: left;
+    margin-left: 15px;
+}
+.application-field .alm-filter--select, .product-field .alm-filter--select {
+    position: relative;
+}
+.application-field .alm-filter--select::after, .product-field .alm-filter--select::after {
+    content: "\e901";
+    font-family: 'Maxcyte-font';
+    display: block;
+    position: absolute !important;
+    top: 22%;
+    left: 85%;
+    right: 0%;
+    z-index: 99;
+    color: #1082C3;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: none;
+}
+.featured-publication-four-col .publication_box .uabb-infobox-content {
+    display: block !important;
+}
+.publication_box .uabb-infobox-content {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: -5px;
+}
+
+ /**end peer-reviewed**/
+/**
+ *  Join out Team/ Career
+ * */
+.career-hero-section {
+    position: relative;
+}
+.career-hero-section::after {
+    content: "";
+    background: url(/wp-content/uploads/2024/03/career-hero-spark-icon.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 25%;
+    left: 8%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 0;
+}
+.career-hero-section .fl-module.fl-module-uabb-button.career-view-btn {
+    z-index: 999;
+}
+.career-img {
+    z-index: 2;
+    position: relative;
+}
+.career-map-icon span.map-arrow {
+    color: #021D66;
+    transition: all 0.3s ease;
+}
+/*.career-map-icon .arrow-icon:before {
+    background: transparent;
+}*/
+.career-map-icon a.uabb-infobox-cta-link {
+    position: absolute;
+}
+/*.career-map-icon .arrow-icon {
+    padding-right: 22px;
+    font-size: 19px;
+    line-height: 24px;
+    transition: all 0.3s ease;
+}*/
+.career-map-icon .map-arrow:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -32px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+}
+.career-map-icon .map-arrow:after {
+    content: "\e933";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s ease;
+    right: -18px;
+    font-weight: normal;
+    width: 8px;
+    height: 8px;
+    font-size: 22px;
+    color: #021D66;
+}
+.career-map-icon .map-arrow:hover:before {
+    background: #C25400;
+}
+.career-map-icon .map-arrow:hover:after {
+    color: #ffffff;
+}
+.career-technology-btn i.uabb-button-icon.uabb-creative-button-icon {
+    font-size: 30px;
+}
+.career-technology-btn .uabb-button-text:after {
+    top: 1px !important;
+}
+.career-technology-btn .uabb-creative-button-wrap a:hover span.uabb-button-text {
+    color: #C25400;
+}
+.career-technology-btn .uabb-creative-button-wrap a:hover i.uabb-button-icon{
+    color: #021D66;
+}
+.white-wave-row .fl-builder-shape-seperator4 path {
+    fill: #FFFFFF;
+}
+.application-text a.uabb-button:hover {
+    border-color: transparent;
+}
+.career-benefit-row .fl-row-content.fl-row-fixed-width{
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+}
+img.testimonial-quote-img {
+    margin-left: 0px !important;
+    margin-bottom: -7px !important;
+    width: 125px;
+}
+.career-testimonial .bx-wrapper .bx-pager {
+    left: -4px;
+    text-align: left;
+}
+.career-testimonial .uabb-module-content.uabb-imgicon-wrap {
+    margin-right: 50px !important;
+}
+.career-testimonial .uabb-image.uabb-image-crop-square {
+    margin-bottom: 30px;
+}
+.career-benefits-list ul {
+    padding-left: 20px;
+}
+.jobs-list h2.center-me {
+    font-size: 20px !important; 
+    line-height: 28px !important;
+}
+
+/** end Join out Team**/
+/*.case-study-section .uabb-infobox-title-wrap.uabb-infobox-title-wrap{
+    background-color: #CEE6F3;
+}*/
+/** PDF to HTML
+ * 
+ **/
+.pdf-hero-section {
+    position: relative;
+}
+.pdf-hero-section::after {
+    content: "";
+    background: url(/wp-content/uploads/2022/12/pdf-hero-img.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 40%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.application_note .uabb-infobox-title-prefix {
+    background-color: #EBD3FC;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0px 6px;
+    border: 1px solid rgba(72, 40, 105, 0.33);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    white-space: normal;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+.pdf-table-col th.table-header-th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pdf-table-col th.table-header-th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pdf-table-col tr.tbody-row td.table-body-td:first-child {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pdf-table-col tr.tbody-row td.table-body-td:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pdf-table-col th.table-header-th, .pdf-table-col td.table-body-td {
+    padding-left: 20px !important;
+}
+.pdf-sidebar-col .fl-list-item:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pdf-sidebar-col .fl-list-item:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-color: transparent !important;
+}
+.pdf-sidebar-col .fl-list-item {
+    cursor: pointer;
+}
+.pdf-sidebar-col a {
+    display: block;
+    padding: 15px 15px 15px 25px;
+}
+.pdf-sidebar i.fl-list-item-icon.maxcyte-font-minus-1 {
+    padding-left: 23px !important;
+    padding-right: 12px !important;
+}
+.pdf-sidebar-col a.download-pdf-link {
+    padding-left: 0px;
+    font-size: 19px !important;
+    line-height: 24px !important;
+}
+.pdf-sidebar-col .fl-list-item a.active-menu {
+    color: #C25400 !important;
+}
+.pdf-sidebar-col a.download-pdf-link:hover,.pdf-sidebar-col a:hover {
+    color: #C25400 !important;
+}
+.reference-list ol{
+    padding-left: 28px;
+}
+/** end **/
+/**
+ * Resource Library
+ * **/
+.resource-library-section {
+    position: relative;
+}
+.resource-library-section:after {
+    content: "";
+    background: url(/wp-content/uploads/2024/03/technology-hero-spark-icon.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+   /* background-size: contain;*/
+    top: 78%;
+    left: 1%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+div#alm-filters-resource_library {
+    position: inherit !important;
+}
+/*.filter-by-col div#alm-filter-1 {
+    display: block !important;
+}*/
+.filter-by-col .alm-filters.alm-filters-container {
+    display: flex;
+    flex-flow: column;
+}
+.search_resources .alm-filter--inner {
+    position: absolute !important;
+    width: 76%;
+    right: -13px;
+    top: 0;
+}
+.search_resources .alm-filter--text-wrap input {
+    height: 45px!important;
+    padding: 14px 14px 12px 42px!important;
+    border: 1px solid #C4C4C4!important;
+    border-radius: 0!important;
+}
+.filter-by-col .alm-filters .alm-filter--text-wrap{
+    position: relative;
+}
+.filter-by-col .alm-filters .alm-filter--text-wrap:before, .search-publication-col .alm-filter .alm-filter--text-wrap:before {
+    content: "\e934" !important;
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    transition: all 0.3s ease;
+    right: 7px;
+    font-family: 'Maxcyte-font' !important;
+    font-weight: normal;
+    width: 48px;
+    height: 48px;
+    font-size: 32px;
+    z-index: 1;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg, #0F5F9E 0%, #1082C3 100%);
+    -webkit-text-fill-color: transparent;
+}
+.filter-by-col .alm-filters input.alm-filter--textfield.textfield {
+    padding: 10px 10px 10px 60px !important;
+    border-radius: 5px !important;
+    border: 1px solid #A3AFB8 !important;
+    height: 52px !important;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+}
+.filter-by-col  .search_resources input::placeholder {
+    font-size: 20px;
+    line-height: 32px;
+    color: #373C44;
+}
+.search_resources .alm-filter--inner {
+    padding-right: 57px !important;
+}
+
+/*.filter-by-col .alm-btn-wrap{
+    padding: 14px 0;
+}  */ 
+.filter-by-col .alm-filter--title h3 {
+    font-family: 'Barlow',Arial,sans-serif !important;
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    color: #1082C3 !important;
+}
+.filter-by-col .alm-filter--link.field-checkbox {
+    font-family: "Roboto",Arial,sans-serif !important;
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #373C44 !important;
+}
+.filter-by-col .alm-filters-container .alm-filter--title h3 {
+    margin: 22px 0 10px;
+}
+.filter-by-col .fl-module-content.fl-node-content {
+    margin-bottom: 3px;
+}
+.filter-by-col .alm-filters-container .alm-filter li {
+    margin: 0 0 6px;
+}
+.filter-by-col .alm-filter li div.alm-filter--link.field-checkbox:after {
+    left: -1px !important;
+    top: 7px !important;
+    width: 8px !important;
+    height: 14px !important;
+    box-shadow: none !important;
+}
+.filter-by-col .alm-filter li div.alm-filter--link:before {
+    left: -7px !important;
+    top: 6px !important;
+    border: 1px solid #888888 !important;
+    border-radius: 3px !important;
+}
+.filter-by-col .alm-filters-container .alm-filter--inner {
+    padding: 0px 9px 20px;
+}
+.filter-col .alm-results-text {
+    margin-bottom: 10px;
+}
+.filter-col .show_publications #alm-selected-filters li div:hover {
+    box-shadow: none !important;
+}
+.filter-by-col div.alm-filter--link.field-checkbox.active {
+    color: #373C44 !important;
+    font-weight: 700;
+}
+.filter-by-col li div.alm-filter--link.active:before {
+    background: #021D66 !important;
+    border: 1px solid #021D66 !important;
+    border-radius: 3px !important;
+}
+.filter-by-col div.alm-filter--link.field-checkbox.active:after {
+    border: solid #fff;
+    border-width: 0 2px 2px 0 !important;
+}
+.filter-by-col .alm-filters-container .alm-filter li div.alm-filter--link:hover:before{
+    box-shadow: unset !important;
+    border: 1px solid #888888 !important;
+}
+
+.filter-col ul#alm-selected-filters li div {
+    background: #95295F;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 5px 5px 6px 15px;
+    position: relative;
+    word-break: break-word;
+    display: flex;
+}
+.filter-col div[data-key="resource_type"]:before {
+    content: "Resource Type: " !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+    position: relative !important;
+    margin: 0 4px 0 0 !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
+.filter-col div[data-key="application"]:before {
+    content: "Application: " !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+    position: relative !important;
+    text-shadow: none !important;
+    margin: 0 4px 0 0 !important;
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
+.filter-col div[data-key="cell_type"]:before {
+    content: "Cell Type: " !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+    position: relative !important;
+    margin: 0 4px 0 0 !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+    font-weight: 400;
+}
+.filter-col div[data-key="search"]:before {
+    content: " " !important;
+}
+.filter-col #alm-selected-filters li div:after {
+    content: "\e904" !important;
+    font-family: 'Maxcyte-font' !important;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin: auto 10px;
+}
+.filter-col button.alm-load-more-btn.more {
+    font-weight: 700 !important;
+}
+.resource-col {
+    margin-bottom: 16px !important;
+    width: 100%;
+}
+.resource-col .uabb-module-content.uabb-imgicon-wrap, .featured-resource-col .uabb-module-content.uabb-imgicon-wrap {
+    width: 27%;
+}
+.resource-col .uabb-infobox-content, .featured-resource-col .uabb-infobox-content {
+    width: 80%;
+    margin-left: 30px;
+}
+.resource-col .uabb-infobox {
+    background: #CEE6F3;
+    padding: 15px 25px 20px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.resource-col.application_note .uabb-infobox-title-prefix, .featured-resource-col.application_note .uabb-infobox-title-prefix {
+    font-weight: 700;
+    font-family: 'Roboto',Arial,sans-serif !important;
+    font-size: 15px;
+    padding: 2px 6px;
+    line-height: 18px;
+    color: #482869;
+    display: inline-block;
+}
+.resource-col.application_note .uabb-infobox:hover .uabb-infobox-title-prefix, .featured-resource-col.application_note .uabb-infobox:hover .uabb-infobox-title-prefix {
+    background-color: #482869;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.featured-resource-col .uabb-infobox{
+    background: #E2EEE9;
+    border: 2px solid #117651;
+    padding: 0px 0px 14px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.featured-resource-col .uabb-infobox:hover {
+   border: 2px solid #C25400;
+    border-radius: 10px;
+}
+.featured-resource-col .uabb-infobox .uabb-infobox-title-wrap {
+    margin-top: -13px;
+}
+.resource-library-box img.resource-thumbnail.wp-post-image {
+    border-radius: 3px;
+}
+.resource-library-box .uabb-infobox-title{
+    font-family: "Barlow",Arial,sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    transition: all 0.3s ease;
+    color: #021D66 !important;
+    margin-top: 10px;
+}
+.resource-library-box .uabb-infobox-left-right-wrap {
+    padding-right: 0px;
+}
+.resource-library-box .uabb-imgicon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    max-width: 205px;
+    height: 147px;
+    text-align: center;
+    border-radius: 3px;
+}
+.resource-library-box .uabb-infobox-title-wrap {
+    position: relative;
+}
+.resource-library-box .uabb-infobox-title-prefix .featured {
+    background: #117651;
+    padding: 6px 11px 7px 32px;
+    position: absolute;
+    right: -65px;
+    top: -20px;
+    color: #ffffff;
+}
+.resource-library-box .uabb-infobox-text.uabb-text-editor {
+    margin-top: 10px;
+}
+.resource-library-box .uabb-module-content.uabb-imgicon-wrap {
+    margin: auto;
+}
+.resource-library-box p.uabb-infobox-title-prefix.res-type, p.uabb-infobox-title-prefix.app, p.uabb-infobox-title-prefix.cell {
+    margin-right: 5px !important;
+}
+.featured {
+    float: right;
+    background: #117651;
+    padding: 6px 11px 7px 29px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: -1px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.featured-resource-col .uabb-infobox:hover .featured{
+    background: #C25400;
+}
+span.featured:before {
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: 6px;
+    transition: all 0.3s ease;
+    right: 0px;
+    left: 9px;
+    font-weight: normal;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    color: #ffffff !important;
+    content: "\e932";
+}
+span.featured {
+    position: relative;
+    margin-bottom: 10px;
+}
+.filter-col-count .show_publication_row .alm-results-text {
+    top: -94px !important;
+    right: -155px !important;
+    margin-top: 31px;
+}
+.filter-by-col .fl-module-content.fl-node-content {
+    margin-bottom: -12px;
+}
+ /***end resource library**/
+ /**
+  * Processing Assemblies/OC Processing Assemblies
+  * **/
+.oc-processing-section {
+    position: relative;
+}
+.oc-processing-section:after {
+    content: "";
+    background-image: url(/wp-content/uploads/2024/03/OC-processing-spark-wave-vector.png);
+    position: absolute;
+    left: 3%;
+    top: 11%;
+    background-repeat: no-repeat;
+    background-size: 1200px 200px;
+    background-position: bottom right;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+}
+.assembly-icon {
+    z-index: 9;
+}
+.assembly-icon a.uabb-button {
+    /*align-items: center;*/
+    /*display: inline-flex!important;*/
+    position: relative!important;
+    z-index: 999;
+}
+.assembly-icon div.fl-module-content div.uabb-module-content a:focus span {
+    color: #fff;
+}
+.assembly-icon i.uabb-button-icon{
+    position: relative;
+}
+.assembly-icon .maxcyte-font-plus-3:before{
+    content: "\e905";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    transition: all 0.3s ease;
+    font-size: 15px !important;
+    top: 6px;
+    right: -25px;
+    color: #ffffff;
+    font-weight: normal;
+}
+.assembly-icon .maxcyte-font-plus-3:after{ 
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -28px;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease;
+ }
+.assembly-icon .uabb-button:hover i:before {
+    content: "\e905";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    transition: all 0.3s ease;
+    font-size: 15px !important;
+    top: 6px;
+    right: -25px;
+    color: #ffffff;
+    z-index: 1;
+}
+.assembly-icon .uabb-button:hover i:after {
+    background: #C25400;
+    transition: all 0.3s ease;
+}
+.oc-25-list .fl-list-item{
+    margin-bottom: -7px;
+}
+.processing-tabs a.uabb-tab-link {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas: "uabb-tabs-icon uabb-tab-title"
+        "uabb-tabs-icon uabb-tab-description";
+}
+.processing-tabs .uabb-tab-description {
+    display: block;
+}
+.processing-tabs .uabb-tabs-icon{
+    display: block !important;
+    grid-area: uabb-tabs-icon;
+}
+.processing-tabs .uabb-tab-title{
+    display: block !important;
+    grid-area: uabb-tab-title;
+}
+.processing-tabs span.uabb-tab-title, .uabb-tab-description {
+    margin-left: -3px;
+}
+.processing-tabs .tab-description h4 {
+    margin-bottom: 5px;
+}
+.system-box .uabb-infobox-title-wrap {
+    display: flex;
+    width: inherit;
+}
+.system-box .uabb-infobox-title a{
+    position: relative;
+    display: flex;
+    max-width: max-content;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+    pointer-events: all;
+}
+.system-box .uabb-infobox-title a:before {
+    content: "\e915";
+    width: 13px;
+    height: 14px !important;
+    position: absolute;
+    font-family: 'Maxcyte-font';
+    transition: all 0.3s ease;
+    font-weight: normal;
+    color: #021D66;
+    font-size: 25px;
+    top: 0px;
+    right: 18px;
+}
+.system-box .uabb-infobox-title a:after {
+    content: "";
+    position: absolute;
+    width: 21px !important;
+    height: 21px;
+    background-color: rgba(12, 130, 195, 0.2);
+    transition: all 0.3s ease;
+    border-radius: 100px;
+    display: block;
+    top: 3px;
+    right: -1px;
+}
+.system-box .uabb-infobox-title a:hover:before {
+    content: "\e916" !important;
+    transition: all 0.3s ease;
+    color: #FFFFFF !important;
+    width: 13px;
+    height: 14px !important;
+    z-index: 1;
+    top: 2px;
+    right: 15px;
+    pointer-events: all;
+}
+.system-box .uabb-infobox-title a:hover:after {
+    background-color: #C25400 !important;
+    border-radius: 100px;
+    width: 26px !important;
+    height: 26px;
+    transition: all 0.3s ease;
+    top: 3px;
+    right: -1px;
+    pointer-events: all;
+}
+.system-box .uabb-module-content.uabb-imgicon-wrap {
+    margin-right: 6px !important;
+}
+.system-box .uabb-infobox{
+    transition: all 0.3s ease;
+}
+.system-box .uabb-infobox-title a:hover  {
+    font-size: 25px;
+    color: #C25400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.related-title h3.fl-heading {
+    background: linear-gradient(180deg, #0F5F9E 0%, #1082C3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.oc-list ul {
+    color: #373c44;
+    list-style-type: none;
+    padding-left: 32px;
+}
+.oc-list li{
+    display: flex; 
+    padding-bottom: 2px;
+    position: relative;
+}
+.oc-list li:before {
+    font-family: 'Maxcyte-font';
+    content: "\e907";
+    color: #1082C3;
+    font-weight: normal;
+    font-size: 25px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: -2px;
+    left: -37px;   
+}
+.assembly-table th:last-child, .assembly-table tr:nth-child(even) td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.assembly-table th:first-child, .assembly-table tr:nth-child(even) td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.assembly-product span.subdesc {
+    margin-bottom: 15px;
+}
+.assembly-table table.uabb-table-inner-wrap {
+    border-collapse: separate !important;
+    border-spacing: 1px 0px;
+}
+.interactive-links span.title a, .system-box h5.uabb-infobox-title a {
+    color: #021D66;
+}
+.interactive-links .uabb-ib2-hover span.title a, .system-box h5.uabb-infobox-title:hover a {
+    color: #C25400 !important;
+    transition: all 0.3s ease;
+}
+/*end*/
+/*Featured Publications start*/
+.publication_box { 
+    width: 67.6%;
+    cursor: pointer;
+    margin: 0 auto;
+    float: none !important;
+    padding-bottom: 15px;
+}
+.publication_box .uabb-infobox {
+    background: #CEE6F3;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.publication_box .uabb-infobox .uabb-icon i:before {
+    color: #1082C3;
+    font-size: 48px;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+}
+.featured-publication-four-col .publication_box .uabb-infobox {
+    padding: 30px;
+}
+.featured-publication-four-col .publication_box .infobox-icon-left .uabb-imgicon-wrap{padding-bottom: 10px;}
+.featured-publication-four-col .publication_box .uabb-infobox .uabb-icon i:before{
+    font-size: 76px;
+    line-height: 76px;
+}
+.publication_box .uabb-infobox span.publication-info-text,.featured-publication_box span.publication-info-text {
+    padding-right: 25px;
+}
+.publication_box .uabb-infobox-left-right-wrap, .resource-library-box .uabb-infobox-left-right-wrap{
+    display: flex !important;
+    padding-right: 40px;
+}
+.featured-publication-four-col .publication_box .uabb-infobox-left-right-wrap{display: block!important;}
+.events-block .uabb-infobox-left-right-wrap { padding-right: 40px;}
+.publication_box .uabb-infobox-title,.featured-news-box h3.uabb-infobox-title,.events-block h6.uabb-infobox-title{
+    font-family: "Barlow",Arial,sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    transition: all 0.3s ease;
+    color: #021D66 !important;
+}
+.publication_box .uabb-infobox-text p, .resource-library-box .uabb-infobox-text p{
+    font-family: "Roboto",Arial,sans-serif !important;
+    font-weight: 400 !important;
+    color: #373C44 !important;
+    font-size: 20px !important;
+    line-height: 32px !important;
+    letter-spacing: -0.01em;
+}
+.publication_box p.maxcyte-min {
+    font-family: 'Roboto',Arial,sans-serif !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 23px !important;
+    letter-spacing: -0.01em;
+    padding: 0px 0px 15px !important;
+    color: #373C44 !important;
+}
+/*.publication_box .uabb-text-editor{padding-top: 10px;}*/
+.maxcyte-minutes-row .upcoming-event .uabb-imgicon-wrap,.events-block .uabb-imgicon-wrap{width: 20%;}
+.maxcyte-minutes-row .upcoming-event.latest-news .uabb-imgicon-wrap{
+    max-width: 190px;
+    width: 100%;
+}
+body .upcoming-event.latest-news .uabb-imgicon-wrap img {
+    border-radius: 5px;
+    width:190px;
+}
+.maxcyte-minutes-row .publication_box .uabb-infobox-content,.events-block .uabb-infobox-title-wrap{width: 80%; display: block!important;} 
+.maxcyte-minutes-row .publication_box .uabb-infobox-content h6.uabb-infobox-title {margin-bottom: 10px !important;}
+.publication_box .uabb-text-editor p span,.featured-publication_box .uabb-text-editor p span {
+    font-family: "Roboto",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 19px !important;
+    line-height: 23px !important;
+    color: #373C44;
+}
+.publication_box .uabb-infobox-left-right-wrap,.featured-publication_box .uabb-module-content.uabb-imgicon-wrap,.featured-publication_box .uabb-infobox,.event-category-block,.news_hero_section,.events-block .uabb-infobox-left-right-wrap {
+    position: relative;
+    transition: all 0.3s ease;
+}
+.publication_box .uabb-infobox-left-right-wrap:after,.featured-publication_box .uabb-module-content.uabb-imgicon-wrap:after,.events-block .uabb-infobox-left-right-wrap:after {
+    content: "\e933";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: -8px;
+    right: 19px;
+    font-weight: normal;
+    width: 13px;
+    height: 13px;
+    font-size: 31px;
+    color: #021D66 !important;
+    transition: all 0.5s ease;
+}
+.featured-publication-four-col .featured-publication_box .uabb-module-content.uabb-imgicon-wrap:after{
+    right: 21px !important;
+    top: -7px;
+    width: 16px;
+    height: 16px;
+    font-size: 34px;
+}
+.publication_box .uabb-infobox-left-right-wrap:before,.featured-publication_box .uabb-module-content.uabb-imgicon-wrap:before,.events-block .uabb-infobox-left-right-wrap:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    transition: all 0.5s ease;
+}
+.featured-publication-four-col .featured-publication_box .uabb-module-content.uabb-imgicon-wrap:before{width: 40px;height: 40px;}
+.publication_box .uabb-infobox:hover .uabb-infobox-left-right-wrap:after, .featured-publication_box .uabb-infobox:hover .uabb-module-content.uabb-imgicon-wrap:after,.events-block:hover .uabb-infobox-left-right-wrap:after{
+    color: #FFFFFF !important;
+}
+.publication_box .uabb-infobox:hover .uabb-infobox-left-right-wrap:before,.featured-publication_box .uabb-infobox:hover .uabb-module-content.uabb-imgicon-wrap:before,.events-block:hover .uabb-infobox-left-right-wrap:before {
+    background: #C25400 !important;
+}
+p.text-para > .publication-info-text:first-child{ font-weight: 600;}
+.featured-publication_box p.text-para { padding-bottom: 0px !important;}
+.publication_box p.text-para{padding:15px 0px 0px !important;}
+.publication_box .uabb-infobox:hover,.featured-publication_box .uabb-infobox:hover, .resource-col .uabb-infobox:hover, .featured-resource-col .uabb-infobox:hover{
+    background: #FFF1E6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.publication_box .uabb-infobox:hover .uabb-infobox-title,.featured-publication_box .uabb-infobox:hover .uabb-infobox-title,.events-block:hover h6.uabb-infobox-title, .resource-col .uabb-infobox:hover .uabb-infobox-title, .featured-resource-col .uabb-infobox:hover .uabb-infobox-title{
+     color: #C25400 !important;
+     transition: all 0.3s ease;
+}
+.publication_box .uabb-infobox:hover .uabb-icon i:before, .featured-publication_box .uabb-infobox:hover .uabb-icon i:before{
+    color: #021D66;
+}
+
+/*ajax loadmore button start*/
+button.alm-load-more-btn.more:after {
+    position: absolute;
+    content: "\e905";
+    font-family: 'Maxcyte-font';
+    right: -11px;
+    font-size: 15px;
+    font-weight: normal;
+}
+button.alm-load-more-btn.more:before {
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    content: "";
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: -14px;
+    top: 11px;
+    transition: all 0.3s ease;
+}
+button.alm-load-more-btn.more {
+    font-size: 19px !important;
+    font-family: "Roboto",Arial,sans-serif !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    color: #021D66 !important;
+    background: unset;
+    text-decoration: unset;
+    border: none;
+    box-shadow: unset;
+}
+.show_publication_row .alm-results-text {
+    color: #373C44 !important;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.alm-btn-wrap .alm-load-more-btn.loading, .alm-btn-wrap .alm-load-more-btn:hover {
+    background-color: unset !important;
+    box-shadow: unset !important;
+    color:#C25400 !important;
+}
+.alm-btn-wrap .alm-load-more-btn:hover.more:after {
+    content: "\e906";
+    position: absolute;
+    font-family: 'Maxcyte-font';
+    right: -11px;
+    color: #FFFFFF;
+    top: 11px;
+}
+.alm-btn-wrap .alm-load-more-btn:hover.more:before {
+    background-color: #C25400;
+    transition: all 0.5s ease;
+}
+.load_more_publication button.alm-load-more-btn{
+    position: relative !important;
+    top: 47px !important;
+    right: 15px;
+}
+ button.alm-load-more-btn{
+    top: 10px !important;
+    right: 15px;
+}
+.load_more_publication .alm-btn-wrap .alm-load-more-btn.done,.load_more_events .alm-btn-wrap .alm-load-more-btn.done, .load_more_resources .alm-btn-wrap .alm-load-more-btn.done {
+    background-color: unset !important;
+    display: block;
+    margin: auto;
+}
+.load_more_publication .alm-btn-wrap .alm-load-more-btn.done:hover,.load_more_resources .alm-btn-wrap .alm-load-more-btn.done:hover,.alm-btn-wrap .alm-load-more-btn:hover.more.done:after,.load_more_events .alm-btn-wrap .alm-load-more-btn.done:hover,button.alm-load-more-btn.more.done:after{
+    color: #021D66 !important;
+    content: "\e905" !important;
+    top: 6.8px;
+}
+.load_more_events button.alm-load-more-btn.more.loading:hover:before,.load_more_events button.alm-load-more-btn.more.loading:hover:after  {
+    background-color: transparent !important;
+}
+ .load_more_publication button.alm-load-more-btn.more.done:before,.load_more_events button.alm-load-more-btn.more.done:before { 
+    background: rgba(12, 130, 195, 0.2);
+}
+/*ajax loadmore button end*/
+/*Featured Publications end*/
+/*News & Event page start*/
+.featured-news-box,.events-block{
+    margin-bottom: 10px !important;
+    cursor: pointer;
+    margin: 0 auto;
+    background: #CEE6F3;
+    padding: 20px;
+    float: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.featured-news-box{ width: 62.2% !important;}
+.upcoming-event .uabb-content-wrap .uabb-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.upcoming-event .uabb-tabs-nav ul {width: fit-content;}
+.featured-news-box .uabb-infobox-text p,.events-block p.uabb-infobox-title-prefix {
+    font-family: 'Roboto',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px !important;
+    line-height: 23px !important;
+    letter-spacing: -0.01em;
+    padding: 5px 0px 11px !important;
+    color: #373C44 !important;
+}
+.featured-news-box:hover,.events-block:hover{
+    background: #FFF1E6;
+    transition: all 0.3s ease;
+}
+.featured-news-box:hover h3.uabb-infobox-title,.events-block:hover h3.uabb-infobox-title{
+    color: #C25400 !important;
+    transition: all 0.3s ease;
+}
+.featured-publication-four-col .publication_box {
+    float: left !important;
+    display: block;
+    width: 46%;
+    padding-bottom: 0px;
+    margin: 0px 15px 30px 15px;
+}
+.featured-publication-four-col button.alm-load-more-btn.more {
+    display: none;
+}
+.events-block p.uabb-infobox-title-prefix strong{padding-right: 15px;}
+.upcoming-event .uabb-imgicon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    max-width: 140px;
+    min-height: 120px;
+    text-align: center;
+    border-radius: 5px
+}
+.latest-news.upcoming-event .uabb-imgicon-wrap {
+    background: transparent;
+}
+.upcoming-event .uabb-tabs-style-bar > nav > ul li a {
+    background: #ecf1f4;
+    border-radius: 1000px;
+}
+.upcoming-event .uabb-imgicon-wrap img.event-thumbnail{border-radius: 5px;}
+.event-category-block .fl-col-content p.uabb-infobox-title-prefix {
+    font-family: 'Roboto',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #482869;
+    background: #EBD3FC;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 3px 8px !important;
+    margin-bottom: 65px !important;
+}
+.event-category-block p.uabb-infobox-title {
+    font-family: 'Roboto',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.event-category-block p.uabb-infobox-title span{padding-right: 20px;}
+.event-category-block .fl-col-content{
+    padding: 40px 40px 30px; 
+    border-radius: 3px;    
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+ }
+.event-category-block{  width: 47%; margin-right: 21px; margin-left: 21px;cursor: pointer;}
+.event-category-block .fl-col-content:after {
+    content: '' !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+.event-category-block .uabb-module-content {
+    position: relative;
+    z-index: 1;
+}
+.event-category-block .uabb-infobox-text p {
+    font-family: 'Barlow',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.01em;
+    color: #ffffff !important;
+}
+.event-category-block .news-featured-title .uabb-infobox-title{
+    font-family: 'Barlow',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.01em;
+    color: #ffffff !important;
+}
+.event-category-block .news-featured-title .uabb-infobox-text p{
+    margin-top: 15px;
+    font-family: "Roboto",Arial,sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 32px !important;
+    letter-spacing: -0.01em;
+}
+/*.event-newsletter-row .newsletter_form .gform_wrapper input {
+    line-height: normal !important;
+}*/
+.event-newsletter-row .primary_button.newsletter_form {
+    position: relative;
+    z-index: 2;
+}
+.show_event .alm-results-text {
+    color: #373C44 !important;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 32px;
+}
+/*.show_event span.alm-results-post_count:after{
+    content: " of 5 Upcoming Events";
+}*/
+.show_event span.alm-results-total_posts:after {
+    content: " Upcoming";
+}
+.show_event.past_event span.alm-results-total_posts:after {
+    content: " Past";
+}
+/*.show_event.past_event span.alm-results-post_count:after {
+    content: " of 3 Past Events";
+}*/
+.news_hero_section:after {
+    content: "";
+    background: url(/wp-content/uploads/2024/03/news_hero_spark_icon.png);
+    background-position: right bottom;
+    /*top: 90%;*/
+    z-index: 1;
+    right: 0%;
+    display: block;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 45%;
+    bottom: 0%;
+}
+.upcoming-event .uabb-tabs .uabb-tabs-nav li a {
+    padding-top: 13px ;
+    padding-bottom: 15px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    width: max-content !important;
+    margin-right: 10px;
+}
+.events-block .uabb-infobox-left-right-wrap {
+    position: relative;
+    transition: all 0.3s ease;
+}
+/*.events-block .uabb-infobox-left-right-wrap:after {
+    content: "\e90b";
+    font-family: 'Maxcyte-font' !important;
+    position: absolute;
+    top: -6px;
+    transition: all 0.3s ease;
+    right: 13px;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    font-size: 25px;
+    color: #ffffff !important;
+}*/
+ .publication-filter .alm-filter.news_category {
+    width: 71%;
+    float: right;
+    margin-right: -1px;
+}
+.publication-filter .news_category select.alm-filter--item {
+    font-size: 20px;
+    line-height: 32px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 11px 8px 16px;
+}
+.featured-news-box .uabb-infobox-left-right-wrap {
+    margin-right: 44px;
+    transition: all 0.5s ease !important;
+    position: relative;
+}
+
+.featured-news-box:hover .uabb-infobox-left-right-wrap:after{
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    width: 13px;
+    height: 14px;
+    right: -29px;
+    top: -5px;
+    position: absolute;
+}
+.featured-news-box:hover .uabb-infobox-left-right-wrap:before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    display: block;
+    background: #C25400;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    right: -44px;
+}
+.maxcyte-minutes-row .fl-col.publication_box {
+    width: auto;
+}
+.minute_row .event-category-block {
+    float: unset !important;
+    margin: 0 auto !important;
+}
+.minute_row button.alm-load-more-btn.more {
+    display: none;
+}
+.events-block .uabb-infobox .left-title-image {
+    display: flex;
+}
+/*News & Event page end*/
+
+/*element page*/
+/*secondary-button*/
+.secondary-button .uabb-button:hover i:before {
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    color: #FFFFFF;
+    font-weight: normal;
+    right: 2px;
+    top: 1px;
+    position: relative;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+.secondary-button .uabb-button:hover i:after {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: normal;
+    right: -4px;
+    top: 1px;
+    transition: all 0.5s ease;
+}
+.secondary-button .uabb-button i:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -7px;
+    display: block;
+    background: rgba(12, 130, 195, 0.2);
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.secondary-button .maxcyte-font-arrow-right-long:before {
+     content: "\e915";
+    font-family: 'Maxcyte-font';
+    top: 0px;
+    left: 0;
+    position: relative;
+}
+.secondary-button a.uabb-button i {
+    position: relative;
+}
+.secondary-button a.uabb-button {
+    /*align-items: center;*/
+    /*display: inline-flex!important;*/
+    position: relative!important;   
+}
+/*electroporation-systems page start/*/
+.electroporation-system .uabb-image.uabb-image-crop-simple {
+    text-align: right;
+    right: 15px;
+    top: 35px;
+}
+.electroporation-system .uabb-infobox-text {
+    margin-right: 15px;
+}
+.related_products_row .secondary-button a.uabb-button{
+    direction: rtl;
+    padding-left: 0px;
+    float: left;
+    display: flex;
+}
+.related_products_row .secondary-button .uabb-button i:after{
+    top: 6px;
+    right: -7px;
+}
+.related_products_row .secondary-button .maxcyte-font-arrow-right-long:before{
+    top: 4px;
+}
+.related_products_row .secondary-button .uabb-button:hover i:before{
+    right: -4px;
+    top: 5px;
+}
+.related_products_row  .secondary-button .uabb-button:hover span.uabb-button-text.uabb-creative-button-text {
+    font-size: 21px;
+    transition: all 0.5s ease;
+}
+.related_products_row .secondary-button span.uabb-button-text.uabb-creative-button-text{  
+    transition: all 0.5s ease; text-align: left;
+}
+.related_products_row .secondary-button .uabb-creative-button-wrap .uabb-creative-button .uabb-creative-button-icon-before {
+    margin-left: 10px;
+}
+.resource-type .uabb-infobox p.uabb-infobox-title {
+    background: #EBD3FC;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    padding: 3px 8px;
+    width: fit-content;
+    /*margin-left: 8px;*/
+}
+.efficiency-slider button.slick-prev.slick-arrow{
+    top: 100% !important;
+    left: 43%;
+    margin-top: 48px;
+    padding-left: 20px;
+}
+.efficiency-slider button.slick-next.slick-arrow {
+    top: 100% !important;
+    right: 44%;
+    margin-top: 48px;
+}
+.efficiency-slider button.slick-prev i.maxcyte-font-left-outline:before,
+.efficiency-slider button.slick-next i.maxcyte-font-right-outline:before{
+    font-size: 48px;
+    line-height: 50px;
+    width: auto;
+    display: block;
+}
+.efficiency-slider button.slick-prev i.maxcyte-font-left-outline:hover:before,
+.efficiency-slider button.slick-next i.maxcyte-font-right-outline:hover:before{
+    color: #C25400;
+}
+.efficiency-slider .uabb-post-thumbnail {
+    align-items: center;
+    display: flex;
+}
+.efficiency-slider .uabb-blog-post-inner-wrap.uabb-thumbnail-position-left{display: flex;}
+
+.efficiency-slider .uabb-blog-post-content .uabb-button-wrap {
+    padding-top: 0px;
+}
+.efficiency-slider .uabb-blog-posts-shadow:hover {
+    background: #FFF1E6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.efficiency-slider .uabb-blog-posts-shadow:hover h4.uabb-post-heading,
+.efficiency-slider .uabb-blog-posts-shadow:hover span.uabb-button-text {
+    color: #C25400;
+    transition: all 0.5s ease;
+}
+.efficiency-slider .uabb-blog-posts span.uabb-cat-links a{
+    background-color: #EBD3FC;
+    width: fit-content;
+    max-width: 100%;
+    border: 1px solid rgba(72, 40, 105, 0.33);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    white-space: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto',Arial,sans-serif !important;
+    font-size: 15px;
+    padding: 2px 6px;
+    line-height: 18px;
+    color: #482869;
+    display: inline-block;
+}
+.efficiency-slider .uabb-blog-posts-shadow:hover span.uabb-cat-links a{
+    background-color: #482869 !important;
+    border-radius: 3px !important;
+    color: #FFFFFF !important;
+    transition: all 0.3s ease;
+}
+.electroportion-hero-section > .fl-row-content-wrap {
+    position: relative;
+}
+.electroportion-hero-section > .fl-row-content-wrap:after {
+    content: "";
+    background: url(/wp-content/uploads/2023/02/resource-category-vector.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 70% 22%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 17%;
+    right: 0%;
+    display: block;
+}
+.electroportion-hero-section .hp_video_popup i.uabb-button-icon:before {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    font-size: 20px;
+    top: -2px;
+    right: -3px;
+    color: #1082C3;
+}
+.intrument-right-col .fl-col-content.fl-node-content {
+    position: relative;
+    z-index: 1;
+}
+.intru-compair-table-row {
+    position: relative;
+    z-index: 2;
+}
+.electroportion-hero-section {
+    z-index: 3;
+    position: relative;
+}
+.intrument-right-col .fl-col-content.fl-node-content:before {
+    content: "";
+    bottom: -31%;
+    right: 0;
+    left: 5%;
+    display: block;
+    background-size: contain;
+    background-image: url(/wp-content/uploads/2023/01/electro-instrument-vector.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 888px;
+    height: 700px;
+}
+.uabb-table-features .table-body-25 {
+    border-radius: 10px !important;
+}
+.efficiency-slider .uabb-thumbnail-position-left .uabb-post-thumbnail img {
+    border-radius: 3px;
+}
+.transfect-row .image-caption {
+    border-radius: 5px;
+}
+.electro-four-col {
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 54px rgb(0 0 0 / 25%);
+    position: relative;
+    z-index: 1;
+}
+.expert-electro-row .fl-builder-shape-seperator3 {
+    z-index: 2;
+}
+.efficiency-slider .uabb-button i:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 16px;
+    display: block;
+    background: #ffffff;
+    border-radius: 100px;
+    width: 21px;
+    height: 21px;
+    transition: all 0.5s ease;
+}
+.efficiency-slider .uabb-button i:before {
+    content: "\e915";
+    transition: all 0.5s ease;
+    top: 1px;
+    right: -1px;
+    color: #021D66;
+    font-size: 25px !important;
+    font-family: 'Maxcyte-font';
+    font-weight: normal;
+    z-index: 1;
+    position: relative;
+}
+.efficiency-slider .uabb-blog-posts-shadow:hover .uabb-button i:before{
+    content: "\e916";
+    font-family: 'Maxcyte-font';
+    color: #FFFFFF;
+    font-weight: normal;
+    right: 1px;
+    top: 1px;
+    position: relative;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+.efficiency-slider .uabb-blog-posts-shadow:hover .uabb-button i:after {
+    background: #C25400;
+    transition: all 0.3s ease;
+    width: 24px;
+    height: 24px;
+    content: "";
+    font-weight: normal;
+    right: 21px;
+    top: 1px;
+    transition: all 0.5s ease;
+}
+.efficiency-slider .uabb-blog-post-content .uabb-button-wrap a.uabb-button:focus {
+    outline: none;
+}
+.efficiency-slider .uabb-blog-posts h4.uabb-post-heading {
+    background: linear-gradient(90deg, #003B87 0%, #00186A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.instruments_table table.uabb-table-inner-wrap {
+    border-collapse: separate !important;
+    border-spacing: 15px 0px;
+}
+.instruments_table tr.tbody-row:hover td.table-body-td, 
+.assembly-table tr.tbody-row:hover td.table-body-td {
+    background: #CBDFEB;
+}
+.instruments_table tr.tbody-row:hover:first-child td.table-body-td:nth-child(2), 
+.instruments_table tr.tbody-row:hover:first-child td.table-body-td:nth-child(4),
+.instruments_table tr.tbody-row:hover:last-child td.table-body-td:nth-child(2), 
+.instruments_table tr.tbody-row:hover:last-child td.table-body-td:nth-child(4){
+    border-radius: unset;
+}
+.consumables_table.instruments_table tr.tbody-row:hover td.table-body-td.table-body-25 {
+    background: #CBDFEB !important;
+    border-radius: unset!important;
+}
+.instruments_table tr.tbody-row:hover td.table-body-td.table-body-25{ background: #7D919F !important;}
+.instruments_table tr.tbody-row:hover td:first-child, .assembly-table  tr.tbody-row:hover td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.instruments_table tr.tbody-row:hover td:last-child, 
+.assembly-table tr.tbody-row:hover td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+td.table-body-10 .fl-icon,td.table-body-10 {
+    position: relative;
+}
+.instruments_table td.table-body-10 .fl-icon .maxcyte-font-info:before {
+    content: "\e900";
+    font-family: 'Maxcyte-font';
+    bottom: 13px;
+    position: absolute;
+    color: #1082C3;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    right: 6px;
+    cursor: pointer;
+}
+.instruments_table td.table-body-10 span.tooltip::before {
+    content: url(/wp-content/uploads/2023/01/Vector-27.svg);
+    position: absolute;
+    bottom: -18px;
+}
+.instruments_table td.table-body-10 span.tooltip {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding:9px 20px;
+    color: #373C44;
+    bottom: 36px;
+    left: -42px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgb(0 0 0 / 25%);
+    border-radius: 7px;
+    font-size: 20px;
+    line-height: 32px;
+    width: 320px;
+    height: auto;
+    font-weight: 400;
+}
+.instruments_table td.table-body-10 .fl-icon:hover span.tooltip{  
+      display: block;
+}
+.instruments_table tr.tbody-row td:first-child {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+.instruments_table tr.tbody-row td.table-body-25:first-child {
+    font-weight: 600 !important;
+    font-family: Barlow, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.technical-support-faq .uabb-adv-accordion-item-active > .uabb-adv-accordion-button:before {
+    background: #C25400;
+}
+#product-features .fl-module-content p {
+    margin-bottom: 20px;
+}
+.pdp-instrument-testimonial .uabb-infobox-text p {
+    margin-bottom: 5px;
+}
+.features-row {
+    position: relative;
+}
+.gtx-row {
+    position: relative;
+}
+.gtx-row:after {
+    content: "";
+    background: url(/wp-content/uploads/2023/07/gtx-section.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    right: 0%;
+    top: 14%;
+    z-index: 1;
+}
+/*.stickymenu-product-title {
+    margin-bottom: 7px !important;
+}*/
+.stickymenu-product-title p {margin-bottom: 0px;}
+.pdp-sticky-bar .fl-builder-shape-PDPstickymenuWave {
+    bottom: -30px;
+}
+.application-text i.fl-list-item-icon.maxcyte-font-plus-1 {
+    position: relative;
+}
+.application-text .maxcyte-font-plus-1:before
+    { 
+        position:absolute; 
+        top: 43%; 
+    }
+.pdp-bg-expertise-section .fl-bg-video-audio {
+    z-index: 1 !important;
+}
+.pdp-sticky-bar .fl-builder-shape-transparentWave path {
+    fill: url(#transparent)#00186A;;
+}
+.pdp-sticky-bar {
+    z-index: 10 !important;
+}
+ .electroportion-hero-section .hp_video_popup .fl-node-content{
+     margin-top: 1% !important;  
+      margin-right: 0%;   
+}
+/*electroporation-systems page end/*/
+/*application/vaccine*/
+.app-info-btn .uabb-infobox .uabb-infobox-button {
+    margin-top: 0px;
+}
+.app-info-btn .uabb-infobox a.uabb-button {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.antibody-vimeo-row .fl-builder-shape-layer.fl-builder-bottom-edge-layer {
+    z-index: 2;
+}
+sup,sub { font-size: 12px !important; }
+.consumables_table td.table-body-27 {
+    border-radius: 6px;
+}
+.consumables_table.instruments_table tr.tbody-row:last-child:after {
+    display: contents;
+}
+.buffer-products .product-info-box .fl-module-interactive-banner-2 img.uabb-new-ib-img {
+    top: -135px;
+}
+sup.superscript-text {
+    font-size: 14px !important;
+    top: -20px;
+}
+/*Contact form */
+body .updated-contact-form .contact-form .gform_wrapper form input, 
+body .updated-contact-form .contact-form .ginput_container_select, 
+body .updated-contact-form .contact-form .gform_wrapper form .ginput_container textarea {
+    background-color: #FFFFFF !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+    border: solid 1px #ccc !important;
+    color: #000000 !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    border-radius: 3px !important;
+    padding: 2px !important;
+    min-height: 28px !important;
+}
+/*body form.form input.text{
+    padding: 7px 10px !important;
+}*/
+body .updated-contact-form .ginput_container_name label,
+body .updated-contact-form .uabb-gf-style form .gform_body .gfield_label,
+body .updated-contact-form .contact-form .gform_wrapper.gravity-theme .gfield select {
+    font-size: 13px !important;
+    line-height: 18px !important;
+    text-align: left !important;
+    color: #000 !important;
+    font-weight: normal;
+    padding-top: 0 !important;
+    padding-bottom: 3px !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 3px 13px 0 0px !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper.gravity-theme .gfield select {
+    padding: 3px 13px 0 3px !important;
+}
+body .updated-contact-form .contact-form .gform_body .gfield_contains_required label:after {
+    content: " *";
+    color: red;
+}
+body .updated-contact-form .contact-form .gform_footer.top_label{
+    clear: both;
+    padding-top: 20px !important;
+    margin: 0px 0px 5px 5px !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper .gform_footer input.gform_button, 
+body .updated-contact-form .contact-form .gform_wrapper .gform_footer input.gform_button:hover {
+    font-size: 16px !important;
+    background: #1578b7;
+    background-image: -webkit-linear-gradient(top, #1578b7, #1b5b8c);
+    background-image: -moz-linear-gradient(top, #1578b7, #1b5b8c);
+    background-image: -ms-linear-gradient(top, #1578b7, #1b5b8c);
+    background-image: -o-linear-gradient(top, #1578b7, #1b5b8c);
+    background-image: linear-gradient(to bottom, #1578b7, #1b5b8c);
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: normal !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-right: 1.5em !important;
+    padding-left: 1.5em !important;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px !important;
+    margin: 0 !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper .gform_footer input[type=submit]:hover {
+    box-shadow: inset 0px 150px 20px 50px rgb(0 0 0 / 20%) !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper form .ginput_container input:focus, body .updated-contact-form .contact-form .gform_wrapper form .ginput_container textarea:focus {
+    border: 2px solid black !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper .gfield textarea.large .product-inquiry {
+    height: 80px !important;
+}
+body .updated-contact-form .contact-form .gform_wrapper .gfield_error .ginput_container input {
+    background-color: #faeeee !important;
+    border-color: #ff0909 !important;
+    box-shadow: none !important;
+}
+body .updated-contact-form .contact-form  .gform_wrapper .validation_message {
+    display: none !important;
+}
+.webinar-video-hero .fl-row-content {
+    z-index: 2;
+}
+
+/**
+ * responsive css
+ * 
+ * */
+@media (min-width: 3001px){
+    .success-featured-row .fl-builder-shape-seperator4{bottom: -133px;}
+}
+@media screen and (min-width: 2500px){
+    .story-testimonial >.fl-module-content{
+        padding-bottom: 15px;
+    }
+    .success-featured-row .fl-builder-shape-seperator4{bottom: -68px;}
+}
+ @media (min-width: 2500px) and (max-width: 3000px){
+    .webinar-main-div > .fl-row-content-wrap{
+        padding-top: 230px;
+    }
+}
+@media (min-width: 2100px) and (max-width: 2560px){
+    .home-success-testimonial-row .fl-builder-shape-seperator2{bottom: -28px;}
+    .home-applications .fl-builder-shape-seperator4{bottom: -62px;}
+}
+@media (min-width: 2100px) and (max-width: 2500px){
+    .home-applications .fl-builder-shape-seperator4{bottom: -65px;}
+    .home-success-testimonial-row .fl-builder-shape-seperator2{bottom: -65px;}
+}
+@media (min-width: 2100px) and (max-width: 2400px){
+    .success-testimonial-row > .fl-row-content-wrap{margin-top: -51px;}
+}
+@media (min-width: 1921px) and (max-width: 2099px){
+    .success-featured-row .fl-builder-shape-seperator4 {bottom: -46px;}
+}
+@media screen and (max-width: 1800px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -31px;}
+}
+@media screen and (max-width: 1680px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -25px;}
+    .home-applications .fl-builder-shape-seperator4{bottom: -40px;}
+}
+@media screen and (max-width: 1600px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -20px;}
+    .resource-hero-wave.pdf-wave:after {
+        top: 36% !important;
+    }
+    .resource-hero-wave:after{
+        top: 44% !important;
+    }
+    .career-hero-section::after {
+        left: 1%;
+    }
+    .electroportion-hero-section .hp_video_popup .fl-node-content{
+        margin-right: 0%;
+    }
+    .electro-system-row .fl-builder-shape-seperator4{ top: -40px;}
+    .gtx-row:after {
+       background-size: contain;
+        left: 0% !important;
+        bottom: 22%;
+        top: auto;
+    }
+    .gtx-text h2.fl-heading {
+        z-index: 2;
+        position: relative;
+    }
+    .peer-reviewed-section:after {
+       top: 40%;
+    }
+}
+@media screen and (max-width: 1480px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -14px;}
+}
+@media (min-width: 1080px) and (max-width: 1440px){
+    .we-serve .fl-col-content.fl-node-content {
+        margin-left: 0px !important;
+    }
+    .team-history-left-col .fl-col-content {
+        margin-left: 0px !important;
+    }
+    .team-history-right-col .fl-col-content {
+        padding-right: 0px;
+    }
+    .processing-tabs .fl-row-content-wrap {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+@media screen and (max-width: 1440px){
+
+    .about_right_col .fl-col-content:after {
+        width: 607px !important;
+        height: 387px !important;
+        top: 112px !important;
+        right: 0% !important;
+    }
+    .history_hero_section .fl-row-content-wrap {
+        padding-bottom: 116px;
+    }
+    .event-category-block {
+        margin-right: 14px !important;
+        margin-left: 14px !important;
+    }
+    .oc-processing-section:after {
+        background-size: 800px 130px !important;
+        top: 10%;
+    }
+    .electro-system-row .fl-builder-shape-seperator4 {
+        top: -33px;
+    }
+    .gtx-row:after {
+        bottom: 33%;
+    }
+
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        background-size: 73% 18%;
+    }
+    .peer-reviewed-section:after {
+       left: 8%;
+    }
+}
+@media screen and (max-width: 1400px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -9px;}
+    .home-applications .fl-builder-shape-seperator4{bottom: -35px;}
+}
+@media (min-width: 1024px) and (max-width: 1366px){
+    .fl-col.suspend-col > .fl-col-content {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .distributor_accordian > .fl-col-content.fl-node-content {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .news-banner-text a:after{
+        right: -16px;
+    }
+    .what-cells-section:after {
+        top: 45% !important;
+    }
+    .what-cells-section.what-cell-hero:after {
+        top: 57% !important;
+    }
+    .career-hero-section::after {
+        top: 30%;
+        left: 0%;
+    }
+    .gtx-row:after {
+        bottom: 37%;
+    }
+    .peer-reviewed-section:after {
+        left: 12%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -5px;}
+    .oc-processing-section:after {
+        background-size: 850px 134px !important;
+        top: 5% !important;
+    }
+    
+    .oc-processing-section.pa-accessories:after {
+         top: 7% !important;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        background-size: 80% 20%;
+        bottom: 18%;
+        left: 10%;
+    }
+    .peer-reviewed-section:after {
+        left: 15%;
+        top: 47%;
+    }
+    /*.career-testimonial .uabb-slider-next {
+        right: 62%;
+    }
+    .career-testimonial .uabb-slider-prev {
+        left: 30.8%;
+    }
+    */
+    /*.career-testimonial .uabb-slider-next, .career-testimonial .uabb-slider-prev {
+        bottom: -60px;
+    }*/
+}
+@media screen and (max-width: 1200px){
+    .career-testimonial-col{
+        max-width: 100%;
+    }
+    .home-success-testimonial-row .fl-builder-shape-seperator2{bottom: 18px;}
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: 0px;}
+     .max-cell-recovery-row .fl-builder-shape-seperator3{
+         top: -75px;
+         bottom: -75px;
+    }
+    .leverage-row .fl-builder-shape-seperator3{
+         bottom: -75px;
+    }
+    .regulatory-support-row .fl-builder-shape-seperator3{
+        top: -70px;
+    }
+    div .resource-hero-wave.pdf-wave:after {
+        top: 23% !important;
+    }
+    .we-serve .fl-row-content-wrap .fl-builder-bottom-edge-layer.fl-builder-shape-seperator3 {
+        bottom: -54px;
+    }
+     .distributor_accordian > .fl-col-content.fl-node-content {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .pdf-hero-section::after {
+        left: 15% !important; 
+    }
+    .electroporation-system .secondary-button .uabb-creative-button-wrap a,.related_products_row .secondary-button a.uabb-button{
+         padding-left: 0px !important;
+    }
+    .resource-type .uabb-infobox p.uabb-infobox-title{margin-left: 0px !important;}
+    /*.application-text > .fl-col-content.fl-node-content {
+        margin-left: 200px;
+    }*/
+    /*.electroportion-hero-section > .fl-row-content-wrap:after{
+        width: 90% !important;
+        height: 29% !important;
+        top: 20% !important;
+    }*/
+    /*.electroportion-hero-section > .fl-row-content-wrap:after {
+        background-size: 65% 13%;
+    }*/
+    
+    .team_hero_section .fl-row-content-wrap:after {
+        top: 78%;
+    }
+    .resource-hero-wave:after {
+        top: 29% !important;
+        background-size: 341px 251px !important;
+    }
+    /*.career-testimonial .uabb-slider-next {
+        right: 58%;
+    }
+    .career-testimonial .uabb-slider-prev {
+        left: 33.8%;
+    }*/
+    .career-testimonial > .fl-module-content{margin-right: 0px;}
+}
+@media (min-width: 1081px){
+    .career-collaborative-section .fl-builder-shape-herosectionWave{
+        top: 60px;
+    }
+}
+@media screen and (min-width: 1080px){
+    .application-text .fl-heading-text sup {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .home-applications .fl-builder-shape-seperator4 {
+        bottom: -26px;
+    }
+    .home-success-testimonial-row .fl-builder-shape-seperator2{
+        bottom: 23px !important;
+    }
+    .partners-customers-section:before{
+        display:none !important;
+    }
+    .success-featured-parent-col .fl-col-group-nested{gap: 30px;}
+    .success-featured-parent-col .success-featured-col {width: 47%;}
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: 5px;}
+    .employee-hero-section:after {
+        top: 80% !important;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 28%;
+    }
+    .what-cells-section:after {
+        top: 50% !important;
+    }
+    .what-cells-section.electroporation-system-hero-section:after {
+        top: 48% !important;
+    }
+    .what-cells-section.what-cell-hero:after {
+        top: 62% !important;
+    }
+    /*.career-hero-section::after {
+        background-size: contain;
+        top: 35%;
+        left: 4%;
+    }*/
+    .peer-reviewed-section:after {
+        top: 44%;
+        left: 25%;
+    }
+    .application-field .alm-filter--select::after, .product-field .alm-filter--select::after {
+        right: 3%;
+    }
+    .icon-hover-parent.system-box .uabb-infobox-title:after{
+        right: 18px !important;
+    }   
+    .icon-hover-parent.system-box .uabb-infobox-title:before {
+        right: 0px !important;
+    } 
+   .search_resources .alm-filter--inner {
+        padding-right: 13px !important;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        background-size: 75% 14%;
+        bottom: 21%;
+        left: 10%;
+    }
+    .electro-system-row .fl-builder-shape-seperator4 {
+        top: -26px;
+    }
+    .oc-processing-section:after {
+        background-size: 640px 110px !important;
+        top: 5% !important;
+    }
+    .processing-tabs i.fl-list-item-icon.maxcyte-font-plus-1 {
+        padding-top: 7px;
+    }
+    .gtx-row:after {
+        display: none;
+    }
+    .about_right_col .fl-col-content:after {
+        right: 2% !important;
+    }
+
+}
+
+@media (min-width: 992px){
+    .featured-publication-four-col {
+        margin-left: 15px ;
+        margin-right: 15px;
+       /* overflow: hidden;*/
+    }
+    /* .electroporation-system p.uabb-infobox-title-prefix {
+        z-index: 1;
+        position: relative;
+    } */
+
+}
+/*@media (min-width: 993px) and (max-width: 1260px){
+    .career-testimonial .uabb-slider-next, .career-testimonial .uabb-slider-prev{bottom: -60px !important;}
+}*/
+@media (min-width: 992px) and (max-width: 1080px){
+    .cell-types-tab .uabb-content.uabb-tab-acc-content.clearfix.uabb-tabs-desc.uabb-text-editor {
+        padding-left: 40px !important;
+    }
+    .processing-tabs .fl-row-content-wrap {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .featured-publication-four-col {
+        margin-left: 15px ;
+        margin-right: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1065px){
+    /* .fl-builder-content[data-type="part"] ~ .mega-mobile-container div#mega-products {
+        top: 220px !important;
+    } */
+    /* .fl-builder-content[data-type="part"] ~ .mega-mobile-container .mega-menu-panel {
+        top: 220px !important;
+    } */
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .white-wave-row .fl-builder-top-edge-layer{
+        top: -26px !important;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .news-banner-text a{
+        display: inline-block;
+    }
+    .news-banner-text a:before{
+        top:2px;
+    }
+    .news-banner-text a:after {
+        top: -1px;
+    }
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: 9px;}
+     .cell-types-tab .cell-col-2 {
+        margin-top: -10px;
+    }
+    .processing-tabs i.fl-list-item-icon.maxcyte-font-plus-1 {
+        padding-top: 5px;
+    }
+    .res-cat-application.application-hero-section.discovery_page .fl-row-content-wrap:after{
+        top: 38%;
+    }
+    .peer-reviewed-section:after{
+         top: 32% !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .success-featured-parent-col .fl-col-group-nested{gap: 20px;}
+    .team_hero_section .fl-row-content-wrap:after{
+        top: 65% !important;
+    }
+    .max-cell-recovery-row .fl-builder-shape-seperator3{
+         top: -58px;
+         bottom: -58px;
+    }
+    .leverage-row .fl-builder-shape-seperator3{
+        top: -55px;
+         bottom: -55px;
+    }
+    .regulatory-support-row .fl-builder-shape-seperator3{
+        top: -58px;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 20% !important;
+    }
+    /*.application-field .alm-filter--select::after, .product-field .alm-filter--select::after{
+        right: 0% !important;
+    }*/
+    .cell-types-tab nav.uabb-tabs-nav {
+        width: 39% !important;
+    }
+    .cell-types-tab div.uabb-content-wrap {
+        width: 61%;
+    }
+    .about_right_col .fl-col-content:after {
+        top: 7% !important;
+    }
+    .team_main_row .fl-builder-layer.fl-builder-top-edge-layer {
+        top: -13px;
+    }
+    .team_hero_section .fl-row-content-wrap:after {
+        top: 65%;
+    }
+    .pop_module .uabb-module-content .uabb-infobox-text, .pop_module .uabb-module-content h6.uabb-infobox-title {
+     margin-right: 0px; 
+    }
+    .white-wave-row .fl-builder-top-edge-layer{
+        top: -20px !important;
+    }
+    .common-resources-section .fl-builder-layer.fl-builder-shape-seperator3 {
+        top: 0px;
+    }
+    .career-culture-row .fl-builder-layer.fl-builder-shape-seperator3 {
+        top: 9px;
+    }
+    .event-category-block {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .event-category-block .fl-col-content {
+        padding: 25px 25px 15px !important;
+    }
+    .news_hero_section .event-category-block .uabb-infobox-text p {
+        font-size: 22px !important;
+        line-height: 28px !important;
+    }
+    .resource-col .uabb-module-content.uabb-imgicon-wrap, .featured-resource-col .uabb-module-content.uabb-imgicon-wrap {
+        width: 100%;
+    }
+    .peer-reviewed-section:after {
+        top: 32%;
+        left: 34%;
+    }
+    .processing-tabs a.uabb-tab-link {
+        display: block !important;
+    }
+    .resource-col.application_note .uabb-infobox-title-prefix{
+        margin-bottom: 4px;
+    }
+    .resource-library-box .uabb-infobox-title{
+        margin-top: 10px;
+    }
+    .resource-col .uabb-imgicon-wrap {
+        margin: 0 !important;
+    }
+    .resource-library-box .uabb-infobox-left-right-wrap {
+        flex-wrap: wrap;
+        padding-right: 20px !important;
+        margin-top: 5px;
+    }
+    .resource-col .uabb-infobox-content, .featured-resource-col .uabb-infobox-content {
+        margin-left: 0px !important;
+        margin-top: 15px;
+        width: 100% !important;
+    }
+    .featured-resource-col .resource-library-box .uabb-module-content.uabb-imgicon-wrap {
+        margin-bottom: 10px !important;
+    }
+    span.featured{
+        margin-bottom: 0px;
+    }
+    .search_resources .alm-filter--inner {
+        width: 70.4%;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        bottom: 29%;
+        background-size: 83% 8%;
+    }
+    .application-text > .fl-col-content.fl-node-content {
+        margin-left: 0px;
+    }
+    .efficiency-slider button.slick-prev i.maxcyte-font-left-outline:before, .efficiency-slider button.slick-next i.maxcyte-font-right-outline:before {
+        font-size: 35px !important;
+    }
+    .oc-processing-section:after {
+        background-size: 540px 100px !important;
+        top: 0% !important;
+    }
+    .electroporation-system .secondary-button .uabb-creative-button-wrap a{
+        padding-left: 24px !important;
+    }
+    .popular-resourece-row .fl-builder-shape-seperator3 svg {
+        height: 81px !important;
+    }
+    .efficiency-slider .uabb-blog-posts span.uabb-cat-links a{margin-bottom: 7px;}
+    .career-hero-section::after {
+        top: 41%;
+    }
+    .what-cells-section:after {
+        top: 50% !important;
+    }
+    .what-cells-section.electroporation-system-hero-section:after {
+        top: 44% !important; 
+    }
+    .what-cells-section.what-cell-hero:after {
+        top: 57% !important;
+    }
+    .res-cat-application.application-hero-section.discovery_page .fl-row-content-wrap:after {
+        top: 27% !important;
+    }
+    .featured-publication-four-col .publication_box .uabb-infobox-content {
+        min-height: auto !important;
+    }
+    .resources-list .resource-library-box .uabb-imgicon-wrap {
+        justify-content: left;
+    }
+    .electroportion-hero-section.consumables_page > .fl-row-content-wrap:after {
+        bottom: 14%;
+        left: 4%;
+        background-size: 77% 11%;
+    }
+    .resource-library-section:after {
+        top: 50% !important;
+    }
+    /* career testimonial update   */
+    .career-testimonial .uabb-slider-next, .career-testimonial .uabb-slider-prev {bottom: -60px !important; top: auto;}
+    .career-testimonial .uabb-slider-next {
+        width: fit-content;
+        left: 47px;
+    }
+    .career-testimonial .uabb-module-content.uabb-imgicon-wrap{margin-bottom: 15px;}
+    .career-testimonial .uabb-testimonials-wrap{padding: 0px !important;}
+
+}
+@media (min-width: 768px) and (max-width: 993px){
+    .career-testimonial.hp-testimonials .bx-wrapper .bx-pager {
+        top: 98% !important;
+    }
+    .pdf-hero-section::after {
+        top: 51%; 
+        left: 21%;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .story-testimonial .uabb-testimonial .uabb-imgicon-wrap {
+        margin-right: 50px !important;
+    }
+    .story-testimonial .uabb-slider-next {
+        left: 600px !important;
+    }
+    .story-testimonial .bx-wrapper .bx-pager {
+        left: 366px;
+        width: fit-content;
+    }
+    .team_main_row .fl-col.fl-col-small h3.uabb-infobox-title {
+        font-size: 22px;
+    }
+    .team_main_row .fl-col.fl-col-small .uabb-infobox-text-wrap p {
+        font-size: 16px;
+    }
+    .leadership-popup-box .uabb-infobox-content {
+    width: 71% !important;
+    }
+    .leadership-popup-box .uabb-module-content.uabb-imgicon-wrap {
+    width: 25% !important;
+    }
+    .publication_box{
+        width: 100% !important;
+    }
+    .featured-publication-four-col .publication_box{margin: 0px !important;    margin-bottom: 15px !important;}
+    div#alm-filters-peer_publications .alm-filter.application-field {width: 45.6%;}
+    div#alm-filters-peer_publications .alm-filter.product-field {width: 45.6%;}
+    .processing-tabs .fl-row-content-wrap {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    /*.career-testimonial .uabb-slider-prev {left: 41.8% !important;}
+    .career-testimonial .uabb-slider-next {right: 48% !important;}*/
+    .career-testimonial .uabb-slider-next, .career-testimonial .uabb-slider-prev{bottom: -60px !important;}
+    .career-testimonial .uabb-slider-prev {left: 307px;}
+    .career-testimonial .uabb-slider-next {left: 355px;}
+
+}
+@media (min-width: 769px) and (max-width: 834px){
+    .success-featured-row .fl-builder-bottom-edge-layer {
+        bottom: 18px;
+    }
+}
+@media screen and (max-width: 834px){
+    .story-testimonial .bx-wrapper .bx-pager {
+        width: fit-content !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .home-applications .fl-builder-shape-seperator4 {
+        bottom: -20px;
+    }
+    .home-testimonial-col .uabb-testimonial {
+        min-height: 380px;
+    }
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: 22px;}
+    .res-cat-application.application-hero-section.discovery_page .fl-row-content-wrap:after {
+        top: 30% !important;
+        left: 7%;
+    }
+    .featured-publication-four-col .publication_box{margin-bottom: 10px !important; margin: 0px;}
+    .career-hero-section::after {
+        top: 47% !important;
+        left: 0%;
+    }
+    .cell-types-tab .uabb-tab-acc-title {
+        border: 1px solid #CEE6F3;
+    }
+    .career-testimonial.hp-testimonials .uabb-testimonial-left .uabb-imgicon-wrap {
+        margin-right: 0px !important;
+    }
+    .career-testimonial.hp-testimonials .bx-wrapper .bx-pager {
+        left: 43%;
+    }
+    .career-culture-row .fl-builder-layer.fl-builder-shape-seperator3 {
+        top: 3%;
+    }
+    .pdf-hero-section::after {
+        left: 24% !important;
+    }
+    .minute_row .event-category-block {
+        width: 100%;
+    }
+    .electro-system-row .fl-builder-shape-seperator4 {
+        top: -19px;
+    }
+    .intrument-right-col .fl-col-content.fl-node-content:before {
+        bottom: -13% !important;
+    }
+    .oc-25-list .fl-module-content .fl-list-item-icon {
+        padding-top: 5px !important;
+    }
+    .peer-reviewed-section:after {
+        top: 42%;
+        left: 41%;
+        background-size: contain;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .what-cell-related-resource-sec .case-study-section{margin-right:auto;}
+    .what-cell-related-resource-sec .view-all-cta > .fl-col-content{margin-right: 0px;}
+    .what-cells-section.electroporation-system-hero-section:after {
+        top: 34% !important;
+    }
+    .tech-advance-efficiency-section .fl-builder-shape-herosectionWave {
+        top: 70px;
+    }
+    .technical-testimonial-row.white-wave-row .fl-builder-top-edge-layer{
+        top: -1px !important;
+    }
+    .news-banner-text a{
+        display: inline-block;
+    }
+    .news-banner-text a:after{
+        top:-2px;
+        right: -16px;
+    }
+    .career-testimonial-col .career-testimonial.testimonial-controls .bx-wrapper .bx-pager {
+            margin-left: auto;
+            text-align:center;
+    }
+    .career-testimonial-col .testimonial-controls.career-testimonial .uabb-slider-prev {
+            left: 35%;
+            margin: 0px auto;
+            text-align: center;
+    }
+    .career-testimonial-col .career-testimonial.testimonial-controls .uabb-slider-next {
+            left: auto;
+            right: auto;
+            right: 35%;
+            margin: 0px auto;
+            text-align: center;
+    }
+    .career-testimonial-col .career-testimonial .uabb-testimonial img.uabb-photo-img {
+            width: 300px !important;
+    }
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-prev {
+        width: 100%;
+        left: 23%;
+        margin: 0px auto;
+        text-align: left;
+        right: auto;
+    }
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-next {
+                        right: 23%;
+        left: auto !important;
+    }
+    .success-story-box.publication_box .uabb-infobox-left-right-wrap{
+        display: block !important;
+    }
+    .success-story-box.publication_box .uabb-infobox-left-right-wrap .uabb-imgicon-wrap{
+        text-align: left !important;
+        padding: 20px 20px 0px 20px;
+    }
+    .home-applications .fl-builder-shape-seperator4 {
+        bottom: -19px;
+    }
+    .career-testimonial.testimonial-controls .uabb-testimonial{min-height:400px;}
+    .testimonial-controls .uabb-testimonial-info{padding-left: 1px;}
+    
+    .career-testimonial.testimonial-controls .bx-wrapper .bx-pager{
+        margin-left: 50px;
+    }
+    .testimonial-controls.career-testimonial .uabb-slider-prev {
+        left: 0;
+    }
+    .career-testimonial.testimonial-controls .uabb-slider-next {
+        left: 153px;
+        right: auto;
+    }
+    .success-story-box.publication_box .uabb-infobox-content {
+        padding: 0px 0px 10px 20px;
+    }
+    .res-cat-application.tech-hero-section.success-hero-section .fl-row-content-wrap:after {top: 50% !important;}
+    .success-featured-row .fl-builder-bottom-edge-layer {
+        bottom: -37px;
+    }
+    .story-testimonial .uabb-testimonial-info{margin-left:1px;}
+    .story-testimonial .uabb-slider-next {
+        width: fit-content;
+        left: 276px !important;
+    }
+    .story-testimonial .bx-wrapper .bx-pager{
+        left: 50px !important;
+        text-align: center;
+        width: fit-content;
+    }
+    .story-testimonial .uabb-slider-prev {left: 0px;}
+    .story-testimonial .bx-pager{bottom: -32px;}
+    .team_hero_section .fl-row-content-wrap:after{
+        top: 50% !important;
+    }
+    .max-cell-recovery-row .fl-builder-shape-seperator3{
+        top: -45px;
+        bottom: -58px;
+    }
+    .research-app-icon .uabb-module-content img.uabb-photo-img{width: 45px;}
+    .img-txt-logo{display: none !important;}
+    .img-txt-logo.expand{display: block !important;}
+    .logo-expand-btn.show-more .fl-rich-text:before {display: none;}
+    p.img-text-logos:before,
+    p.text-logo:before,
+    p.coloured-text-logo:before {
+        content: "\e908";
+        position: absolute;
+        width: 13px;
+        height: 23px;
+        top: -6px;
+        color: #021D66;
+        font-family: 'Maxcyte-font';
+        transition: all 0.3s ease;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        left: -26px;
+    }
+    p.img-text-logos.expand:before,
+    p.text-logo.expand:before,
+    p.coloured-text-logo.expand:before{
+        content: "\e90a" !important;
+        position: absolute;
+    }
+    .show-more:hover p.img-text-logos:before,
+    .show-more:hover p.text-logo:before,
+    .show-more:hover p.coloured-text-logo:before {
+        color: #C25400;
+        transition: all 0.3s ease;
+    }
+    .assay-ready-list ul{
+        margin-bottom: 0px;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 21.5% !important;
+    }
+    div .resource-hero-wave.pdf-wave:after {
+        top: 28% !important;
+    }
+    .resource-hero-wave:after {
+        top: 33% !important;
+        background-size: 297px 207px !important;
+    }    
+    .we-serve .fl-row-content-wrap .fl-builder-bottom-edge-layer.fl-builder-shape-seperator3 {
+        bottom: -36px !important;
+    }
+    div.about_right_col .fl-col-content:after {background: unset !important;}
+    .mobile_img .fl-module-content {
+        margin-left: 20px !important;
+        margin-right: -15px;
+    }
+    .team_main_row .fl-col.fl-col-small{margin-left: 0px !important;}
+    .timeline_col .uabb-timeline--left .uabb-days:after{left: 17.5px;bottom: 5px;}
+    .history_row .fl-col-small.timeline-left-col {
+        position: relative;
+        z-index: 9;
+        background-color: #ffffff;
+    }
+    .history-video .uabb-video .uabb-video__play-icon::before{font-size: 70px;line-height: 75px;}
+    .pop_module .uabb-infobox-left-right-wrap{display: grid !important;}
+    .pop_module .uabb-infobox-content{ order: 2;}
+    .pop_module .uabb-module-content.uabb-imgicon-wrap{order: 1;text-align: left !important;}
+    .pop_module p.linklin-icon:before{top: 6px;}
+    .cell-types-tab .uabb-content-wrap .uabb-tab-acc-title {
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .what-cells-section:after {
+        top: 51% !important;
+    }
+    .career-hero-section::after{top: 18% !important; left: 5%;}
+    .common-resources-section .fl-builder-layer.fl-builder-shape-seperator3{top: -3px;}
+    .career-testimonial.hp-testimonials .bx-wrapper .bx-pager {
+        top: 85%;
+        left: 0px;
+    }
+    .career-culture-row .fl-builder-layer.fl-builder-shape-seperator3{top: 0px;}
+    .publication_box .uabb-infobox-title,.publication_box p.maxcyte-min{
+        font-size: 18px !important;
+        line-height: 22.8px !important;
+    }
+    .alm-reveal .publication_box .uabb-infobox-left-right-wrap,.publication_box .infobox-icon-left .uabb-infobox-content,.events-block .uabb-infobox-left-right-wrap,.resource-library-box .uabb-infobox-left-right-wrap{
+        display: block !important;
+    }
+    .publication_box .uabb-infobox-title-wrap:after{top: -52px !important;}
+    .publication_box h3.uabb-infobox-title{margin-right: -40px;}
+    .pdf-hero-section .fl-col-content{margin-right: 140px !important;}
+    .pdf-hero-section::after {
+        top: 53% !important; 
+        left: 14% !important;
+    }
+    .event-category-block .fl-col-content {
+        padding: 20px 20px 10px !important;
+    }
+    .event-category-block{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .quality_btn a.uabb-button{text-align: center !important;}
+    .quality_list .fl-rich-text ul li {margin-bottom: 5px;}
+    .event-newsletter-row .newsletter_form.primary_button .gform_footer input.gform_button {
+        position: relative;
+        top: 0px !important;
+        right: 0;
+    }
+    .event-newsletter-row .newsletter_form .gform_wrapper .gform_footer{padding: 0px;margin: 0;}
+    .event-newsletter-row .newsletter_form .gform_wrapper input[type=email] {
+        padding-top: 10px !important;
+        padding-bottom: 2px !important;
+    }
+    .career-testimonial .uabb-testimonial img.uabb-photo-img{width: 230px !important;}
+    .career-video .uabb-video__play-icon:before{font-size: 70px;}
+    .career-testimonial .bx-wrapper .bx-pager{left: 0px;}
+/*    .career-testimonial .uabb-module-content.uabb-imgicon-wrap{text-align: left !important;}*/
+    
+    .featured-news-box h3.uabb-infobox-title, .events-block h6.uabb-infobox-title,.events-block p.uabb-infobox-title-prefix{
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .maxcyte-minutes-row .publication_box .uabb-infobox-content,.events-block .uabb-infobox-title-wrap{
+        width: 100% !important;
+    }
+    .upcoming-event .publication_box .uabb-infobox-text p{
+        font-size: 18px !important;
+        line-height: 27px !important;
+    }
+    .upcoming-event .uabb-imgicon-wrap{margin-bottom: 20px;}
+    .events-block .uabb-infobox .left-title-image{display: block !important;}
+    div#alm-filters-peer_publications .alm-filter.product-field, div#alm-filters-peer_publications .alm-filter.application-field {
+        width: 100%;
+    }
+    div#alm-filters-peer_publications .alm-filter.product-field{
+        margin-left: 0px;
+    }
+    .peer-reviewed-section:after {
+        top: 53%;
+    }
+    .publication-filter div.alm-filter--taxonomy {
+        margin-bottom: 0px;
+    }
+    .distributor_accordian .uabb-adv-before-text .uabb-adv-accordion-button-label{
+        padding-left: 15px;
+    }
+    .distributor_accordian .uabb-adv-accordion-item {
+        margin-bottom: 15px !important;
+    }
+    .maxcyte-minutes-row .upcoming-event .uabb-imgicon-wrap,.events-block .uabb-imgicon-wrap{
+        width: 100% !important;
+    }
+    .resource-col .uabb-infobox-content, .featured-resource-col .uabb-infobox-content {
+       width: 100%;
+    }
+    .resource-library-box .uabb-infobox-title-prefix .featured {
+        right: -55px;
+        top: -187px;
+    }
+    .load_more_events button.alm-load-more-btn.more { font-size: 18px !important;}
+    .resource-library-section:after {
+        top: 40% !important;
+        left: 10%;
+    }
+    .featured-resource-col .resource-library-box .uabb-infobox-left-right-wrap {
+        padding-top: 15px;
+    }
+    .filter-by-col .alm-filters-container .alm-filter--title h3 {
+        margin: 10px 0 10px;
+    }   
+    .filter-by-col .alm-filters-container .alm-filter--inner {
+        padding: 0px 9px 5px;
+    }
+    .publication-filter select.alm-filter--item, .publication-filter input.textfield{
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .application-field .alm-filter--select::after, .product-field .alm-filter--select::after{
+        right: -9%;
+        top: 25%;
+    }
+    .filter-by-col .alm-filter--link.field-checkbox, .resource-library-box .uabb-infobox-text p {
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+    .search_resources .alm-filter--inner {
+        position: relative !important;
+        width: 100%;
+        margin-bottom: 13px;
+        margin-left: 0px;
+        padding-left: 0px !important;
+        right: 0;
+        top: 30px;
+    }
+    .filter-by-col .alm-filters .alm-filter--text-wrap:before {
+        top: 12px;
+    }
+    .filter-by-col .alm-filter li div.alm-filter--link:before{
+        top: 4px !important;
+    }    
+    .filter-by-col .alm-filter li div.alm-filter--link.field-checkbox:after {
+        top: 5px !important;
+    }
+    .search_resources .alm-filter--inner {
+        padding-right: 0px !important;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        bottom: 35%;
+        background-size: 90% 6%;
+        left: 24%;
+    }
+    .efficiency-slider .uabb-blog-post-inner-wrap.uabb-thumbnail-position-left{display: block !important;}
+    .efficiency-slider .uabb-post-thumbnail,.efficiency-slider .uabb-blog-post-content{
+        width: 100% !important;
+    }
+    .oc-processing-section:after {
+        background-size: contain !important;
+        top: 0% !important;
+    }
+    .oc-processing-section.pa-accessories:after {
+         top: 4% !important;
+    }
+    .processing-tabs h4.uabb-title-tag {
+        display: flex !important;
+    }
+    .processing-tabs .uabb-tab-title{
+        margin: auto;
+    }
+    .processing-tabs .uabb-tabs-icon {
+        margin-right: 25px !important;
+    }
+    .publication_box .uabb-infobox-left-right-wrap:after, .featured-publication_box .uabb-module-content.uabb-imgicon-wrap:after,.events-block .uabb-infobox-left-right-wrap:after {
+        top: -6px;
+    }
+    .featured-publication-four-col .featured-publication_box .uabb-module-content.uabb-imgicon-wrap:after {
+        right: 22px !important;
+        top: -5px;
+    }
+     .processing-tabs .fl-module-separator .fl-module-content {
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+    .processing-tabs .fl-row-content-wrap {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .oc-list li:before{ top:-4px !important; }
+    .publication_box .uabb-text-editor p span {
+         font-size: 18px !important;
+    }
+    .publication_box .uabb-module-content.uabb-imgicon-wrap {
+        margin-left: -10px;
+    }
+    .team_hero_section .fl-row-content-wrap:after {
+        top: 62%;
+        background-size: contain !important;
+    }
+    .event-category-block .news-featured-title .uabb-infobox-text p{
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+    .featured-publication-four-col .publication_box{float: none !important;}
+    .what-cells-section.what-cell-hero:after {
+        top: 42% !important;
+    }
+    .what-cells-section:after {
+        top: 29% !important;
+    }
+    .internal-links.para-links a{font-size: 18px;}
+    .image-caption.internal-links {font-size:14px !important;}
+    .spotlight_testimonial .uabb-image-content {
+        margin-bottom: 15px;
+    }
+    .electroportion-hero-section.consumables_page > .fl-row-content-wrap:after {
+        background-size: 99% 11%;
+        bottom: 25%;
+        left: 56%;
+    }
+    .career-testimonial .uabb-slider-next {
+        width: fit-content;
+        left: 47px;
+    }
+    .career-testimonial .uabb-slider-prev {left: 0px;}
+    .story-testimonial.career-testimonial .uabb-slider-prev {
+        left: 25%;
+    }
+    .story-testimonial.career-testimonial .uabb-slider-next {
+        left: auto !important;
+        right: 25%;
+    }
+    .story-testimonial.career-testimonial .bx-wrapper .bx-pager {
+        left: auto !important;
+        text-align: center;
+        margin: auto;
+        width: 100% !important;
+    }
+}
+@media (min-width: 600px)and (max-width: 640px){
+    .success-featured-row .fl-builder-bottom-edge-layer {
+        bottom: -30px;
+    }
+}
+@media screen and (max-width: 560px){
+    .story-testimonial.career-testimonial .uabb-slider-prev {
+        left: 11%;
+    }
+    .story-testimonial.career-testimonial .uabb-slider-next {
+        left: auto !important;
+        right: 11%;
+    }
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-next {
+        right: 21%;
+    }
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-prev{
+        left:21%;
+    }
+    .home-applications .fl-builder-shape-seperator4 {
+        bottom: -15px;
+    }
+    .home-testimonial-col .uabb-testimonial {
+        min-height: 430px;
+    }
+    .success-featured-row .fl-builder-bottom-edge-layer { bottom: -27px;}
+    div .resource-hero-wave.pdf-wave:after {
+        top: 24% !important;
+    }
+    .pdf-hero-section .fl-col-content {
+        margin-right: 0px !important;
+    }
+    .pdf-hero-section .fl-row-content-wrap {
+        padding-bottom: 170px !important;
+    }
+    .pdf-hero-section::after {
+        background-size: 300px 310px !important;
+        top: 72% !important;
+    }
+    .resource-library-section:after {
+        top: 48% !important;
+        left: 21%;
+    }
+    .upcoming-event .uabb-tabs .uabb-tabs-nav li a {
+        padding: 10px 20px 12px 20px !important;
+        margin-right: 0px !important;
+        height: auto !important;
+    }
+    .efficiency-slider button.slick-prev.slick-arrow{left: 41% !important;}
+    .efficiency-slider button.slick-next.slick-arrow{right: 41% !important;}
+    .efficiency-slider button.slick-prev i.maxcyte-font-left-outline:before, .efficiency-slider button.slick-next i.maxcyte-font-right-outline:before {
+        font-size: 25px !important;
+    }
+    .electro-system-row .fl-builder-shape-seperator4 {
+        top: -15px;
+    }
+    .career-hero-section::after {
+        top: 22% !important;
+        left: 5%;
+    }
+/*    .career-testimonial .uabb-slider-next {right: 75% !important;}*/
+
+}
+@media screen and (max-width: 640px){
+  .what-cells-section.electroporation-system-hero-section:after {
+      top: 63% !important;
+  }
+}
+@media screen and (max-width: 480px){
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-prev {
+                left: 11%;
+    }
+    .home-success-testimonial-row .story-testimonial.career-testimonial .uabb-slider-next {
+                right:11%;
+    }
+    .career-testimonial-col .testimonial-controls.career-testimonial .uabb-slider-prev {
+        left: 29%;
+    }
+    .career-testimonial-col .career-testimonial.testimonial-controls .uabb-slider-next{
+        right: 21%;
+        left:auto !important;
+    }
+    .home-testimonial-col .uabb-testimonial {
+        min-height: 460px;
+    }
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -25px;}
+    .success-featured-col.andrew-popup > .fl-col-content{background-position: 30% center;}
+    .success-featured-col.megan-popup > .fl-col-content{background-position: 65% center;}
+    .peer-reviewed-section:after{
+         top: 42% !important;
+    }
+    .employee-hero-section:after {
+        top: 70% !important;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 23% !important;
+    }
+    .resource-hero-wave:after {
+        top: 20% !important;
+        background-size: 202px 155px !important;
+    }
+    .we-serve .fl-row-content-wrap .fl-builder-bottom-edge-layer.fl-builder-shape-seperator3 {
+        bottom: -25px !important;
+    }
+    .show_event .alm-results-text {
+        margin-bottom: 15px !important;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        bottom: 32%;
+        background-size: 81% 3%;
+        left: 14%;
+    }
+    .electro-system-row .fl-builder-shape-seperator4 {
+        top: -12px;
+    }
+    .oc-processing-section.pa-accessories:after {
+        top: 2% !important;
+        background-size: 310px 76px !important;
+    }
+    /*.what-cells-section.what-cell-hero:after {
+        top: 76% !important;
+    }*/
+    .what-cells-section:after {
+        top: 76% !important;
+    }
+    div .resource-hero-wave.pdf-wave:after {
+        top: 15% !important;
+    }
+    .career-hero-section::after {
+        top: 24% !important;
+        left: 5%;
+    }
+    body .what-cells-section.what-cell-hero:after {
+        top: 75% !important;
+        background-size: 310px 200px;
+    }
+    body .what-cells-section:after {
+        top: 68% !important;
+    }
+    body .peer-reviewed-section:after {
+        top: 69%;
+    }
+    .electroportion-hero-section.consumables_page > .fl-row-content-wrap:after {
+        background-size: 100% 5%;
+        bottom: 25%;
+        left: 12%;
+    }
+    body .electroportion-hero-section > .fl-row-content-wrap:after{
+        background-size: 100% 3%;
+        left: 11%;
+        bottom: 35%;
+    }
+    
+}
+@media screen and (max-width: 440px){
+    .success-featured-row .fl-builder-bottom-edge-layer {
+        bottom: -22px;
+    }
+    .home-applications .fl-builder-shape-seperator4 {
+        bottom: -10px;
+    }
+}
+@media screen and (max-width: 414px){
+    .home-testimonial-col .uabb-testimonial {
+        min-height: 520px;
+    }
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -22px;}
+    .webinar-detail-hero-sec.webinar-video-hero::after {
+        top: 65% !important;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 17% !important;
+    }
+    .team_hero_section .fl-row-content-wrap:after {
+        background-size: 452px 246px;
+    }
+    .what-cells-section:after {
+        top: 70% !important;
+    }
+    .career-hero-section::after {
+        top: 27% !important;
+        left: 5%;
+    }
+    .testimonial-row .fl-builder-top-edge-layer.fl-builder-shape-seperator4 {
+        top: -10px !important;
+    }
+    .career-testimonial .bx-wrapper .bx-pager {
+        left: 0px;
+    }
+    .publication_box .uabb-infobox span.publication-info-text, .featured-publication_box span.publication-info-text{
+        padding-right: 10px !important;
+    }
+    .peer-reviewed-section:after {
+        /*background-size: 294px 179px !important;*/
+        top: 71%;
+    }
+    .peer-bottom-section h2.uabb-infobox-title, .resource-bottom-section h2.uabb-infobox-title{
+        min-height: 0px !important;
+    }
+    .publication-filter div.alm-filter--taxonomy {
+        margin-bottom: 0px;
+    }
+    .featured-resource-col .resource-library-box .uabb-infobox-left-right-wrap {
+        padding-top: 40px;
+        padding-right: 20px !important;
+    }
+    .upcoming-event .uabb-tabs .uabb-tabs-nav ul li:first-child {
+        padding-bottom: 10px;
+    }
+    .application-field .alm-filter--select::after, .product-field .alm-filter--select::after {
+        right: -4%;
+    }
+   
+    .intrument-right-col .fl-col-content.fl-node-content:before {
+        bottom: -39% !important;
+    }
+    .efficiency-slider button.slick-prev.slick-arrow{left: 38% !important;}
+    .efficiency-slider button.slick-next.slick-arrow{right: 38% !important;}
+    body .res-cat-application.application-hero-section.discovery_page .fl-row-content-wrap:after {
+        top: 20% !important;
+    }
+    .processing-tabs i.fl-list-item-icon.maxcyte-font-plus-1 {
+        padding-top: 1px;
+    }
+    .electroportion-hero-section > .fl-row-content-wrap:after {
+        bottom: 31%;
+        background-size: contain;
+        left: 23%;
+    }   
+    body .what-cells-section:after {
+        background-size: 310px 200px;
+    }
+    .electroportion-hero-section.consumables_page > .fl-row-content-wrap:after{
+        bottom: 23%;
+    }
+    .resource-library-section:after {
+        top: 58% !important;
+        left: 24%;
+        background-size: contain;
+    }
+
+} 
+@media screen and (max-width: 400px){
+    .success-featured-row .fl-builder-bottom-edge-layer {
+        bottom: -20px;
+    }
+}
+@media screen and (max-width: 390px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -20px;}
+}
+@media screen and (max-width: 375px){
+    .success-featured-row .fl-builder-bottom-edge-layer {bottom: -18px;}
+    .res-cat-application.tech-hero-section.success-hero-section .fl-row-content-wrap:after {
+        top: 35% !important;
+    }
+    .employee-hero-section:after {
+        top: 63% !important;
+    }
+    .res-cat-application.application-hero-section.assay-ready-cell .fl-row-content-wrap:after {
+        top: 14% !important;
+    }
+    .career-hero-section::after {
+        top: 29% !important;
+        left: 5%;
+    }
+    body .peer-reviewed-section:after {
+        top: 75%;
+    }
+    body .electroportion-hero-section > .fl-row-content-wrap:after {
+        bottom: 34.5%;
+    }
+    .electroportion-hero-section.consumables_page > .fl-row-content-wrap:after {
+        bottom: 23.5%;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .career-hero-section::after {
+        top: 30% !important;
+    }
+    div .resource-hero-wave.pdf-wave:after {
+        top: 12% !important;
+    }
+    body .res-cat-application.application-hero-section.discovery_page .fl-row-content-wrap:after {
+        top: 15% !important;
+    }
+
+}
+
+/*safari*/
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+  .mobile-common-section .uabb-infobox-title, .mobile-common-section .uabb-infobox {
+    transition: none !important;
+    }
+}
+/*_::-webkit-full-page-media, _:future, :root .mobile-common-section .uabb-infobox:hover .uabb-infobox-title,
+:root .mobile-common-section .uabb-infobox:hover .uabb-infobox-title{
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 0px;
+        transition: all 0.3s ease;
+}*/
+/*_::-webkit-full-page-media, _:future, :root #mega-products .uabb-infobox:hover .uabb-infobox-title {
+    font-size: 25px;
+    line-height: 27px;
+}*/
+_::-webkit-full-page-media, _:future, :root #mega-products .uabb-infobox-title-wrap>.uabb-infobox-title,
+_::-webkit-full-page-media, _:future, :root #mega-products h2.fl-heading,
+_::-webkit-full-page-media, _:future, :root .safari_transition_section .uabb-infobox h5.uabb-infobox-title {
+    -webkit-transition: height 0.3s ease;
+}
+@media only screen 
+and (min-device-width : 834px) 
+and (max-device-width : 1180px) 
+and (orientation : landscape){
+        .introduce-row .media-order > .fl-col-content.fl-node-content {
+            padding-top: 150px;
+            padding-bottom: 0px;
+        }
+        .common-resources-section .fl-col-content.fl-node-content {
+            margin-top: 30px !important;
+        }
+        .expert-electro-row .fl-row-content-wrap {
+            padding-bottom: 130px !important;
+        }
+        .our_customers_row .fl-row-content-wrap {
+            padding-top: 40px !important;
+            padding-bottom: 20px !important;
+        }
+        /*.team_main_row .fl-row-content-wrap {
+            padding-top: 20px;
+            padding-bottom: 60px;
+        }*/
+        .maxcyte-about-row .fl-row-content-wrap {
+            padding-top: 140px;
+        }
+        .instruments_table tr.tbody-row:last-child:after {
+            bottom: 0px;
+            height: 6%;
+            top: unset;
+            display: block;
+            z-index: 1;
+            width: 100%;
+        }
+        .instruments_table tr.tbody-row:hover td.table-body-td{
+            position: relative;
+            z-index: 0;
+        }
+        .instruments_table tr.tbody-row td.table-body-66,
+        .instruments_table tr.tbody-row td.table-body-67{
+            position: relative;
+            z-index: 6;
+        }
+        .instruments_table tr.tbody-row:hover td.table-body-66,
+        .instruments_table tr.tbody-row:hover td.table-body-67{
+            position: relative;
+            z-index: 5;
+        }
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        .contact-form .gform_wrapper.gravity-theme .ginput_container .gfield_required{
+            position: relative;
+        }
+        .instruments_table tr.tbody-row:last-child:after {
+            bottom: 0px;
+            height: 6%;
+            top: unset;
+            display: block;
+            z-index: 1;
+            width: 100%;
+        }
+        .instruments_table tr.tbody-row:hover td.table-body-td{
+            position: relative;
+            z-index: 0;
+        }
+        .instruments_table tr.tbody-row td.table-body-66,
+        .instruments_table tr.tbody-row td.table-body-67{
+            position: relative;
+            z-index: 6;
+        }
+        .instruments_table tr.tbody-row:hover td.table-body-66,
+        .instruments_table tr.tbody-row:hover td.table-body-67{
+            position: relative;
+            z-index: 5;
+        }
+        .pdp-hero-section .fl-row-content:after {
+            top: -15%;
+        }
+        div#alm-filters-resource_library_search input::placeholder{
+            padding-top: 5px !important;
+        }
+        #product-features .fl-row-content-wrap {
+            position: relative;
+        }
+        #product-features .fl-row-content-wrap:before {
+            content: "" !important;
+            background-image: url(/wp-content/uploads/2023/02/OC-processing-wave-vector.png);
+            position: absolute;
+            left: 36%;
+            top: -100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom right;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+       
+         .pdp-bg-expertise-section {
+            position: relative;
+        }
+        .pdp-bg-expertise-section:before {
+            content: "";
+            background: url(/wp-content/uploads/2023/01/gtx-section.svg);
+            background-position: right top;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: 1248px 444px;
+            top: 0%;
+            left: 27%;
+            right: 0%;
+        }
+        .testimonial-row .fl-builder-top-edge-layer {
+            top: -62px;
+        }
+        .careers-wave-sec.testimonial-row .fl-builder-top-edge-layer {
+            top: -42px;
+        }
+        .career-hero-section::after {
+            top: 29% !important;
+        }
+        .efficiency-slider button.slick-next.slick-arrow {
+            right: 45% !important;
+        }
+        .macintosh .contact-tab-section  .icon-hover-parent .uabb-infobox:hover .uabb-infobox-left-right-wrap h5.uabb-infobox-title{
+            transition: font-size 0.4s ease, color 0.4s ease;
+            backface-visibility: hidden;
+        }
+        @media screen and (max-width: 767px){
+            .mobile-common-section .icon-hover-parent .uabb-infobox-title:after,
+             .mobile-common-section .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title:after{
+                top: 26.5px;
+             }
+        }
+    }
+}
+   
+/*Firefox CSS*/
+@-moz-document url-prefix() {
+    .icon-hover-parent.research-app-icon .uabb-infobox:hover .uabb-infobox-title::after{
+      top: 3px !important;
+    }
+    .timeline_col .fl-module-uabb-timeline .uabb-timeline-marker .fa-circle:before {
+        display: block;
+    }
+    .home-resource-col .icon-hover-parent .uabb-infobox-title::after{
+        top: 38px !important;
+    }
+    .home-resource-col .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after {
+      top: 38px !important;
+      right: 11px !important;
+    }
+    .icon-hover-parent .uabb-infobox-title::after {
+      top: 3px !important;
+      right: 9px !important;
+    }
+    .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after {
+      top: 6px !important;
+      right: 11px !important;
+    }
+    .link-hover .arrow-icon:hover::after {
+        top: -1px !important;
+    }
+    .processing-assemlies-box.icon-hover-parent .uabb-infobox-title::after {
+        top: 1px !important;
+    }
+    .processing-assemlies-box.icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after {
+      top: 3px !important;
+    }
+     @media (min-width: 768px) and (max-width: 1200px){
+        .home-resource-col .icon-hover-parent .uabb-infobox-title::after{
+            top: 47px !important;
+        }
+        .home-resource-col .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after {
+          top: 47px !important;
+          right: 11px !important;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .icon-hover-parent.research-app-icon .uabb-infobox .uabb-infobox-title::after{
+            top: 28px !important;
+            right: 31px !important;
+        }
+        .icon-hover-parent.research-app-icon .uabb-infobox:hover .uabb-infobox-title::after{
+            top: 28px !important;
+            right: 31px !important;
+        }
+        .home-resource-col .icon-hover-parent .uabb-infobox-title::after,
+        .home-research-app-col .icon-hover-parent .uabb-infobox-title::after{
+            top: 28px !important;
+            right: 34px !important;
+        }
+        .home-resource-col .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after,
+        .home-research-app-col .icon-hover-parent .uabb-infobox:hover .uabb-infobox-title::after {
+            top: 28px !important;
+            right: 31px !important;
+        }
+    }
+}
+/*application/technology*/
+.apllication_gallery img.uabb-gallery-img {
+    /*width: 210px !important;*/
+    max-height: 90px !important;
+}
+.apllication_gallery .uabb-masonary-item {
+    padding: 0px 15px 20px !important;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.application-para-text ul {
+    padding-bottom: 15px !important;
+}
+/*resources*/
+.resource-hero-wave{position: relative;}
+.resource-hero-wave:after{
+    content: "";
+    background-image: url(/wp-content/uploads/2024/03/technology-hero-spark-icon.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 1%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.resource-hero-wave.pdf-wave:after {
+    top: 40%;
+}
+.resource-list {
+    display: flex;
+}
+.resource-list ul:nth-child(2) {
+    padding-inline-start: 130px;
+}
+.featured-publication_box  .fl-module-info-box {
+    display: flex;
+}
+.featured-publication_box .fl-node-content {
+    flex-direction: row;
+}
+/*event single page*/
+.event_single-div p,.event_single-div ul li{
+    color: #373C44;
+    margin-bottom: 10px;
+}
+.event_single-div .image-content-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.event_single-div .primary_button span.uabb-button-text{
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.event_single-div .content-row {
+    margin-left: 40px;
+}
+.event_single-div .primary_button.event-btn {
+    margin-bottom: 15px;
+}
+.event_single-div .image-content-row img {
+    height: 100%;
+    border-radius: 6px;
+}
+.event_single-div .content-row > h2 {
+    margin-top: 0px;
+}
+.event_single-div .section-space{margin-bottom: 60px;}
+.cart-contents{
+    color: #373C44;
+}
+.pdf-table-sec tr:nth-child(2) th:nth-child(1) {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.pdf-table-sec tr:nth-child(2) th:nth-child(3) {
+    border-top-right-radius: 0px !important;
+}
+.pdf-table-sec tr:nth-child(1) th:nth-child(4){
+    border-bottom-right-radius: 0px !important;
+}
+.pdf-table-sec tr:nth-child(1) th:nth-child(1){
+    padding-top: 68px !important;
+}
+.assembly-icon div.fl-module-content div.uabb-module-content a{
+      padding-left: 20px;
+    padding-right: 50px;
+    background: rgba(194, 84, 0, 1);
+} 
+.assembly-icon div.fl-module-content div.uabb-module-content a:hover{
+    color:rgba(194, 84, 0, 1);
+    background: #ffffff;
+}
+
+/*** Instrument Specifications Block ***/
+.expert_specifications_table_container .expert_specifications_table table tr  td,.expert_specifications_table_container .expert_specifications_table table tr th {
+    padding: 15px 20px;
+}
+.expert_specifications_table_container .expert_specifications_table table tr th label{
+    font-weight:600;
+    color: #373C44;
+}
+.sp-accordian i.uabb-adv-accordion-button-icon:before {
+    background-color: #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+}
+  
+.sp-accordian .uabb-adv-accordion-button:hover h5.uabb-adv-accordion-button-label {
+      color: #C25400;
+}
+  
+.sp-accordian .uabb-adv-accordion-button:hover {
+    background-color: #fff1e6;
+ }
+  
+.sp-accordian .uabb-adv-accordion-button:hover i:before {
+    background-color: #C25400;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+  
+.features_instrument_page{
+	position: relative;
+	z-index: 2;
+}
+.expert_specifications_table .uabb-table-inner-wrap{
+	width: 100%;
+}
+
+.expert_specifications_table_container .expert_specifications_table table .uabb-table-features tr:nth-child(even){
+    background-color: #ECF1F4;
+}
+  
+.expert_specifications_table_container .expert_specifications_table table .uabb-table-features{
+    border: 1px solid #ECF1F4;
+}
+/*** Instrument Specifications Block ***/
+_::-webkit-full-page-media, _:future, :root .contact-form .gform_wrapper.gravity-theme .ginput_container .gfield_required{
+    position: relative;
+    padding-left:0px;
+    padding-right: 0% !important;
+}
+
