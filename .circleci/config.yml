@@ -12,20 +12,22 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y lftp
       - run:
-          name: Deploy Changed Files Only
+          name: Deploy Changed Theme Files
           command: |
-            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^(.*\.php|.*\.css|.*\.js|.*\.png|.*\.jpg|.*\.svg|.*\.json)')
+            echo "🔍 Checking for changed theme files..."
+            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^')
 
             if [ -z "$CHANGED_FILES" ]; then
-              echo "✅ No theme files changed, skipping deploy."
+              echo "✅ No theme files changed. Skipping deployment."
               exit 0
             fi
 
             for file in $CHANGED_FILES; do
-              echo "⬆️ Uploading $file..."
+              echo "⬆️ Uploading $file ..."
               lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<-EOF
                 set ssl:verify-certificate no
-                put -O /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ $file
+                cd /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/
+                put -O . $file
                 bye
 EOF
             done
@@ -34,4 +36,7 @@ workflows:
   version: 2
   deploy_on_push:
     jobs:
-      - deploy
+      - deploy:
+          filters:
+            branches:
+              only: main
