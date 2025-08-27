@@ -3,23 +3,20 @@ version: 2.1
 jobs:
   deploy:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/base:stable   # Lightweight Linux image
     steps:
       - checkout
-
-      # Install lftp for SFTP upload
       - run:
           name: Install lftp
           command: |
-            sudo apt-get update -y
+            sudo apt-get update
             sudo apt-get install -y lftp
-
-      # Deploy only the child theme folder
       - run:
-          name: Deploy to SFTP
+          name: Deploy via SFTP
           command: |
-            lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<EOF
-            mirror -R ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ --delete --verbose
+            lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST \<<EOF
+            set ssl:verify-certificate no
+            mirror -R ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/
             bye
             EOF
 
