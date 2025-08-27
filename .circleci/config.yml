@@ -17,7 +17,13 @@ jobs:
             echo "⬆️ Deploying theme to server..."
             lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST -e "
               set ssl:verify-certificate no;
-              mirror -R ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/;
+              mirror -R \
+                --parallel=5 \
+                --only-newer \
+                --verbose \
+                --exclude-glob .git/ \
+                --exclude-glob .circleci/ \
+                ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/;
               bye
             "
 
