@@ -24,11 +24,11 @@ jobs:
 
             for file in $CHANGED_FILES; do
               echo "⬆️ Uploading $file ..."
-              lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<-EOF
-                set ssl:verify-certificate no
-                cd /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/
-                put -O . $file
-                bye
+              lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<EOF
+set ssl:verify-certificate no
+cd /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/
+put -O . $file
+bye
 EOF
             done
 
