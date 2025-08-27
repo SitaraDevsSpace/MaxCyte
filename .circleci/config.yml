@@ -23,7 +23,7 @@ jobs:
                 --verbose \
                 --exclude-glob .git/ \
                 --exclude-glob .circleci/ \
-                ./ \"/home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/\";
+                ./ '/home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/';
               bye
             "
 
