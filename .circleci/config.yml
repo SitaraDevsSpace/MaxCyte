@@ -1,0 +1,33 @@
+version: 2.1
+
+jobs:
+  deploy:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+
+      # Install lftp for SFTP upload
+      - run:
+          name: Install lftp
+          command: |
+            sudo apt-get update -y
+            sudo apt-get install -y lftp
+
+      # Deploy only the child theme folder
+      - run:
+          name: Deploy to SFTP
+          command: |
+            lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<EOF
+            mirror -R ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ --delete --verbose
+            bye
+            EOF
+
+workflows:
+  version: 2
+  deploy_on_push:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: main
