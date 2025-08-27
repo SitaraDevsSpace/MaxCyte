@@ -12,16 +12,11 @@ jobs:
             sudo apt-get update -y
             sudo apt-get install -y lftp
       - run:
-          name: Test FTP Connection
-          command: |
-            echo "🔍 Testing FTP connection..."
-            lftp -u "$FTP_USER","$FTP_PASSWORD" -e "ls; bye" ftp://"$FTP_HOST"
-      - run:
           name: Deploy Theme via FTP
           command: |
             echo "⬆️ Deploying theme to server..."
-            lftp -u "$FTP_USER","$FTP_PASSWORD" ftp://"$FTP_HOST" -e "
-              set ftp:ssl-allow true;
+            lftp -u "$FTP_USER","$FTP_PASSWORD" ftp://$FTP_HOST -e "
+              set ftp:passive-mode on;
               set ssl:verify-certificate no;
               mirror -R \
                 --parallel=5 \
@@ -29,7 +24,7 @@ jobs:
                 --verbose \
                 --exclude-glob .git/ \
                 --exclude-glob .circleci/ \
-                ./ \"/home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/\";
+                ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/;
               bye
             "
 
