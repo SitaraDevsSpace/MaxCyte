@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   deploy:
     docker:
-      - image: cimg/base:stable   # Lightweight Linux image
+      - image: cimg/base:stable
     steps:
       - checkout
       - run:
@@ -12,19 +12,20 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y lftp
       - run:
-          name: Deploy via SFTP
+          name: Deploy Changed Files Only
           command: |
-            lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST \<<EOF
-            set ssl:verify-certificate no
-            mirror -R ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/
-            bye
-            EOF
+            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^(.*\.php|.*\.css|.*\.js|.*\.png|.*\.jpg|.*\.svg|.*\.json)')
+            
+            if [ -z "$CHANGED_FILES" ]; then
+              echo "✅ No theme files changed, skipping deploy."
+              exit 0
+            fi
 
-workflows:
-  version: 2
-  deploy_on_push:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only: main
+            for file in $CHANGED_FILES; do
+              echo "⬆️ Uploading $file..."
+              lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST <<EOF
+              set ssl:verify-certificate no
+              put -O /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ $file
+              bye
+EOF
+            done
