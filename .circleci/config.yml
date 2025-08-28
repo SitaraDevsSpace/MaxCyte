@@ -20,7 +20,7 @@ jobs:
               set net:timeout 20;
               set net:max-retries 2;
               open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-              mirror -R ./ maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ --ignore-time --parallel=2 --verbose;
+              mirror -R ./bb-theme-child/ /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ --ignore-time --parallel=2 --verbose --exclude-glob .git/ --exclude-glob .circleci/;
               bye
             "
 
