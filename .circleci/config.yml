@@ -13,12 +13,18 @@ jobs:
             sudo apt-get update -y
             sudo apt-get install -y lftp
 
-      - run:
+           - run:
           name: Test FTP connectivity
           command: |
             echo "🔍 Testing FTP connection to $FTP_SERVER ..."
-            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "ls; bye" || (echo "❌ FTP connection failed (check FTP_SERVER / FTP_USERNAME / FTP_PASSWORD)" && exit 1)
+            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "
+              set ftp:ssl-allow true;
+              set ssl:verify-certificate no;
+              ls;
+              bye
+            " || (echo "❌ FTP connection failed (check FTP_SERVER / FTP_USERNAME / FTP_PASSWORD)" && exit 1)
             echo "✅ FTP reachable."
+
 
       - run:
           name: Validate remote theme path
