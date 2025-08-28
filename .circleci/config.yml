@@ -1,4 +1,4 @@
-version: 2.1
+version: 2.2
 
 jobs:
   deploy:
@@ -14,13 +14,18 @@ jobs:
       - run:
           name: Deploy bb-theme-child via FTP
           command: |
-            echo "⬆️ Starting deployment to server..."
+            echo "⬆️ Starting deployment to WP Engine server..."
             lftp -e "
               set ftp:ssl-allow no;
               set net:timeout 20;
               set net:max-retries 2;
               open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-              mirror -R ./bb-theme-child/ /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ --ignore-time --parallel=2 --verbose --exclude-glob .git/ --exclude-glob .circleci/;
+              mirror -R ./bb-theme-child/ /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ \
+                --ignore-time \
+                --parallel=2 \
+                --verbose \
+                --exclude-glob .git/ \
+                --exclude-glob .circleci/;
               bye
             "
 
