@@ -1,4 +1,4 @@
-version: 2.2
+version: 2.1
 
 jobs:
   deploy:
@@ -8,30 +8,43 @@ jobs:
       - checkout
 
       - run:
-          name: Install FTP client
-          command: sudo apt-get update && sudo apt-get install -y lftp
+          name: Install lftp
+          command: |
+            sudo apt-get update -y
+            sudo apt-get install -y lftp
 
       - run:
-          name: Deploy bb-theme-child via FTP
+          name: Test FTP connectivity
           command: |
-            echo "⬆️ Starting deployment to WP Engine server..."
-            lftp -e "
+            echo "🔍 Testing FTP connection to $FTP_SERVER ..."
+            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "ls; bye" || (echo "❌ FTP connection failed (check FTP_SERVER / FTP_USERNAME / FTP_PASSWORD)" && exit 1)
+            echo "✅ FTP reachable."
+
+      - run:
+          name: Validate remote theme path
+          command: |
+            echo "🔍 Validating remote path..."
+            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "set ftp:ssl-allow no; cd /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ || (echo '❌ ERROR: Remote theme path not found' && exit 1); bye"
+            echo "✅ Remote path exists."
+
+      - run:
+          name: Deploy bb-theme-child
+          command: |
+            echo "⬆️ Deploying bb-theme-child -> /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ ..."
+            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "
               set ftp:ssl-allow no;
-              set net:timeout 20;
-              set net:max-retries 2;
-              open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-              mirror -R ./bb-theme-child/ /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ \
-                --ignore-time \
-                --parallel=2 \
-                --verbose \
-                --exclude-glob .git/ \
-                --exclude-glob .circleci/;
+              set ftp:passive-mode on;
+              mirror -R --only-newer --parallel=5 --verbose \
+                --exclude-glob '.git*' \
+                --exclude-glob '.circleci*' \
+                ./bb-theme-child/ '/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/';
               bye
             "
+            echo "✅ Deployment finished."
 
 workflows:
   version: 2
-  deploy-workflow:
+  deploy_on_push:
     jobs:
       - deploy:
           filters:
