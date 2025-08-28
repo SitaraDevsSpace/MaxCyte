@@ -6,27 +6,39 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
+
       - run:
           name: Install lftp
           command: |
             sudo apt-get update -y
             sudo apt-get install -y lftp
+
+      - run:
+          name: Validate Deployment Path
+          command: |
+            echo "🔍 Checking deployment path on server..."
+            lftp -u $FTP_USER,$FTP_PASSWORD -p 21 ftp://$FTP_HOST -e "
+              cd /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ || (echo '❌ ERROR: Deployment path not found!' && exit 1);
+              bye
+            "
+            echo "✅ Deployment path exists."
+
       - run:
           name: Deploy Theme via FTP
           command: |
             echo "⬆️ Deploying theme to server..."
-            lftp -u "$FTP_USER","$FTP_PASSWORD" ftp://$FTP_HOST -e "
-              set ftp:passive-mode on;
-              set ssl:verify-certificate no;
+            lftp -u $FTP_USER,$FTP_PASSWORD -p 21 ftp://$FTP_HOST -e "
+              set ftp:ssl-allow no;
               mirror -R \
                 --parallel=5 \
                 --only-newer \
                 --verbose \
                 --exclude-glob .git/ \
                 --exclude-glob .circleci/ \
-                ./ /home/hrmdevsspace/public_html/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/;
+                ./ /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ || (echo '❌ ERROR: Upload failed!' && exit 1);
               bye
             "
+            echo "✅ Deployment completed successfully."
 
 workflows:
   version: 2
