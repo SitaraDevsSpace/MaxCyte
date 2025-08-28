@@ -27,18 +27,20 @@ jobs:
             lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "set ftp:ssl-allow no; cd /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ || (echo '❌ ERROR: Remote theme path not found' && exit 1); bye"
             echo "✅ Remote path exists."
 
-      - run:
-          name: Deploy bb-theme-child
-          command: |
-            echo "⬆️ Deploying bb-theme-child -> /maxcyte.devsspace.com/wp-content/themes/bb-theme-child/ ..."
-            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" ftp://"$FTP_SERVER" -e "
-              set ftp:ssl-allow no;
-              set ftp:passive-mode on;
-              mirror -R --only-newer --parallel=5 --verbose \
-                --exclude-glob '.git*' \
-                --exclude-glob '.circleci*' \
-                ./bb-theme-child/ '/maxcyte.devsspace.com/wp-content/themes/bb-theme-child/';
-              bye
+   - run:
+    name: Deploy bb-theme-child via FTP
+    command: |
+      echo "⬆️ Starting deployment to WP Engine server..."
+      lftp -e "
+        set ftp:ssl-allow true;
+        set ssl:verify-certificate no;
+        set net:timeout 20;
+        set net:max-retries 2;
+        open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
+        mirror -R ./bb-theme-child /wp-content/themes/bb-theme-child --ignore-time --parallel=2 --verbose;
+        bye
+      "
+
             "
             echo "✅ Deployment finished."
 
